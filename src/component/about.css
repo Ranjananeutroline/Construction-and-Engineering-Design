@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: antiquewhite; */
+}
+.aboutSection{
+    display: grid;
+    grid-template-rows: 529px 650px 600px 200px 200px 200px 200px;
+}
+.first{
+    /* background-color: aliceblue;  */
+}
+h3{
+    color: black;
+    font-weight: bold;
+}
+p{
+    color: black;
+}
+.first img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.8 ;
+}
+.second{
+    /* background-color: rgb(189, 203, 216); */
+    display: flex;  
+ 
+}
+.none{
+    flex: 1;
+    /* background-color: aqua; */
+}
+.image{
+    flex: 5;
+    height: 530px;
+    /* background-color: antiquewhite; */
+}
+.second img{
+   width: 100%;
+   height: 100%;
+ 
+}
+.textBox{
+    flex: 5;
+    height: 430px;
+    background-color: rgb(96, 156, 198);
+    margin-left : -80px;
+    
+    
+}
+.textBox h1{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textBox p{
+    display: flex;
+    padding: 40px;
+}
+.nonee{
+    flex: 1;
+    /* background-color: aqua; */
+}
+.third{
+    background-color: aliceblue;
+}
+.third button{
+    width: 150px;
+    margin-top: 50px;
+    height: 50px;
+    align-content: center;
+    border-radius: 20px;
+    letter-spacing: 0.3rem;
+    border: none;
+
+    box-shadow: 1px rgb(189, 203, 216);
+}
+.flexBox{
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 20px;
+    background-color: beige;
+    justify-content: center;
+}
+.member1{
+    height: 400px;
+}
+.member2{
+    
+}
+.member3{
+  
+}
+.fourth{
+    background-color: rgb(189, 203, 216);
+}
+.fifth{
+    background-color: aliceblue;
+}
+.sixth{
+    background-color: rgb(189, 203, 216);
+}
+.seventh{
+    background-color: aliceblue;
+}
