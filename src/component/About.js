@@ -54,9 +54,9 @@ const About = () => {
     <div className="third">
     <button className=' d-grid mx-auto justify-content-center bg-info'>Our Team</button>
     <div className="flexBox">
-    <div className="member1 d-grid justify-content-center bg-info" >dbya</div>
-    <div className="member2 bg-success">dbya</div>
-    <div className="member3 bg-info">dbya</div>
+    <div className="member1 d-grid justify-content-center" ><img src="images/neu.png" alt="" /></div>
+    <div className="member2 d-grid justify-content-center"><img src="images/neu.png" alt="" /></div>
+    <div className="member3 d-grid justify-content-center"><img src="images/neu.png" alt="" /></div>
     </div>
     </div>
     <div className="fourth"></div>
