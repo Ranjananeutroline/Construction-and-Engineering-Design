@@ -1,0 +1,78 @@
+.second{
+    /* background-color: rgb(189, 203, 216); */
+    background-color: rgb(231,243,247);
+    display: flex;  
+    
+}
+.second img{
+    width: 100%;
+    height: 100%;
+ }
+ .none, .nonee{
+    flex: 1;
+    /* background-color: aqua; */
+}
+.image{
+    flex: 5;
+    height: 530px;
+    /* background-color: antiquewhite; */
+}
+.textBox{
+    flex: 5;
+    height: 430px;
+    background-color: rgb(205, 231, 239);
+    margin-left : -80px;
+    box-shadow: 7px 6px 6px rgba(0, 0, 0, 0.25);
+    position: relative;
+    
+    
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+   
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  .textBox:hover{
+    background-color: rgb(248, 248, 206);
+  }
+  .textBox:hover .overlay {
+    width: 100%;
+  }
+.textBox h1{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.textBox h1:hover{
+    /* color: rgb(90, 90, 192); */
+    background-color: rgb(231,243,247);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.textBox p{
+    display: flex;
+    padding: 40px 70px;
+    font-family: 'JejuMyeongjo';
+    font-family: 'JejuMyeongjo';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 165%;
+cursor: pointer;
+font-family : 'Calibri' , 'sanserif';
+/* or 31px */
+
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 0.04em;
+
+
+}
