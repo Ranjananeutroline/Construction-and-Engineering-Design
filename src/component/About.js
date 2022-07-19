@@ -1,8 +1,13 @@
 import React from 'react'
+import { useState } from 'react';
 import { Carousel } from 'react-bootstrap'
+import {  FaFacebook,FaInstagram,FaLinkedinIn,FaRegEye,FaRegPaperPlane,FaRegClock,FaTwitter} from "react-icons/fa";
 import './about.css'
 
+
+
 const About = () => {
+  
   return (
     <div className="aboutSection">
     <div className="first">
@@ -54,13 +59,109 @@ const About = () => {
     <div className="third">
     <button className=' d-grid mx-auto justify-content-center bg-info'>Our Team</button>
     <div className="flexBox">
-    <div className="member1 d-grid justify-content-center" ><img src="images/neu.png" alt="" /></div>
-    <div className="member2 d-grid justify-content-center"><img src="images/neu.png" alt="" /></div>
-    <div className="member3 d-grid justify-content-center"><img src="images/neu.png" alt="" /></div>
+    <div className="member1" >
+    <img src="images/neu.png" alt="" />
+    <h4>Suresh Rimal</h4>
+    <p>We are always looking to add talent to our team!
+    click the button below to see how you can apply for a job at Company</p>
+    <h5>CEO</h5>
+    <div className="icons">
+    <FaFacebook className='db' />
+    <FaInstagram  className='db'/>
+    <FaLinkedinIn className='db'/>
+    <FaTwitter className="db" />
     </div>
     </div>
-    <div className="fourth"></div>
-    <div className="fifth"></div>
+    <div className="member2 ">
+    <img src="/images/man.jpg" alt="" />
+    <h4>Suresh Rimal</h4>
+    <p>We are always looking to add talent to our team!
+    click the button below to see how you can apply for a job at Company</p>
+    <h5>CEO</h5>
+    <div className="icons">
+    <FaFacebook className='db' />
+    <FaInstagram  className='db'/>
+    <FaLinkedinIn className='db'/>
+    <FaTwitter className="db" />
+    </div>
+    </div>
+    <div className="member3">
+    <img src="images/neu.png" alt="" />
+    <h4>Suresh Rimal</h4>
+    <p>We are always looking to add talent to our team!
+    click the button below to see how you can apply for a job at Company</p>
+    <h5>CEO</h5>
+    <div className="icons">
+    <FaFacebook className='db' />
+    <FaInstagram  className='db'/>
+    <FaLinkedinIn className='db'/>
+    <FaTwitter className="db" />
+    </div>
+    
+    </div>
+    <div className="member4">
+    <img src="images/neu.png" alt="" />
+    <h4>Suresh KC</h4>
+    <p>We are always looking to add talent to our team!
+    click the button below to see how you can apply for a job at Company
+    ok if you want ti then ok Neutroline</p>
+    <h5>CoFounder</h5>
+    <div className="icons">
+    <FaFacebook className='db' />
+    <FaInstagram  className='db'/>
+    <FaLinkedinIn className='db'/>
+    <FaTwitter className="db" />
+    </div>
+    </div>
+    </div>
+    </div>
+    <div className="fourth p-5">
+     <div className="box1">
+     <FaRegEye className='vision' />
+     <h4>Vision</h4>
+     </div>
+     <div className="box1">
+     <FaRegPaperPlane className="vision" />
+     <h4>Mission</h4>
+     </div>
+     <div className="box1 ">
+     <FaRegClock className="vision" />
+     <h4>History</h4>
+     </div>
+      
+
+     <div className="box4 p-2">
+     <div className="content">
+     <h3 className='mt-4'>Vision</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati consequatur doloremque nihil aperiam facilis quisquam quis repellat, explicabo laborum debitis blanditiis? Aliquid quasi modi at natus iusto recusandae autem iure.</p>
+     </div>
+     <div className="image"><img src="/images/vision.jpg" alt="" /></div>
+     </div>
+    </div>
+    <div className="fifth">
+   
+    <div className="people">
+    <div className="faltus"></div>
+    <div className="hr"><hr /> </div>
+    <div className="header">Our People</div>
+    <div className="hr"><hr /></div>
+    <div className="faltu"></div>
+    </div>
+    <div className="imgPeople mt-5">
+    <div className="image1">
+    <img src="/images/man.jpg" alt=""  className='avtar'/>
+    <div class="overlay">
+    <div class="text"> <p className='company'>"At this Company, I have the opportunity to learn from great minds, do great work for our clients, and have fun while doing it."</p> </div>
+    <p style={{marginTop:'100%',marginLeft:'50px',color:'black'}}>Dibbya,FrontEnd Intern</p>
+    </div>
+    </div>
+    <div className="image2">
+    <img src="/images/man.jpg" alt="" className='avtar'/>
+    
+    </div>
+    <div className="image3"><img src="/images/man.jpg" alt="" /></div>
+    </div>
+    </div>
     <div className="sixth"></div>
     <div className="seventh"></div>
     </div>
