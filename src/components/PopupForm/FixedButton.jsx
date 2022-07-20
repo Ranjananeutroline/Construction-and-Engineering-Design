@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import FormDialog from './FormDialog';
+import PopupForm from './PopupForm';
 
 function FixedButton() {
     const[isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ function FixedButton() {
         <button onClick={()=>{setIsOpen(!isOpen)}} className="fixedButton">
             Get a quote
         </button>
-        {isOpen &&  <FormDialog setIsOpen={setIsOpen}/>}
+        {isOpen &&  <PopupForm setIsOpen={setIsOpen}/>}
     </div>
   )
 }
