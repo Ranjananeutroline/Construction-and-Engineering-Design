@@ -1,17 +1,24 @@
 .third {
   /* background-color: rgb(203, 240, 240); */
   background-color: rgb(205, 231, 239);
+  padding-bottom:1rem;
+  padding-top:1.5rem;
+  /* height:40rem; */
 }
 .third button {
-  width: 150px;
-  margin-top: 50px;
-  height: 50px;
+  width: 180px;
+  margin-top: 2rem;
+  height: 60px;
   align-content: center;
-  border-radius: 20px;
-  letter-spacing: 0.3rem;
+  border-radius: 10px;
+  letter-spacing: 0.04rem;
   border: none;
-
+  font-weight:bold;
   /* box-shadow: 1px rgb(189, 203, 216); */
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.25);
+}
+button h5{
+  color: rgb(13, 12, 12) !important;
 }
 .third h4 {
   margin-top: 1rem;
@@ -20,18 +27,19 @@
   align-items: center;
 }
 .third p {
-  padding: 10px 40px;
+  padding: 10px 30px;
   font-family: "Kaisei Tokumin";
+  /* font-family: sans-serif; */
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: .9rem;
   line-height: 108%;
   /* or 39px */
 
   /* display: flex;
     align-items: center;
     text-align: center; */
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
 }
 .third h5 {
   display: flex;
@@ -44,82 +52,100 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size:1.4rem;
+  
 }
 .third .db {
   margin-right: 12px;
+  cursor:pointer;
 }
 .flexBox {
   /* margin: 70px auto; */
-  margin-top: 60px;
+  margin: 4rem 0;
   display: grid;
-  grid-template-columns: 250px 250px 250px 250px;
-  grid-gap: 50px;
+  grid-template-columns: 21% 21% 21% 21%;
+  grid-gap: 2rem;
   /* background-color: beige; */
   justify-content: center;
 }
+.member{
+  /* height: 350px; */
+  height: 420px;
+  display: grid;
+  align-content: space-evenly;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .member1{
-    height: 420px;
-    background-color: #f9f4f4;
+background-color:white;
     /* border: 0.5px solid gray;
     box-shadow: 2px  2px 0px 2px #888888; */
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     border-radius: 30px;
-}
-.member1 img{
-    margin-top: 15px;
-    height:  120px;
-    width: 120px;
-    border: 3px solid rgb(15, 98, 18);
-    border-radius: 50%;
-    margin-left: 65px;
+    /* margin-left:1rem; */
 }
 
 .member2{
-    height: 420px;
+    /* height: 420px; */
    
     background-color: #f9f4f4;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     border-radius: 30px;
  
 }
-.member2 img{
-    margin-top: 15px;
-    height:  120px;
-    width: 120px;
-    border: 3px solid rgb(15, 98, 18);
-    border-radius: 50%;
-    margin-left: 65px;
-}
+
 .member3{
-    height: 420px;
+    /* height: 420px; */
     background-color: #f9f4f4;
     /* border: 1px solid gray;
     box-shadow: 2px  2px 0px 2px #888888; */
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     border-radius: 30px;
 }
 
-.member3 img{
-    margin-top: 15px;
-    height:  120px;
-    width: 120px;
-    border: 3px solid rgb(15, 98, 18);
-    border-radius: 50%;
-    margin-left: 65px;
-}
 .member4{
-    height: 420px;
-   
+    /* height: 420px; */
+   /* margin-right:1rem; */
     background-color: #f9f4f4;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     border-radius: 30px;
  
 }
-.member4 img{
-    margin-top: 15px;
+.member1 img,.member2 img,.member3 img,.member4 img{
+    
     height:  120px;
     width: 120px;
     border: 3px solid rgb(15, 98, 18);
     border-radius: 50%;
-    margin-left: 65px;
+    margin:auto;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .flexBox{
+    display: grid;
+    grid-template-columns: 48% 48% ;
+  }
+  .member1{
+    margin-left:0;
+  }
+  .member4{
+    margin-right:0;
+  }
+  .member:nth-child(odd){
+    margin-left:1rem;
+  }
+  .member:nth-child(even){
+    margin-right:1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .flexBox{
+    display: grid;
+    grid-template-columns: 98% ;
+  }
+
+  .member{
+    margin: 0 1rem;
+  }
 }

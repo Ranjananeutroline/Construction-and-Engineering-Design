@@ -1,70 +1,47 @@
-import React from 'react'
-import {  FaFacebook,FaInstagram,FaLinkedinIn,FaTwitter} from "react-icons/fa";
-import "./ourTeam.css"
+import React from "react";
+
+import "./ourTeam.css";
+import OurTeamProp from "./OurTeamProp";
 function OurTeam() {
   return (
     <>
-     <div className="third">
-    <button className=' d-grid mx-auto justify-content-center bg-info'>Our Team</button>
-    <div className="flexBox">
-    <div className="member1" >
-    <img src="images/neu.png" alt="" />
-    <h4>Suresh Rimal</h4>
-    <p>We are always looking to add talent to our team!
-    click the button below to see how you can apply for a job at Company</p>
-    <h5>CEO</h5>
-    <div className="icons">
-    <FaFacebook className='db' />
-    <FaInstagram  className='db'/>
-    <FaLinkedinIn className='db'/>
-    <FaTwitter className="db" />
-    </div>
-    </div>
-    <div className="member2 ">
-    <img src="/images/man.jpg" alt="" />
-    <h4>Suresh Rimal</h4>
-    <p>We are always looking to add talent to our team!
-    click the button below to see how you can apply for a job at Company</p>
-    <h5>CEO</h5>
-    <div className="icons">
-    <FaFacebook className='db' />
-    <FaInstagram  className='db'/>
-    <FaLinkedinIn className='db'/>
-    <FaTwitter className="db" />
-    </div>
-    </div>
-    <div className="member3">
-    <img src="images/neu.png" alt="" />
-    <h4>Suresh Rimal</h4>
-    <p>We are always looking to add talent to our team!
-    click the button below to see how you can apply for a job at Company</p>
-    <h5>CEO</h5>
-    <div className="icons">
-    <FaFacebook className='db' />
-    <FaInstagram  className='db'/>
-    <FaLinkedinIn className='db'/>
-    <FaTwitter className="db" />
-    </div>
-    
-    </div>
-    <div className="member4">
-    <img src="images/neu.png" alt="" />
-    <h4>Suresh KC</h4>
-    <p>We are always looking to add talent to our team!
-    click the button below to see how you can apply for a job at Company
-    ok if you want ti then ok Neutroline</p>
-    <h5>CoFounder</h5>
-    <div className="icons">
-    <FaFacebook className='db' />
-    <FaInstagram  className='db'/>
-    <FaLinkedinIn className='db'/>
-    <FaTwitter className="db" />
-    </div>
-    </div>
-    </div>
-    </div>
+      <div className="third">
+        <button className=" d-grid m-auto justify-content-center bg-info ">
+          <h5>Our Team</h5>
+        </button>
+        <div className="flexBox">
+          <div className="member1 member">
+            <OurTeamProp
+              name="Pranish"
+              testimonial="I love the experience where the team mates are helpful and skillfull"
+              position="Developer"
+            />
+          </div>
+          <div className="member2 member">
+            <OurTeamProp
+              name="Dibya"
+              testimonial="I love the experience where the team mates are helpful and skillfull.I love the experience where the team mates are helpful and skillfull."
+              position="Developer"
+            />
+          </div>
+          <div className="member3 member">
+            <OurTeamProp
+              name="Ranjana"
+              testimonial="I love the experience where the team mates are helpful and skillfull"
+              position="Developer"
+            />
+          </div>
+          <div className="member4 member">
+            <OurTeamProp
+              name="Kushal"
+              testimonial="I love the experience where the team mates are helpful and skillfull"
+              position="Developer"
+            />{" "}
+          </div>
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default OurTeam
+export default OurTeam;

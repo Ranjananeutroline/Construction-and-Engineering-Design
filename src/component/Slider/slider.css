@@ -1,6 +1,18 @@
 .first img{
     height: 100%;
     width: 100%;
-    opacity: 0.8 ;
+    opacity: 0.5 ;
 }
-.first{background-color: black;}
+.first{
+    background-color: black !important;
+}
+.first h3{
+    color:rgb(231, 243, 247) !important;
+    letter-spacing: 0.06em;
+    font-family: sans-serif;
+}
+.first p{
+    color:rgb(231, 243, 247) !important; 
+    letter-spacing: 0.06em;
+    font-family: sans-serif;
+}

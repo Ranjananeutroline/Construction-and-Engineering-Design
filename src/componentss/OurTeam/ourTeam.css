@@ -1,0 +1,125 @@
+.third {
+  /* background-color: rgb(203, 240, 240); */
+  background-color: rgb(205, 231, 239);
+}
+.third button {
+  width: 150px;
+  margin-top: 50px;
+  height: 50px;
+  align-content: center;
+  border-radius: 20px;
+  letter-spacing: 0.3rem;
+  border: none;
+
+  /* box-shadow: 1px rgb(189, 203, 216); */
+}
+.third h4 {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third p {
+  padding: 10px 40px;
+  font-family: "Kaisei Tokumin";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 108%;
+  /* or 39px */
+
+  /* display: flex;
+    align-items: center;
+    text-align: center; */
+  letter-spacing: 0.04em;
+}
+.third h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(73, 57, 216);
+}
+.third .icons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third .db {
+  margin-right: 12px;
+}
+.flexBox {
+  /* margin: 70px auto; */
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-gap: 50px;
+  /* background-color: beige; */
+  justify-content: center;
+}
+.member1{
+    height: 420px;
+    background-color: #f9f4f4;
+    /* border: 0.5px solid gray;
+    box-shadow: 2px  2px 0px 2px #888888; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.member1 img{
+    margin-top: 15px;
+    height:  120px;
+    width: 120px;
+    border: 3px solid rgb(15, 98, 18);
+    border-radius: 50%;
+    margin-left: 65px;
+}
+
+.member2{
+    height: 420px;
+   
+    background-color: #f9f4f4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+ 
+}
+.member2 img{
+    margin-top: 15px;
+    height:  120px;
+    width: 120px;
+    border: 3px solid rgb(15, 98, 18);
+    border-radius: 50%;
+    margin-left: 65px;
+}
+.member3{
+    height: 420px;
+    background-color: #f9f4f4;
+    /* border: 1px solid gray;
+    box-shadow: 2px  2px 0px 2px #888888; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.member3 img{
+    margin-top: 15px;
+    height:  120px;
+    width: 120px;
+    border: 3px solid rgb(15, 98, 18);
+    border-radius: 50%;
+    margin-left: 65px;
+}
+.member4{
+    height: 420px;
+   
+    background-color: #f9f4f4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+ 
+}
+.member4 img{
+    margin-top: 15px;
+    height:  120px;
+    width: 120px;
+    border: 3px solid rgb(15, 98, 18);
+    border-radius: 50%;
+    margin-left: 65px;
+}

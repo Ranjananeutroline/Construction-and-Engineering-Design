@@ -3,7 +3,7 @@ import './job.css'
 const Job = () => {
   return (
     <div className="mainJob">
-    <h2>Carrer</h2>
+    <h2>We are looking for a talented Developer</h2>
     <div className="flexJob">
     <div className="jobImage"><img src="./images/job.png" alt="" /></div>
     <div className="jobContent">

@@ -1,26 +1,23 @@
 .mainJob{
     background-color: rgb(231, 243, 247);
-    padding-top:2rem;
-    /* padding-bottom:2rem; */
 }
 
 .flexJob{
     display: flex;
     margin-top: 50px;
-    align-items: center;
-    /* background-color: brown; */
 }
 .jobImage{
     flex: 6;
-    /* background-color: black;   */
+   
+    /* background-color: black; */
+   
 }
 h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 50px; */
+    margin-top: 50px;
     cursor: pointer;
-    text-align:center;
 }
 h2:hover{
     /* color: rgb(100, 179, 100);
@@ -39,11 +36,10 @@ h2:hover{
     object-fit: contain;
 }
 .jobContent p{
-    /* padding: 180px 120px 40px 120px; */
-    padding:1.5rem;
+    padding: 180px 120px 40px 120px;
     letter-spacing: 0.04rem;
     font-weight: 400;
-   font-size: 1.5rem;
+   font-size: 18px;
   line-height: 140%;
     cursor: pointer;
   font-family : 'Calibri' , 'sanserif';

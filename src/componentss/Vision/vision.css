@@ -1,0 +1,131 @@
+
+.fourth{
+    /* background-color: rgb(189, 203, 216); */
+    background-color: rgb(231,243,247);
+    display: grid;
+    justify-content: center;
+    
+    grid-template-rows: 80px 500px;
+    grid-template-columns: 180px 150px 150px 150px 180px;
+    grid-row-gap:50px;
+    grid-column-gap: 60px;
+    
+}
+.fourth .box4{
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+.fourth .box1{   
+   
+box-sizing: border-box;
+background: #FFFFFF;
+/* border-top: 1px solid #000000; */
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+/* justify-content: space-around; */
+cursor: pointer;
+font-family : 'Calibri' ;
+position: relative;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+   
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  .box1:hover .overlay {
+    width: 100%;
+  }
+.fourth .vision{
+    height: 65px;
+    width: 17%;
+    margin-top: -3%;
+    margin-right: 10px;
+    color: green;
+    /* background-color: aquamarine;
+    border-radius: 100%; */
+}
+.fourth .mission{
+    height: 50px;
+    width: 15%;
+    margin-top: -3%;
+    margin-right: 10px;
+    color: green;
+    
+}
+.fourth .history{
+    height: 60px;
+    width: 15%;
+    margin-top: -3%;
+    margin-right: 10px;
+    color: green;
+}
+.fourth .box1:hover{
+    /* background-color: rgb(205, 231, 239);  */
+    /* color:green; */
+    /* height: 110px;
+    width: 220px;
+    font-size: 20%; */
+}
+
+
+.fourth .box4{
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+display: flex;
+/* border-radius:0px 20px 20px 0px; */
+border-radius: 9px;
+box-shadow: 7px 6px 6px rgba(0, 0, 0, 0.25);
+
+}
+.fourth .content{
+    width: 50%;
+    /* background-color: antiquewhite; */
+   
+    height: 99%;
+   
+}
+
+.fourth h2{
+    /* color: rgb(210, 45, 51); */
+    color: green;
+    display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+   
+}
+.fourth .image{
+    width: 50%;
+    /* background-color: rgb(143, 100, 45); */
+    height: 100%;
+    
+}
+.fourth img{
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 9px 9px 0px;
+}
+.fourth p{
+    padding: 30px 60px;
+    letter-spacing: 0.04rem;
+    
+    font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+cursor: pointer;
+font-family : 'Calibri' , 'sanserif';
+}
