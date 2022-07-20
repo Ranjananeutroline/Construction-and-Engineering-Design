@@ -17,10 +17,10 @@ export default function FormDialog() {
     email: "",
     org: "",
     location: "",
-    country_code:"",
-    phone:"",
-    assign:"",
-    desc:"",
+    country_code: "",
+    phone: "",
+    assign: "",
+    desc: "",
   };
   const [formValues, setFormValues] = React.useState(initialValues);
   const [formErrors, setFormErrors] = React.useState({});
@@ -73,142 +73,150 @@ export default function FormDialog() {
       <Button
         variant="outlined"
         onClick={handleClickOpen}
-        // className="fixedButton"
+        className="fixedButton"
       >
-        get a Quote
+        Get a Quote
       </Button>
-      <Dialog open={open} onClose={handleClose} onSubmit={handleSubmit}  >
-      <form>  
-        <DialogTitle className="popup_header"> Get a quote</DialogTitle>
-        <DialogContent>
-          <DialogContentText></DialogContentText>
-                <TextField
-            autoFocus
-            // margin="dense"
-            id="name"
-            label="Name"
-            type="text"
-            name="name"
-            fullWidth
-            variant="outlined"
-            autoComplete="off"
-            value={formValues.name}
-            onChange={handleChange}
-            className="dialog_name"
-          />{" "}
-          {/* <ErrorMessage component ="div" name={field.fullName} className="error" /> */}
-          <p style={{ color: "red", margin: "0", fontSize: ".8rem" }}>
-            {formErrors.name}
-          </p>
-          <TextField
-            autoFocus
-            // margin="dense"
-            name="email"
-            id="email"
-            label="Email: "
-            type="email"
-            fullWidth
-            variant="outlined"
-            autoComplete="off"
-            value={formValues.email}
-            onChange={handleChange}
-            className="dialog_email"
-
-          />{" "}
-          <p style={{ color: "red", margin: "0", fontSize: ".8rem" }}>
-            {formErrors.email}
-          </p>
-          <div className="tel">
+      <Dialog
+        open={open}
+        onClose={handleClose}
+        onSubmit={handleSubmit}
+        className="formDialog"
+        fullWidth
+      >
+        <form>
+          <DialogTitle className="popup_header"> Get a quote</DialogTitle>
+          <DialogContent>
+            <DialogContentText></DialogContentText>
             <TextField
-              id="outlined-basic"
-              label="Your organization"
+              autoFocus
+              // margin="dense"
+              id="name"
+              label="Name"
+              type="text"
+              name="name"
+              fullWidth
               variant="outlined"
-              name="org"
-              value={formValues.org}
+              autoComplete="off"
+              value={formValues.name}
               onChange={handleChange}
-              className="dialog_org"
-            />
+              className="dialog_name"
+            />{" "}
+            {/* <ErrorMessage component ="div" name={field.fullName} className="error" /> */}
+            <p style={{ color: "red", margin: "0", fontSize: ".8rem" }}>
+              {formErrors.name}
+            </p>
             <TextField
-              id="outlined-basic"
-              label="your location"
+              autoFocus
+              // margin="dense"
+              name="email"
+              id="email"
+              label="Email: "
+              type="email"
+              fullWidth
               variant="outlined"
-              name="location"
-              value={formValues.location}
+              autoComplete="off"
+              value={formValues.email}
               onChange={handleChange}
-              className="dialog_location"
-            />
-          </div>
-          <div className="tel">
-            <FormControl sx={{ my: 1, width: 180 }} className="dialog_country_code">
-              <InputLabel id="demo-simple-select-helper-label">
-                your country code
+              className="dialog_email"
+            />{" "}
+            <p style={{ color: "red", margin: "0", fontSize: ".8rem" }}>
+              {formErrors.email}
+            </p>
+            <div className="tel">
+              <TextField
+                id="outlined-basic"
+                label="Your organization"
+                variant="outlined"
+                name="org"
+                value={formValues.org}
+                onChange={handleChange}
+                className="dialog_org"
+              />
+              <TextField
+                id="outlined-basic"
+                label="your location"
+                variant="outlined"
+                name="location"
+                value={formValues.location}
+                onChange={handleChange}
+                className="dialog_location"
+              />
+            </div>
+            <div className="tel">
+              <FormControl
+                sx={{ my: 1, width: 180 }}
+                className="dialog_country_code"
+              >
+                <InputLabel id="demo-simple-select-helper-label">
+                  your country code
+                </InputLabel>
+                <Select
+                  labelId="demo-simple-select-helper-label"
+                  id="demo-simple-select-helper"
+                  // value={age}
+                  label="Country code"
+                  value={formValues.country_code}
+                  name="country_code"
+                  onChange={handleChange}
+                  // onChange={handleChange}
+                >
+                  <MenuItem value={"+977"}>Nepal (+977)</MenuItem>
+                  <MenuItem value={"+91"}>India(+91)</MenuItem>
+                  <MenuItem value={"+1"}>USA(+1)</MenuItem>
+                </Select>
+                {/* <FormHelperText>With label + helper text</FormHelperText> */}
+              </FormControl>
+              <TextField
+                sx={{ my: 1 }}
+                id="outlined-basic"
+                label="phone"
+                variant="outlined"
+                type="number"
+                className="dialog_phone"
+                value={formValues.phone}
+                onChange={handleChange}
+              />
+            </div>
+            <FormControl fullWidth sx={{ mb: 1 }} className="dialog_assign">
+              <InputLabel id="demo-simple-select-label" variant="outlined">
+                Select an Option
               </InputLabel>
               <Select
-                labelId="demo-simple-select-helper-label"
-                id="demo-simple-select-helper"
+                labelId="demo-simple-select-label"
+                id="demo-simple-select outline-basic"
                 // value={age}
-                label="Country code"
-                value={formValues.country_code}
-                name="country_code"
+                name="assign"
+                label="  Select an Option"
+                value={formValues.assign}
                 onChange={handleChange}
                 // onChange={handleChange}
               >
-                <MenuItem value={"+977"}>Nepal (+977)</MenuItem>
-                <MenuItem value={"+91"}>India(+91)</MenuItem>
-                <MenuItem value={"+1"}>USA(+1)</MenuItem>
+                <MenuItem value={"ios"}>IOS App Development</MenuItem>
+                <MenuItem value={"andriod"}>Andriod App development</MenuItem>
+                <MenuItem value={"web"}>Web development</MenuItem>
+                <MenuItem value={"qa"}>
+                  Software Testing & Quality Assurance
+                </MenuItem>
               </Select>
-              {/* <FormHelperText>With label + helper text</FormHelperText> */}
             </FormControl>
             <TextField
-              sx={{ my: 1, maxWidth: 235 }}
-              id="outlined-basic"
-              label="phone"
-              variant="outlined"
-              type="number"
-              className="dialog_phone"
-              value={formValues.phone}
+              id="outlined-multiline-static"
+              label="Write something you want to talk about"
+              multiline
+              rows={4}
+              fullWidth
+              name="desc"
+              autoComplete="off"
+              className="dialog_desc"
+              value={formValues.desc}
               onChange={handleChange}
             />
-          </div>
-          <FormControl fullWidth sx={{ mb: 1 }}    className="dialog_assign">
-            <InputLabel id="demo-simple-select-label" variant="outlined">
-              Select an Option
-            </InputLabel>
-            <Select
-              labelId="demo-simple-select-label"
-              id="demo-simple-select outline-basic"
-              // value={age}
-              label="  Select an Option"
-              value={formValues.assign}
-              onChange={handleChange}
-              // onChange={handleChange}
-            >
-              <MenuItem value={"ios"}>IOS App Development</MenuItem>
-              <MenuItem value={"andriod"}>Andriod App development</MenuItem>
-              <MenuItem value={"web"}>Web development</MenuItem>
-              <MenuItem value={"qa"}>Software Testing & Quality Assurance</MenuItem>
-            </Select>
-          </FormControl>
-          <TextField
-            id="outlined-multiline-static"
-            label="Write something you want to talk about"
-            multiline
-            rows={4}
-            fullWidth
-            autoComplete="off"
-            className="dialog_desc"
-            value={formValues.desc}
-            onChange={handleChange}
-          />
-        </DialogContent>
-        <DialogActions >
-          <Button onClick={handleClose}>Cancel</Button>
-          <Button type="submit">
-            Submit
-          </Button>
-         
- 
-        </DialogActions>
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={handleClose}>Cancel</Button>
+            <Button type="submit">Submit</Button>
+          </DialogActions>
         </form>
       </Dialog>
     </div>

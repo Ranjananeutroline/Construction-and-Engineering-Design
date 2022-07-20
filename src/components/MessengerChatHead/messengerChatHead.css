@@ -1,0 +1,8 @@
+.fixed_messenger{
+position: fixed;
+bottom:2rem;
+right:2rem;
+/* padding:1rem; */
+cursor:pointer;
+}
+

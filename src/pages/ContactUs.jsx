@@ -4,7 +4,8 @@ import Cards from '../components/Card/Cards'
 // import Faq from '../components/FAQ/Faq'
 import GetInTouch from '../components/GetInTouch/GetInTouch'
 import Header from '../components/Header/Header'
-import FixedButton from '../components/PopupForm/FixedButton'
+import MessengerChatHead from '../components/MessengerChatHead/MessengerChatHead'
+// import FixedButton from '../components/PopupForm/FixedButton'
 import FormDialog from '../components/PopupForm/FormDialog'
 // import Navbar from '../components/Navbar/Navbar'
 
@@ -14,8 +15,9 @@ function ContactUs() {
         {/* <Navbar /> */}
        
         <Header />
-        <FixedButton />
+        {/* <FixedButton /> */}
      <FormDialog />
+     <MessengerChatHead />
         <Cards />
         <GetInTouch />
         {/* <Faq /> */}
