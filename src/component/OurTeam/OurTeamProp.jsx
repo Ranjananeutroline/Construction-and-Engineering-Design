@@ -9,7 +9,7 @@ import {
 function OurTeamProp({ name, testimonial, position }) {
   return (
     <>
-      <img src="/images/man.jpg" alt="" />
+      <img className="paxi" src="/images/man.jpg" alt="" />
       <div>
         <h4>{name}</h4>
         <p>{testimonial}</p>
@@ -19,10 +19,10 @@ function OurTeamProp({ name, testimonial, position }) {
 
         {/* <IconContext.Provider value={{ className: "our_teams_icons" }}> */}
           <div className="icons">
-            <FaFacebook className="db" style={{color:"#5457AC"}} />
-            <FaInstagram className="db" style={{ color:"#B43D3D"}} />
-            <FaLinkedinIn className="db" style={{color:"#5457AC"}} />
-            <FaTwitter className="db" style={{color:"#00ACEE"}} />
+            <img className="dibbyas" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" />
+            <img className="dibinsta" src="./images/insta.png" />
+            <img className="dibinsta" src="./images/linked.png" />
+            <FaTwitter className="dibinsta" style={{color:"#00ACEE"}} />
           </div>
         {/* </IconContext.Provider> */}
       </div>

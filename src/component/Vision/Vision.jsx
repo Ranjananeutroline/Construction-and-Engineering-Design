@@ -10,19 +10,19 @@ function Vision() {
       <div className="fourth ">
         {/*<div className="box"></div>*/}  
         <div className="box1">
-          <FaRegEye className="vision" />
-          <h4>Vision</h4>
+         <FaRegEye className="vision" />
+          <h4 className="visions">Vision</h4>
           <div className="overlay"></div>
         </div>
         <div className="box1">
           <FaRegPaperPlane className="mission" />
-          <h4>Mission</h4>
+          <h4 className="visions">Mission</h4>
           <div className="overlay"></div>
         </div>
 
         <div className="box1 ">
           <FaRegClock className="history" />
-          <h4>History</h4>
+          <h4 className="visions" >History</h4>
           <div className="overlay"></div>
         </div>
          {/*<div className="box"></div>*/} 
@@ -38,7 +38,7 @@ function Vision() {
             </p>
           </div>
           <div className="vision_image">
-            <img src="/images/vision.jpg" alt="" />
+            <img className="visionpic" src="/images/vision.jpg" alt="" />
           </div>
         </div>
         </div>

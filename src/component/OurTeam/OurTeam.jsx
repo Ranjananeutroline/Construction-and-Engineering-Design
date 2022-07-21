@@ -6,7 +6,7 @@ function OurTeam() {
   return (
     <>
       <div className="third">
-        <button className=" d-grid m-auto justify-content-center bg-info ">
+        <button className=" d-grid m-auto justify-content-center bg-info text-white ">
           <h5>Our Team</h5>
         </button>
         <div className="flexBox">

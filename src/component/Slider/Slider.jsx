@@ -7,7 +7,7 @@ function Slider() {
     <>
      <div className="first">
     <Carousel>
-  <Carousel.Item interval={5000}>
+  <Carousel.Item interval={3000}>
     <img
       className="d-block w-100"
       src="/images/figmaImage.jpg"
@@ -18,7 +18,7 @@ function Slider() {
       <p>We build custom IT solutions and products that accelerate customer’s business growth, simplify process and increase revenue.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item interval={8000}>
+  <Carousel.Item interval={3000}>
     <img
       className="d-block w-100"
       src="/images/figmaImage.jpg"
@@ -29,7 +29,7 @@ function Slider() {
       <p> We are a young, innovative, motivated, skilled, ambitious, and trusted group of people working together on providing IT solutions globally.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item interval={5000}>
+  <Carousel.Item interval={3000}>
     <img
       className="d-block w-100"
       src="/images/figmaImage.jpg"

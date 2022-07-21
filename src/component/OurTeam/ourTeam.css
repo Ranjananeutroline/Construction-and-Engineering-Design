@@ -6,6 +6,7 @@
   /* height:40rem; */
 }
 .third button {
+  
   width: 180px;
   margin-top: 2rem;
   height: 60px;
@@ -19,8 +20,10 @@
 }
 button h5{
   color: rgb(13, 12, 12) !important;
+
 }
 .third h4 {
+  color: #045de9!important;
   margin-top: 1rem;
   display: flex;
   justify-content: center;
@@ -28,7 +31,7 @@ button h5{
 }
 .third p {
   padding: 10px 30px;
-  font-family: "Kaisei Tokumin";
+ 
   /* font-family: sans-serif; */
   font-style: normal;
   font-weight: 300;
@@ -40,12 +43,14 @@ button h5{
     align-items: center;
     text-align: center; */
   letter-spacing: 0.06em;
+  font-family: sans-serif;
 }
 .third h5 {
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(73, 57, 216);
+  color: rgb(6, 6, 6);
 }
 .third .icons {
   margin-top: 15px;
@@ -55,9 +60,11 @@ button h5{
   font-size:1.4rem;
   
 }
-.third .db {
-  margin-right: 12px;
-  cursor:pointer;
+
+
+.third .b{
+  color: rgb(51,51,51);
+  
 }
 .flexBox {
   /* margin: 70px auto; */
@@ -110,13 +117,24 @@ background-color:white;
     border-radius: 30px;
  
 }
-.member1 img,.member2 img,.member3 img,.member4 img{
+.member1 .paxi,.member2 .paxi,.member3 .paxi,.member4 .paxi{
     
     height:  120px;
     width: 120px;
     border: 3px solid rgb(15, 98, 18);
     border-radius: 50%;
     margin:auto;
+}
+.icons .dibbyas{
+  height: 1.5rem;
+  width:1.5rem;
+  /* margin-right: 0.5rem; */
+}
+.icons .dibinsta{
+  width: 1.5rem;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  
 }
 
 
