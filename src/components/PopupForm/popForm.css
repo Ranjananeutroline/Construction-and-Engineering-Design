@@ -75,13 +75,14 @@ form .popup_header {
   color: black;
   font-size: 1.4rem;
 }
-.css-ypiqx9-MuiDialogContent-root {
+form .css-ypiqx9-MuiDialogContent-root {
   /* this is removing excess padding top from the input name */
   padding: 1px 24px 10px 24px;
 }
 
 div .fixedButton {
   position: fixed;
+  bottom:9rem;
   right: -40px;
   background: #0f766e;
   color: white;
