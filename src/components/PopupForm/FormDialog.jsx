@@ -7,7 +7,7 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
-import  {RiCloseLine} from "react-icons/ri"
+import { RiCloseLine } from "react-icons/ri";
 
 import "./popForm.css";
 
@@ -32,11 +32,12 @@ export default function FormDialog() {
     // console.log(e.target.value);
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
+    setFormErrors(validate(formValues));
     // console.log(formValues);
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormErrors(validate(formValues));
+   
     setIsSubmit(true);
   };
   React.useEffect(() => {
@@ -51,14 +52,14 @@ export default function FormDialog() {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
     if (!values.name) {
       errors.name = "name is required";
-    } else if (values.name.length < 3) {
+    } else if (values.name.length < 2) {
       errors.name = "Name must be longer than 2 letters";
-    }
+    } 
     if (!values.email) {
       errors.email = "email is required";
     } else if (!regex.test(values.email)) {
       errors.email = "This is not a valid email format";
-    }
+    } 
     return errors;
   };
 
@@ -85,15 +86,16 @@ export default function FormDialog() {
         onSubmit={handleSubmit}
         className="formDialog"
         fullWidth
+
       >
         <form>
           <DialogTitle className="popup_header"> Get a quote</DialogTitle>
           <span className="closeBtn" onClick={handleClose}>
-          <RiCloseLine
-            style={{ marginBottom: "0", zIndex: "9999", color: "white" }}
-            className="closeBtn"
-          />
-        </span>
+            <RiCloseLine
+              style={{ marginBottom: "0", zIndex: "9999", color: "white" }}
+              className="closeBtn"
+            />
+          </span>
           <DialogContent>
             <DialogContentText></DialogContentText>
             <TextField
@@ -128,7 +130,7 @@ export default function FormDialog() {
               onChange={handleChange}
               className="dialog_email"
             />{" "}
-            <p style={{ color: "red", margin: "0", fontSize: ".8rem" }}>
+            <p style={{ color: "red", margin: "0", fontSize: ".8rem" }} >
               {formErrors.email}
             </p>
             <div className="tel">
@@ -226,17 +228,26 @@ export default function FormDialog() {
                 type="file"
                 value={formValues.upload_file}
                 onChange={handleChange}
-                accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/png, image/jpeg"
               />
-
-              <Button color="success" variant="contained" component="span" className="file_button">
+              {/* image,pdf */}
+              <Button
+                color="success"
+                variant="contained"
+                component="span"
+                className="file_button"
+              >
                 Upload a file
               </Button>
             </label>
           </DialogContent>
           <DialogActions>
-            <Button onClick={handleClose} className="dialog_cancel">Cancel</Button>
-            <Button type="submit" className="dialog_submit">Submit</Button>
+            <Button onClick={handleClose} className="dialog_cancel">
+              Cancel
+            </Button>
+            <Button type="submit" className="dialog_submit">
+              Submit
+            </Button>
           </DialogActions>
         </form>
       </Dialog>

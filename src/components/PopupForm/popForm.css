@@ -31,6 +31,7 @@ div .dialog_assign,
 div .dialog_desc {
   margin: 0.7rem 0;
 }
+
 .div .dialog_location {
   margin-left: 6rem;
 }
@@ -51,7 +52,14 @@ div .dialog_name {
 .dialog_country_code {
   width: 34%;
 }
-
+div .css-tlc64q-MuiPaper-root-MuiDialog-paper{
+  /* max-width:55%; */
+  /* width:70%; */
+/* height:10rem; */
+margin:0rem 0 0 0;
+/* height:calc(100%-1px); */
+/* max-height:80vh; */
+}
 /* get a free quote */
 form .popup_header {
   padding: 1.5rem;
@@ -82,15 +90,16 @@ form .css-ypiqx9-MuiDialogContent-root {
 
 div .fixedButton {
   position: fixed;
-  bottom:9rem;
+  bottom:11rem;
   right: -40px;
   background: #0f766e;
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 1.3rem;
   border: none;
   transform: rotate(-90deg);
   cursor: pointer;
   text-transform: none;
+  /* font-size:1.2rem; */
 }
 form .file_button{
   background-color:#0f766e;
@@ -197,5 +206,8 @@ input[type="number"] {
   .css-tlc64q-MuiPaper-root-MuiDialog-paper {
     margin: 0 !important;
     width: calc(100% - 20px) !important;
+    /* max-width:600px; */
   }
+  
+
 }
