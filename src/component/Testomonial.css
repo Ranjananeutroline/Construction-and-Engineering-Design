@@ -1,0 +1,26 @@
+h4{
+    font-family: 'Calibri', Times, serif;
+    color: black;
+    font-weight:bold;
+    font-style: italic;
+    text-align: center;
+    /* padding: bottom 10px;; */
+}
+ h5{
+        font-family: 'Calibri', Times, serif;
+        color: black;
+        font-weight:bold;
+        font-style: italic;
+        text-align: center;
+        /* padding-bottom: 10px; */
+}
+.profile{
+
+    height: 40px;
+    width: 40px;
+}
+.carimage{
+    height:240px;
+    width: 100%;
+
+}
