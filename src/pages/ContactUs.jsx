@@ -1,7 +1,7 @@
 import React from 'react'
 // import MessengerCustomerChat from 'react-messenger-customer-chat/lib/MessengerCustomerChat'
 import Cards from '../components/Card/Cards'
-import Faq from '../components/FAQ/Faq'
+// import Faq from '../components/FAQ/Faq'
 import GetInTouch from '../components/GetInTouch/GetInTouch'
 import Header from '../components/Header/Header'
 import MessengerChatHead from '../components/MessengerChatHead/MessengerChatHead'
@@ -20,7 +20,7 @@ function ContactUs() {
      <MessengerChatHead />
         <Cards />
         <GetInTouch />
-        <Faq />
+        {/* <Faq /> */}
 
     </div>
   )

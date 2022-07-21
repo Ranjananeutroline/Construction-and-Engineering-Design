@@ -145,7 +145,7 @@ export default function FormDialog() {
               />
               <TextField
                 id="outlined-basic"
-                label="your location"
+                label="Your Location"
                 variant="outlined"
                 name="location"
                 value={formValues.location}
@@ -156,13 +156,13 @@ export default function FormDialog() {
             <div className="tel">
               <FormControl sx={{ my: 1 }} className="dialog_country_code">
                 <InputLabel id="demo-simple-select-helper-label">
-                  your country code
+                  Your Country code
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-helper-label"
                   id="demo-simple-select-helper"
                   // value={age}
-                  label="Country code"
+                  label="your country code"
                   value={formValues.country_code}
                   name="country_code"
                   onChange={handleChange}
@@ -177,7 +177,7 @@ export default function FormDialog() {
               <TextField
                 sx={{ my: 1 }}
                 id="outlined-basic"
-                label="phone"
+                label="Phone"
                 variant="outlined"
                 type="number"
                 name="phone"
@@ -228,8 +228,9 @@ export default function FormDialog() {
                 type="file"
                 value={formValues.upload_file}
                 onChange={handleChange}
-                accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/png, image/jpeg"
+                accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/png, image/jpeg,.pdf"
               />
+             
               {/* image,pdf */}
               <Button
                 color="success"
@@ -239,6 +240,7 @@ export default function FormDialog() {
               >
                 Upload a file
               </Button>
+              <small className style={{color:"red"}}>accepts docx,word,image,pdf</small>
             </label>
           </DialogContent>
           <DialogActions>
