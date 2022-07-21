@@ -15,6 +15,11 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.5s;
 }
+.formDialog {
+  height: 105%;
+  /* margin-top:0;
+  width:90%; */
+}
 
 div .dialog_name,
 div .dialog_email,
@@ -43,13 +48,16 @@ div .dialog_name {
 .dialog_phone {
   width: 63%;
 }
+.dialog_country_code {
+  width: 34%;
+}
 
 /* get a free quote */
-.popup_header {
-  padding: 2rem;
-
-  margin: 0;
-  background-color: rgb(158, 215, 231);
+form .popup_header {
+  padding: 1.5rem;
+  margin: 0;;
+  background-color: #0f766e;
+  color:white;
 }
 .form_popup {
   transition: 0.5s;
@@ -67,20 +75,39 @@ div .dialog_name {
   color: black;
   font-size: 1.4rem;
 }
+.css-ypiqx9-MuiDialogContent-root {
+  /* this is removing excess padding top from the input name */
+  padding: 1px 24px 10px 24px;
+}
+
 div .fixedButton {
   position: fixed;
   right: -40px;
-  background: green;
+  background: #0f766e;
   color: white;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border: none;
   transform: rotate(-90deg);
   cursor: pointer;
-  text-transform:none;
+  text-transform: none;
+}
+form .file_button{
+  background-color:#0f766e;
+  margin-top:1rem;
+}
+form .dialog_submit{
+  color: #115e59;
+}
+form .dialog_submit:hover{
+  color:#134e4a;
+}
+form .dialog_cancel{
+  color:red;
 }
 
 div .fixedButton:hover {
-  background-color: green;
+  background-color:#0d9488;
+  border:none;
   /* color:black; */
 }
 .blur {

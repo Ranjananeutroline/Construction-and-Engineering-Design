@@ -7,6 +7,7 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
+import  {RiCloseLine} from "react-icons/ri"
 
 import "./popForm.css";
 
@@ -21,6 +22,7 @@ export default function FormDialog() {
     phone: "",
     assign: "",
     desc: "",
+    upload_file: "",
   };
   const [formValues, setFormValues] = React.useState(initialValues);
   const [formErrors, setFormErrors] = React.useState({});
@@ -86,6 +88,12 @@ export default function FormDialog() {
       >
         <form>
           <DialogTitle className="popup_header"> Get a quote</DialogTitle>
+          <span className="closeBtn" onClick={handleClose}>
+          <RiCloseLine
+            style={{ marginBottom: "0", zIndex: "9999", color: "white" }}
+            className="closeBtn"
+          />
+        </span>
           <DialogContent>
             <DialogContentText></DialogContentText>
             <TextField
@@ -144,10 +152,7 @@ export default function FormDialog() {
               />
             </div>
             <div className="tel">
-              <FormControl
-                sx={{ my: 1, width: 180 }}
-                className="dialog_country_code"
-              >
+              <FormControl sx={{ my: 1 }} className="dialog_country_code">
                 <InputLabel id="demo-simple-select-helper-label">
                   your country code
                 </InputLabel>
@@ -173,6 +178,7 @@ export default function FormDialog() {
                 label="phone"
                 variant="outlined"
                 type="number"
+                name="phone"
                 className="dialog_phone"
                 value={formValues.phone}
                 onChange={handleChange}
@@ -212,10 +218,25 @@ export default function FormDialog() {
               value={formValues.desc}
               onChange={handleChange}
             />
+            <label htmlFor="upload_file">
+              <input
+                style={{ display: "none" }}
+                id="upload_file"
+                name="upload_file"
+                type="file"
+                value={formValues.upload_file}
+                onChange={handleChange}
+                accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+              />
+
+              <Button color="success" variant="contained" component="span" className="file_button">
+                Upload a file
+              </Button>
+            </label>
           </DialogContent>
           <DialogActions>
-            <Button onClick={handleClose}>Cancel</Button>
-            <Button type="submit">Submit</Button>
+            <Button onClick={handleClose} className="dialog_cancel">Cancel</Button>
+            <Button type="submit" className="dialog_submit">Submit</Button>
           </DialogActions>
         </form>
       </Dialog>
