@@ -5,8 +5,8 @@ import "./service.css"
 
 function Service() {
   return (
-    <div>
-        <h1 className='headind'>Major Services</h1>
+    <div className='ourservicesection'>
+        <h1 className='sname'>Major Services</h1>
     
  
     <div className='grid'>

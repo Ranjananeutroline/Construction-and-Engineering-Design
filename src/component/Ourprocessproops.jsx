@@ -3,6 +3,7 @@ import "./Ourprocess.css"
 
 function Ourprocessproops({heading,description,image}) {
   return (
+    
     <div className='process'>
          <img src={image} 
     className="image"

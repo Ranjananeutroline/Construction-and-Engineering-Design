@@ -1,7 +1,20 @@
-.headind{
-    margin-bottom: 1rem;
-    margin-top: 1.5rem;
+.pname{
+    /* margin-bottom: 6rem; */
+    /* margin-top: 2rem; */
+    font-family:Calibri,sans-serif;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    
+
 }
+.ourprocesscss{
+    padding:3rem 1rem 3rem 1rem ;
+}
+.process{
+    margin-top: 2rem;
+}
+
 
 .image {
     /* width: 40%; */
@@ -18,13 +31,16 @@
 .info {
     color: black;
     padding-top: 10px;
+    font-family:Calibri,sans-serif;
     /* padding: 5px 10px; */
     /* text-align: center; */
     /* background-color: skyblue; */
 }
 .info p {
 width: 80%;
-margin: auto;   
+margin: auto; 
+font-family:Calibri,sans-serif;
+
 
 }
 
@@ -39,11 +55,12 @@ margin: auto;
 }
 
 .process:hover {
-    -ms-transform: scale(1.3); 
+    -ms-transform: scale(1.2); 
     /* -webkit-transform: scale(1.3);  */
-    transform: scale(1.3); 
+    transform: scale(1.2); 
     cursor: pointer; 
     transition:0.3s ;
+
     /* background: #bae6fd; */
     /* box-shadow: 2px 2px 2px #000; */
     /* z-index:99 ; */
