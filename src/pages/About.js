@@ -21,6 +21,7 @@ const About = () => {
       <OurPeople />
       <Job />
       <Location />
+     
     </div>
   );
 };

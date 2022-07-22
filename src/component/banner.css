@@ -1,0 +1,13 @@
+.heading{
+    font-family:'Raleway';
+    font-weight: bold; 
+    font-style: italic; 
+    color:black; 
+    padding-top: 10px; 
+    justify-content: center;
+
+}
+/* .banner{
+    height: 420px;;
+    width: 100%;
+} */
