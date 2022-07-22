@@ -238,9 +238,9 @@ export default function FormDialog() {
                 component="span"
                 className="file_button"
               >
-                Upload 
+                Upload file ...
               </Button>
-              <small style={{color:"red"}}>accepts docx,word,image,pdf</small>
+              <small style={{color:"#b1a40d"}}>accepts docx,word,image,pdf</small>
             </label>
           </DialogContent>
           <DialogActions>
