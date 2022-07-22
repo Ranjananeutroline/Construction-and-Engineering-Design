@@ -7,12 +7,13 @@ import ContactUs from './pages/ContactUs';
 
 
 
+
 function App() {
+  
   return (
     <div className="App">
     <About />
   <ContactUs />
-
     </div>
   );
 }
