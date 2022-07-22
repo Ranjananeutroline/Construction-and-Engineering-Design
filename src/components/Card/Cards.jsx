@@ -19,6 +19,7 @@ function Cards() {
           icon={<HiOutlineMail />}
           heading="Email"
           desc="info@neutroline.com"
+          link="mailto:info@neutroline.com"
         />
         <Card
           icon={<AiOutlineClockCircle />}
@@ -32,6 +33,7 @@ function Cards() {
           heading="HeadQuarters"
           desc="Shitalnagar, Devdaha-7," 
           desc_opt="Rupandehi, Nepal"
+          link="https://g.page/neutroline?share"
         />
         <Card
           icon={<BsChatDots />}

@@ -37,8 +37,8 @@ export default function FormDialog() {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-   
     setIsSubmit(true);
+    // setFormValues(initialValues)
   };
   React.useEffect(() => {
     // console.log(formErrors);
@@ -240,7 +240,7 @@ export default function FormDialog() {
               >
                 Upload 
               </Button>
-              <small className style={{color:"red"}}>accepts docx,word,image,pdf</small>
+              <small style={{color:"red"}}>accepts docx,word,image,pdf</small>
             </label>
           </DialogContent>
           <DialogActions>
