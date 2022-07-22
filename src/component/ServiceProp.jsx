@@ -6,16 +6,12 @@ function ServiceProp({heading,description ,image}) {
            <img src={image} 
            className="photo"
            alt="imageofservice" /> 
-
-       
       <article className="explanation">
        
         <h5>{heading}</h5>
         <p>
         {description}
         </p>
-
-       
       </article>
      </div>
   )

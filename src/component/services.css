@@ -1,17 +1,15 @@
 .heading{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Calibri,sans-serif;
     color: black;
     font-weight:bold;
-    font-style: italic;
     font-size: 30px;
     text-align: center;
     
     
 }
 h3{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Calibri,sans-serif;
     color: black;
     font-weight:bold;
-    font-style: italic;
     text-align: center;
 }

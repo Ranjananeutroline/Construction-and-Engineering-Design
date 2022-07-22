@@ -5,16 +5,22 @@ import  "./ourclient.css"
 
 function Ourclient() {
   return (
-    <div >
-     <h1 className='headind'> Our Client</h1>
+    <div className='ourclientsection' >
+     <h1 className='nclient'> Our Client</h1>
     
      <div  className='cgrid'>
-      <Ourclientproops clientPicture={require('./image/logo5.png')}/>      
-      <Ourclientproops clientPicture={require('./image/logo2.png')}/>
-      <Ourclientproops clientPicture={require('./image/logo3.png')}/>
-      <Ourclientproops clientPicture={require('./image/logo4.png')}/>
-      <Ourclientproops clientPicture={require('./image/logo5.png')}/>
-      <Ourclientproops clientPicture={require('./image/logo6.png')}/>
+      <Ourclientproops clientPicture={require('./image/logo5.jpg')}
+      cname='Nepal Government'/>      
+      <Ourclientproops clientPicture={require('./image/logo2.jpg')}
+      cname='NeutroLine'/>
+      <Ourclientproops clientPicture={require('./image/logo3.jpg')}
+      cname='Mercedes'/>
+      <Ourclientproops clientPicture={require('./image/logo4.jpg')}
+      cname='Tansen Cemente'/>
+      <Ourclientproops clientPicture={require('./image/logo1.jpg')}
+      cname='United Mission Hospital'/>
+      <Ourclientproops clientPicture={require('./image/logo6.jpg')}
+      cname='Tata Motor'/>
      
     </div>
     </div>

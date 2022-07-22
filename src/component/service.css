@@ -47,7 +47,13 @@
 .apple:hover  .explanation  {
     opacity: 1;
     transform: translateY(-190px);
-} */
+}
+ */
+
+ .card{
+    border-radius: 0px;
+}
+
 
 .grid{
     display: grid;
@@ -74,6 +80,4 @@
         }
     }
 }
-.card{
-    border-radius: 0px;
-}
+
