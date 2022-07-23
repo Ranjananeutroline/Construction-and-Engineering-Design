@@ -1,29 +1,24 @@
-import React from 'react'
-// import MessengerCustomerChat from 'react-messenger-customer-chat/lib/MessengerCustomerChat'
-import Cards from '../components/Card/Cards'
-// import Faq from '../components/FAQ/Faq'
-import GetInTouch from '../components/GetInTouch/GetInTouch'
-import Header from '../components/Header/Header'
-import MessengerChatHead from '../components/MessengerChatHead/MessengerChatHead'
-// import FixedButton from '../components/PopupForm/FixedButton'
-import FormDialog from '../components/PopupForm/FormDialog'
-// import Navbar from '../components/Navbar/Navbar'
+import React from "react";
+import Cards from "../components/contact-us/Card/Cards";
+import GetInTouch from "../components/contact-us/GetInTouch/GetInTouch";
+import Header from "../components/contact-us/Header/Header";
+import MessengerChatHead from "../components/contact-us/MessengerChatHead/MessengerChatHead";
+import FormDialog from "../components/contact-us/PopupForm/FormDialog";
+import Navbar from "../components/home/Navbar/Navbar";
 
 function ContactUs() {
   return (
     <div>
-        {/* <Navbar /> */}
-       
-        <Header />
-        {/* <FixedButton /> */}
-     <FormDialog />
-     <MessengerChatHead />
-        <Cards />
-        <GetInTouch />
-        {/* <Faq /> */}
-
+      <Navbar />
+      <Header />
+      {/* <FixedButton /> */}
+      <FormDialog />
+      <MessengerChatHead />
+      <Cards />
+      <GetInTouch />
+      {/* <Faq /> */}
     </div>
-  )
+  );
 }
 
-export default ContactUs
+export default ContactUs;
