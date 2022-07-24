@@ -12,7 +12,7 @@ export default function ClientCarousel() {
       <Carousel.Item>
       <Row className='client-section p-5'>
         <Col sm={4} className='client-column p-3'>
-            <div className='client-image p-2'>
+            <div className='client-image-circle p-2'>
             <img
               style={{height:200}}
               src="client2.jpg"
