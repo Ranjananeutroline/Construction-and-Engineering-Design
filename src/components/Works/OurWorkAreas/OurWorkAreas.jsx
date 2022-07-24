@@ -1,5 +1,6 @@
 import React from "react";
-
+import "./ourWorkAreas.css";
+import WorkAreasProps from "./WorkAreasProps";
 function OurWorkAreas() {
   return (
     <>
@@ -18,112 +19,10 @@ function OurWorkAreas() {
         <br />
         <div className="container p-5" style={{ backgroundColor: "white" }}>
           <div class="row p-3 justify-content-around">
-            <div class="col-sm-3">
-              <div
-                className="polaroid p-2"
-                style={{
-                  boxShadow:
-                    "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-                }}
-              >
-                <img
-                  src="image/workpageimg/workareaimg1.jpg"
-                  style={{ height: 200, width: "100%" }}
-                  alt="construction people working "
-                />
-
-                <div class="psmall-div pt-3 pb-1">
-                  <p
-                    style={{
-                      textAlign: "center",
-                      fontWeight: 500,
-                      fontSize: 18,
-                    }}
-                  >
-                    Building
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div
-                className="polaroid p-2"
-                style={{
-                  boxShadow:
-                    "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-                }}
-              >
-                <img
-                  src="image/workpageimg/workareaimg1.jpg"
-                  style={{ height: 200, width: "100%" }}
-                  alt="construction people working "
-                />
-
-                <div class="psmall-div pt-3 pb-1">
-                  <p
-                    style={{
-                      textAlign: "center",
-                      fontWeight: 500,
-                      fontSize: 18,
-                    }}
-                  >
-                    Building
-                  </p>
-                </div>
-              </div>
-            </div> <div class="col-sm-3">
-              <div
-                className="polaroid p-2"
-                style={{
-                  boxShadow:
-                    "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-                }}
-              >
-                <img
-                  src="image/workpageimg/workareaimg1.jpg"
-                  style={{ height: 200, width: "100%" }}
-                  alt="construction people working "
-                />
-
-                <div class="psmall-div pt-3 pb-1">
-                  <p
-                    style={{
-                      textAlign: "center",
-                      fontWeight: 500,
-                      fontSize: 18,
-                    }}
-                  >
-                    Building
-                  </p>
-                </div>
-              </div>
-            </div> <div class="col-sm-3">
-              <div
-                className="polaroid p-2"
-                style={{
-                  boxShadow:
-                    "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-                }}
-              >
-                <img
-                  src="image/workpageimg/workareaimg1.jpg"
-                  style={{ height: 200, width: "100%" }}
-                  alt="construction people working "
-                />
-
-                <div class="psmall-div pt-3 pb-1">
-                  <p
-                    style={{
-                      textAlign: "center",
-                      fontWeight: 500,
-                      fontSize: 18,
-                    }}
-                  >
-                    Building
-                  </p>
-                </div>
-              </div>
-            </div>
+            <WorkAreasProps heading="Building" image="image/workpageimg/workareaimg1.jpg"/>
+            <WorkAreasProps heading="Industrial" image="image/workpageimg/workareaimg2.jpg"/>
+            <WorkAreasProps heading="Mining" image="image/workpageimg/workareaimg3.jpg"/>
+            <WorkAreasProps heading="Transportation" image="image/workpageimg/workareaimg4.jpg"/>
           </div>
         </div>
       </div>

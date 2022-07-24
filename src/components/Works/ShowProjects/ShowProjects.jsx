@@ -4,13 +4,13 @@ function ShowProjects() {
   return (
     <>
       <div
-        classnamename="container-fluid p-4"
+        className="container-fluid p-4"
         style={{ backgroundColor: "rgb(231, 243, 247)" }}
       >
-        <div classNameName="container p-2">
-          <div classNameName="row p-3 justify-content-center">
+        <div className="container p-2">
+          <div className="row p-3 justify-content-center">
             <div
-              classnamename="col-md-5 p-2"
+              className="col-md-5 p-2"
               style={{
                 textAlign: "center",
                 borderBottom: "2px solid orangered",
@@ -31,14 +31,14 @@ function ShowProjects() {
             </div>
           </div>
           <br />
-          <div classname="row p-3"
+          <div className="row p-3"
             style={{
               backgroundColor: "white",
               boxShadow:
                 "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
             }}
           >
-            <div classname="col-md-4 flip-card p-3" style={{ height: 330 }}>
+            <div className="col-md-4 flip-card p-3" style={{ height: 330 }}>
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img
@@ -61,7 +61,7 @@ function ShowProjects() {
               </div>
             </div>
 
-            <div classname="col-md-4 flip-card p-3" style={{ height: 330 }}>
+            <div className="col-md-4 flip-card p-3" style={{ height: 330 }}>
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img
@@ -83,7 +83,7 @@ function ShowProjects() {
                 </div>
               </div>
             </div>
-            <div classname="col-md-4 flip-card p-3" style={{ height: 330 }}>
+            <div className="col-md-4 flip-card p-3" style={{ height: 330 }}>
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img
@@ -107,14 +107,14 @@ function ShowProjects() {
             </div>
           </div>
 
-          <div classname="row p-3"
+          <div className="row p-3"
             style={{
               backgroundColor: "white",
               boxShadow:
                 "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
             }}
           >
-            <div classname="col-md-4 flip-card p-3" style={{ height: 330 }}>
+            <div className="col-md-4 flip-card p-3" style={{ height: 330 }}>
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img
@@ -137,7 +137,7 @@ function ShowProjects() {
               </div>
             </div>
 
-            <div classname="col-md-4 flip-card p-3" style={{ height: 330 }}>
+            <div className="col-md-4 flip-card p-3" style={{ height: 330 }}>
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img
@@ -159,7 +159,7 @@ function ShowProjects() {
                 </div>
               </div>
             </div>
-            <div classname="col-md-4 flip-card p-3" style={{ height: 330 }}>
+            <div className="col-md-4 flip-card p-3" style={{ height: 330 }}>
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img
@@ -182,14 +182,14 @@ function ShowProjects() {
               </div>
             </div>
           </div>
-          <div classname="row p-3"
+          <div className="row p-3"
             style={{
               backgroundColor: "white",
               boxShadow:
                 "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
             }}
           >
-            <div classname="col-md-4 flip-card p-3" style={{ height: 330 }}>
+            <div className="col-md-4 flip-card p-3" style={{ height: 330 }}>
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img
@@ -212,7 +212,7 @@ function ShowProjects() {
               </div>
             </div>
 
-            <div classname="col-md-4 flip-card p-3" style={{ height: 330 }}>
+            <div className="col-md-4 flip-card p-3" style={{ height: 330 }}>
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img
@@ -234,7 +234,7 @@ function ShowProjects() {
                 </div>
               </div>
             </div>
-            <div classname="col-md-4 flip-card p-3" style={{ height: 330 }}>
+            <div className="col-md-4 flip-card p-3" style={{ height: 330 }}>
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img
