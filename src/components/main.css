@@ -4,3 +4,23 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.container
+{
+    background-color: lightblue;
+}
+.client-caption h5
+{
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 5px;
+   
+}
+.client-caption p
+{
+    text-align: center;
+    font-size: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
