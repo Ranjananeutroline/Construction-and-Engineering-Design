@@ -1,11 +1,13 @@
 .button
 {
-    padding-left: 22px;
-    
+    padding-left: 22px;    
 }
 /* .mySlides {
     display: none;
 } */
+.service_top{
+    padding:3rem;
+}
 .dot {
     cursor: pointer;
     height: 8px;
@@ -26,4 +28,29 @@
 }
 .ourService_card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin:1rem 0; */
+margin:auto;
 }
+.service_top{
+    margin:0 5rem ;
+    padding:2rem;
+}
+.service_carousel{
+    padding:1.5rem;
+}
+
+@media (min-width:580px)and (max-width:843px){
+    .service_col{
+        width:33%;
+    }
+   div.service_top{
+        padding:0;
+    margin:0;
+    }
+    .service_carousel{
+        padding:0;
+    }
+}
+
+
+

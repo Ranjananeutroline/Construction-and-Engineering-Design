@@ -3,7 +3,7 @@ import React from 'react'
 function OurClientProps() {
   return (
     <>
-      <div className="item p-5 col-md-4" style={{ height: "300px", width: "300px" }}>
+      <div className="item client_box col-md-4 ">
             <img
               src="image/client2.jpg"
               style={{
@@ -11,6 +11,7 @@ function OurClientProps() {
                   "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
                 padding: "5px",
                 borderRadius: "50%",
+                width:"100%",
               }}
               alt="company logo"
             />

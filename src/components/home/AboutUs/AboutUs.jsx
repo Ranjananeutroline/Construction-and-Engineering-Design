@@ -5,21 +5,14 @@ function AboutUs() {
     <>
       <div className="bg-white aboutus_container">
         {" "}
-        <div className="container pt-5">
+        <div className="container-sm reverse aboutus">
           <div className="row">
             <div className="col-sm-6">
               <h4 style={{ paddingLeft: "20px", fontSize: "25px" }}>
                 About Us
               </h4>
               <p
-                style={{
-                  paddingLeft: "20px",
-                  paddingRight: "35px",
-                  fontSize: "15px",
-                  paddingTop: "10px",
-                  textAlign: "justify",
-                  fontFamily: "calibri",
-                }}
+              className="aboutus_paragraph"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

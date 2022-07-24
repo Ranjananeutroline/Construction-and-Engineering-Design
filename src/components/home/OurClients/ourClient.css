@@ -1,3 +1,21 @@
 .ourClient_container{
-    margin-bottom:3rem;
+    /* margin-bottom:3rem; */
+    margin:auto;
+
+}
+.client_box{
+    padding: 0 2rem ;
+  width:80%;
+  margin:0;
+    /* margin:auto; */
+}
+
+@media screen and (max-width:843px){
+    .client-section .client_box{
+        width:80%;
+    margin:auto;
+    }
+    .client_box{
+        padding:0;
+    }
 }

@@ -26,7 +26,7 @@ function OurTeam() {
             </div>
         </div> */}
 
-        <div className="container" >
+        <div className="ourteam" >
           <Carousel className="ourTeam_container">
             <Carousel.Item>
               <Row >

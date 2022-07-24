@@ -6,11 +6,11 @@ import "./ourClient.css"
 function OurClients() {
   return (
     <>
-   <div className='container ourClient_container'>
+   <div className='container-md ourClient_container '>
     <h2 style={{textAlign:"center",textTransform:"uppercase"}}>Our Clients</h2>
-       <Carousel>
+       <Carousel >
       <Carousel.Item>
-      <Row className='client-section p-2'>
+      <Row className='client-section p-2 m-auto '>
         <Col sm={4}>
       <OurClientProps />
         </Col>

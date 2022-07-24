@@ -1,3 +1,6 @@
+.ourteam{
+    margin:2rem;
+}
 .item img{
     display: block;
     width: 100%;
@@ -9,4 +12,15 @@
 }
 .team_whole_container{
     padding:2rem 0;
+}
+.team_prop{
+    padding:2rem;
+}
+@media screen and (max-width:800px) {
+    .ourteam{
+        margin:.5rem;
+    }
+    .team_prop{
+        padding: 2rem 0rem;
+    }
 }

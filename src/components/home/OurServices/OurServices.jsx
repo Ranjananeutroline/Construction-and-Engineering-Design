@@ -23,26 +23,26 @@ function OurServices() {
         </p>
         <br />
         <div
-          className="slideshow-container-xxl p-5 carousel slide"
+          className="slideshow-container-xxl carousel slide service_top"
           id="carouselExampleSlidesOnly"
           data-bs-ride="carousel"
           style={{ backgroundColor: "rgb(231, 243, 247)" }}
         >
-          <Carousel>
-            <Carousel.Item>
+          <Carousel className="service_carousel">
+            <Carousel.Item interval={5000}>
               <Row className="justify-content-around">
-                <Col sm={3}>
+                <Col sm={4} className="service_col">
                   <PropsServices />
                 </Col>
-                <Col sm={3}>
+                <Col sm={4}>
                   <PropsServices />
                 </Col>
-                <Col sm={3}>
+                <Col sm={4}>
                   <PropsServices />
                 </Col>
               </Row>
             </Carousel.Item>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={5000}>
               <Row className="justify-content-around">
                 <Col sm={3}>
                   <PropsServices />

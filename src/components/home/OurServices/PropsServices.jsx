@@ -3,7 +3,7 @@ import React from 'react'
 function PropsServices() {
   return (
     <>
-      <div >
+      <div style={{marginBottom:"1rem"}}>
                 <div
                   className="card p-2 ourService_card"
                   style={{
@@ -23,6 +23,7 @@ function PropsServices() {
                         textAlign: "center",
                         fontSize: "15px",
                         padding: "10px",
+                        
                       }}
                     >
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
