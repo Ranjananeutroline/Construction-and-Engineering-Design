@@ -8,7 +8,7 @@ function Ourprocess() {
     <div className='ourprocesscss'>
         <h1 className='pname'> Our Process</h1>
     <div className='pgrid'>
-         <Ourprocessproops  image={require('./image/p1.jpg')}   
+      <Ourprocessproops  image={require('./image/p1.jpg')}   
       heading="Meeting" 
        description="meet with
        our clients to discuss 

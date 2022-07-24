@@ -80,13 +80,7 @@
   margin-right: 10px;
   color: green;
 }
-.fourth .box1:hover {
-  /* background-color: rgb(205, 231, 239);  */
-  /* color:green; */
-  /* height: 110px;
-    width: 220px;
-    font-size: 20%; */
-}
+
 
 .vision_image_grid {
   background: #ffffff;
@@ -154,5 +148,8 @@
     grid-template-columns:33% 33% 33%; 
     grid-column-gap: .4rem;
     padding:1rem;
+  }
+  .fourth .visions{
+    margin-left: 0;
   }
 }

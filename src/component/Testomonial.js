@@ -17,11 +17,12 @@ export class Testomonial extends Component {
       <Carousel.Item>
         <Image
           className="carimage"
-          src={c1}
+         src={c2}
           alt="First slide"
+         
         />
         <Carousel.Caption>
-          <img src={pr1} className='profile' alt='profileimage' fluid></img>
+          <img src={pr2} className='profile' alt='profileimage' fluid></img>
           <h4>Ram parshad khattri</h4>
           <h5>CEO</h5>
           <h6>Nepal chamber of commerce</h6>
@@ -47,12 +48,12 @@ export class Testomonial extends Component {
       <Carousel.Item>
       <Image
           className="carimage"
-          src={c3}
+          src={c2}
           alt="Third slide"
         />
 
         <Carousel.Caption>
-        <img src={pr3} className='profile' alt='profileimage' fluid></img>
+        <img src={pr2} className='profile' alt='profileimage' fluid></img>
           <h4>Gita Kumari Shrestha</h4>
           <h5>President</h5>
           <h6>Nepal Nursing Council</h6>

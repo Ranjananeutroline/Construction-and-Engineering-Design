@@ -9,10 +9,12 @@
 
 }
 .ourprocesscss{
-    padding:3rem 1rem 3rem 1rem ;
+    padding:2rem 1rem 3rem 1rem ;
+    /* background-color: rgb(231, 243, 247); */
 }
 .process{
     margin-top: 2rem;
+    
 }
 .process{
     display: flex;
@@ -20,7 +22,11 @@
     justify-content: center;
     align-items: center;
   }
-
+.process img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .image {
     /* width: 40%; */
@@ -29,18 +35,20 @@
     /* height: 40%; */
     border-radius: 100%;
     /* justify-content: center;  */
-    margin: 2%;
+    /* margin: 2%; */
     /* display: flex; */
     /* padding-left: 150px; */
     
+    
 }
-.process article .info {
+.process article  {
     color: black;
-    padding-top: 10px;
     font-family:Calibri,sans-serif;
     /* padding: 5px 10px; */
     /* text-align: center; */
     /* background-color: skyblue; */
+    padding-top: 1.5rem;
+  
 }
 .info p {
 width: 80%;

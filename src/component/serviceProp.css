@@ -8,7 +8,7 @@
   .App {
     /* background-color: black; */
     width: 10rem;
-    margin:1rem;
+    /* margin:1rem; */
     
     display:inline;
   }
@@ -55,6 +55,7 @@
   }
   .ourservicesection{
     background: rgb(225, 238, 245);
+    padding: 2rem;
 
   }
   .sname{

@@ -20,7 +20,7 @@ function OurTeam() {
           <div className="member2 member">
             <OurTeamProp
               name="Dibya"
-              testimonial="I love the experience where the team mates are helpful and skillfull.I love the experience where the team mates are helpful and skillfull."
+              testimonial="I love the experience where the team mates are helpful and skillfull."
               position="Developer"
             />
           </div>
