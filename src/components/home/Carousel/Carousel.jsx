@@ -8,6 +8,7 @@ function Carousel() {
         className="carousel slide carousel-fade"
         data-bs-ride="carousel"
         data-interval="1000"
+        style={{paddingTop:"5rem"}}
       >
         {/* Indicators/dots */}
         <div className="carousel-indicators">

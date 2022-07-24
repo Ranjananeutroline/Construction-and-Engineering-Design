@@ -3,10 +3,10 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <div class="footer-container-fluid">
-        <div class="row p-2">
+      <div className="footer-container-fluid">
+        <div className="row p-2">
           <div
-            class="col-sm-3 p-3"
+            className="col-sm-3 p-3"
             style={{
               border: "1px solid",
               backgroundColor: "navy",
@@ -60,30 +60,30 @@ function Footer() {
               className="row justify-content-around"
               style={{ textAlign: "center" }}
             >
-              <div class="col-md-12">
+              <div className="col-md-12">
                 <img
-                  class="rounded-circle"
+                  className="rounded-circle"
                   src="image/linkedin.png"
                   height="30px"
                   width="30px;"
                   alt="social media icon"
                 />
                 <img
-                  class="rounded-circle"
+                  className="rounded-circle"
                   src="image/facebook.png"
                   height="30px"
                   width="30px;"
                   alt="social media icon"
                 />
                 <img
-                  class="rounded-circle"
+                  className="rounded-circle"
                   src="image/twitt.jpg"
                   height="30px"
                   width="30px;"
                   alt="social media icon"
                 />
                 <img
-                  class="rounded-circle"
+                  className="rounded-circle"
                   src="image/insta.png"
                   height="30px"
                   width="30px;"
@@ -148,7 +148,7 @@ function Footer() {
             >
               <div className="col-md-3" style={{ textAlign: "end" }}>
                 <img
-                  class="rounded-circle"
+                  className="rounded-circle"
                   src="image/footerlocation.png"
                   height="25px"
                   width="25px;"
@@ -168,7 +168,7 @@ function Footer() {
             >
               <div className="col-md-3" style={{ textAlign: "end" }}>
                 <img
-                  class="rounded-circle"
+                  className="rounded-circle"
                   src="image/footermail.png"
                   height="25px"
                   width="25px;"
@@ -188,7 +188,7 @@ function Footer() {
             >
               <div className="col-md-3" style={{ textAlign: "end" }}>
                 <img
-                  class="rounded-circle"
+                  className="rounded-circle"
                   src="image/footercall.jpg"
                   height="25px"
                   width="25px;"

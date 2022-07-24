@@ -5,6 +5,7 @@ import Header from "../components/contact-us/Header/Header";
 import MessengerChatHead from "../components/contact-us/MessengerChatHead/MessengerChatHead";
 import FormDialog from "../components/contact-us/PopupForm/FormDialog";
 import Navbar from "../components/home/Navbar/Navbar";
+import Footer from "../components/home/Footer/Footer"
 
 function ContactUs() {
   return (
@@ -16,6 +17,7 @@ function ContactUs() {
       <MessengerChatHead />
       <Cards />
       <GetInTouch />
+      <Footer />
       {/* <Faq /> */}
     </div>
   );

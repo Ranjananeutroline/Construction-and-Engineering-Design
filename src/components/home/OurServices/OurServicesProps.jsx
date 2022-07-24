@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
 
 function OurServicesProps() {
   return (
     <>
-    
-{/* our works starts here */}
-<div className="container-md">
+      {/* our works starts here */}
+      <div className="container-md">
         <div
           id="demo"
           className="carousel slide"
@@ -242,7 +241,7 @@ function OurServicesProps() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default OurServicesProps
+export default OurServicesProps;

@@ -11,16 +11,16 @@ function ContactUs() {
                 style={{backgroundColor: "white",boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
                 <form>
                     <div className="mb-3 mt-3">
-                        <label for="name" style={{paddingBottom: "2px"}}>Name:</label>
+                        <label htmlFor="name" style={{paddingBottom: "2px"}}>Name:</label>
                         <input type="name" className="form-control" id="name" placeholder="Enter name" name="name" />
                     </div>
                     <div className="mb-3 mt-3">
-                        <label for="name" style={{paddingBottom: "2px"}}>Email:</label>
+                        <label htmlFor="name" style={{paddingBottom: "2px"}}>Email:</label>
                         <input type="name" className="form-control" id="email" placeholder="Enter email" name="email" />
                     </div>
                     <div className="row">
                         <div className="col-sm-4">
-                            <label for="country" style={{paddingBottom: "2px"}}>Country:</label>
+                            <label htmlFor="country" style={{paddingBottom: "2px"}}>Country:</label>
                             <select className="form-select">
                                 <option>Nepal +977</option>
                                 <option>India</option>
@@ -29,18 +29,18 @@ function ContactUs() {
                             </select>
                         </div>
                         <div className="col-sm-8">
-                            <label for="phone" style={{paddingBottom: "2px"}}>Phone:</label>
+                            <label htmlFor="phone" style={{paddingBottom: "2px"}}>Phone:</label>
                             <input type="phone" className="form-control" id="email" placeholder="Enter number" name="phone" />
                         </div>
                     </div>
                     <div className="mb-3 mt-3">
-                        <label for="comment" style={{paddingBottom: "2px"}}>Your message:</label>
+                        <label htmlFor="comment" style={{paddingBottom: "2px"}}>Your message:</label>
                         <textarea className="form-control" rows="5" id="comment" placeholder="please describe what you need"
                             name="text"></textarea>
                     </div>
                     <div>
                         <input type="checkbox" id="agree" name="agree" value="Terms" />
-                        <label for="agree" style={{fontSize:"12px"}}>I agree to the Terms of Service and Privacy
+                        <label htmlFor="agree" style={{fontSize:"12px"}}>I agree to the Terms of Service and Privacy
                             Policy.</label>
                     </div>
 
@@ -48,7 +48,7 @@ function ContactUs() {
                         <div className="col-sm-4 p-2"
                             style={{backgroundColor:"white", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 5px 18px 0 rgba(0, 0, 0, 0.15)"}}>
                             <input type="checkbox" id="recaptcha" name="recaptcha" value="Condition" />
-                            <label for="recaptcha" style={{fontSize:"12px"}}>I'm not a robot</label>
+                            <label htmlFor="recaptcha" style={{fontSize:"12px"}}>I'm not a robot</label>
                             <div style={{float: "right",paddingRight:"14px", textAlign:"start"}}>
                                 <img className="rounded-circle" src="image/recaptcha_image.jpg" height="30px" width="38px;" alt="icon"/>
                             </div>

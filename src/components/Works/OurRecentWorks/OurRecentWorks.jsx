@@ -5,10 +5,10 @@ import RecentWorkButtonFeatProps from "./RecentWorkButtonFeatProps";
 function OurRecentWorks() {
   return (
     <>
-      <div classname="container-sm p-6" style={{ paddingTop: "10rem", backgroundColor:"white" }}>
+      <div className="container-sm p-6 recent_works" style={{ paddingTop: "10rem"}}>
         <div className="row justify-content-center">
           <div
-            classname="col-md-6"
+            className="col-md-6"
             style={{
               height: 75,
               width: 400,
@@ -26,7 +26,7 @@ function OurRecentWorks() {
           </div>
         </div>
         <div className="row justify-content-center">
-          <div classname="col-md-8 p-2" style={{ textAlign: "center" }}>
+          <div className="col-md-8 p-2" style={{ textAlign: "center" }}>
             <p style={{ textAlign: "center", fontSize: 15 }}>
               Here are some of our works that acts as evidence of our successful
               status.
@@ -40,17 +40,17 @@ function OurRecentWorks() {
         </div>
       </div>
 
-      <div className="container-fluid" style={{ textAlign: "center", paddingBottom:"3rem" }}>
+      <div className="container-fluid recent_works" style={{ textAlign: "center", paddingBottom:"3rem" }}>
         <div className="work-btn">
           <button
-            className="button "
+            className="ourWorks_button"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.253)" }}
           >
             Featured
           </button>
        
         <button
-          className="button"
+          className="ourWorks_button"
           data-bs-toggle="offcanvas"
           data-bs-target="#design"
         >
@@ -58,7 +58,7 @@ function OurRecentWorks() {
         </button>
 
         <button
-          className="button"
+          className="ourWorks_button"
           data-bs-toggle="offcanvas"
           data-bs-target="#quality"
         >
@@ -66,7 +66,7 @@ function OurRecentWorks() {
         </button>
 
         <button
-          className="button"
+          className="ourWorks_button"
           data-bs-toggle="offcanvas"
           data-bs-target="#experience"
         >

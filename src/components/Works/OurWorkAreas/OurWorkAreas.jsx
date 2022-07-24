@@ -18,7 +18,7 @@ function OurWorkAreas() {
         </h4>
         <br />
         <div className="container p-5" style={{ backgroundColor: "white" }}>
-          <div class="row p-3 justify-content-around">
+          <div className="row p-3 justify-content-around">
             <WorkAreasProps heading="Building" image="image/workpageimg/workareaimg1.jpg"/>
             <WorkAreasProps heading="Industrial" image="image/workpageimg/workareaimg2.jpg"/>
             <WorkAreasProps heading="Mining" image="image/workpageimg/workareaimg3.jpg"/>
@@ -26,8 +26,7 @@ function OurWorkAreas() {
           </div>
         </div>
       </div>
-      <br />
-      <br />
+     
     </>
   );
 }

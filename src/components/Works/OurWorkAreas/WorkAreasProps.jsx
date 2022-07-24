@@ -3,7 +3,7 @@ import React from "react";
 function WorkAreasProps({image,heading}) {
   return (
     <>
-      <div class="col-sm-3">
+      <div className="col-sm-3">
         <div
           className="polaroid p-2"
           style={{
@@ -18,7 +18,7 @@ function WorkAreasProps({image,heading}) {
             alt="construction people working "
           />
 
-          <div class="psmall-div pt-3 pb-1">
+          <div className="psmall-div pt-3 pb-1">
             <p
               style={{
                 textAlign: "center",
