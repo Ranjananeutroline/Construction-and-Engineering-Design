@@ -1,10 +1,11 @@
 import React from "react";
+import "./footer.css";
 
 function Footer() {
   return (
     <>
       <div className="footer-container-fluid">
-        <div className="row p-2">
+        <div className="row ">
           <div
             className="col-sm-3 p-3"
             style={{
@@ -62,28 +63,29 @@ function Footer() {
             >
               <div className="col-md-12">
                 <img
-                  className="rounded-circle"
+                  className="rounded-circle footer_icon"
                   src="image/linkedin.png"
                   height="30px"
                   width="30px;"
                   alt="social media icon"
+                
                 />
                 <img
-                  className="rounded-circle"
+                  className="rounded-circle footer_icon"
                   src="image/facebook.png"
                   height="30px"
                   width="30px;"
                   alt="social media icon"
                 />
                 <img
-                  className="rounded-circle"
+                  className="rounded-circle footer_icon"
                   src="image/twitt.jpg"
                   height="30px"
                   width="30px;"
                   alt="social media icon"
                 />
                 <img
-                  className="rounded-circle"
+                  className="rounded-circle footer_icon" 
                   src="image/insta.png"
                   height="30px"
                   width="30px;"

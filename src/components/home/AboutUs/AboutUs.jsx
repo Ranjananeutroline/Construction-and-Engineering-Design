@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./aboutus.css"
 function AboutUs() {
   return (
     <>
-      <div className="bg-white">
+      <div className="bg-white aboutus_container">
         {" "}
         <div className="container pt-5">
           <div className="row">

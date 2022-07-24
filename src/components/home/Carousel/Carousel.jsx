@@ -8,7 +8,7 @@ function Carousel() {
         className="carousel slide carousel-fade"
         data-bs-ride="carousel"
         data-interval="1000"
-        style={{paddingTop:"5rem"}}
+        style={{ paddingTop: "5rem" }}
       >
         {/* Indicators/dots */}
         <div className="carousel-indicators">
@@ -43,8 +43,10 @@ function Carousel() {
               <div className="carousel-caption">
                 <h1 style={{ fontSize: "35px" }}>WE BUILD WITH PASSION</h1>
                 <p>
-                  Manufacturing Solutions Better way of Production Making your
-                  vision become a reality
+                  <span style={{ display: "block" }}>
+                    Manufacturing Solutions Better way of Production{" "}
+                  </span>
+                  Making your vision become a reality.
                 </p>
               </div>
             </div>
@@ -58,8 +60,10 @@ function Carousel() {
               <div className="carousel-caption">
                 <h1 style={{ fontSize: "35px" }}>WE BUILD WITH PASSION</h1>
                 <p>
-                  Manufacturing Solutions Better way of Production Making your
-                  vision become a reality
+                  <span style={{ display: "block" }}>
+                    Manufacturing Solutions Better way of Production{" "}
+                  </span>
+                  Making your vision become a reality.
                 </p>
               </div>
             </div>
@@ -73,8 +77,10 @@ function Carousel() {
               <div className="carousel-caption">
                 <h1 style={{ fontSize: "35px" }}>WE BUILD WITH PASSION</h1>
                 <p>
-                  Manufacturing Solutions Better way of Production Making your
-                  vision become a reality
+                  <span style={{ display: "block" }}>
+                    Manufacturing Solutions Better way of Production{" "}
+                  </span>
+                  Making your vision become a reality.
                 </p>
               </div>
             </div>

@@ -1,6 +1,8 @@
 import React from "react";
+import { Carousel, Col, Row } from "react-bootstrap";
 import "./ourServices.css";
 import OurServicesProps from "./OurServicesProps";
+import PropsServices from "./PropsServices";
 
 function OurServices() {
   return (
@@ -11,6 +13,7 @@ function OurServices() {
             textAlign: "center",
             fontweight: "bolder",
             fontFamily: "arial",
+            fontWeight:"600",
           }}
         >
           Our Services
@@ -20,186 +23,40 @@ function OurServices() {
         </p>
         <br />
         <div
-          className="slideshow-container-xxl p-5 carousel slide"  id="carouselExampleSlidesOnly" data-bs-ride="carousel"
+          className="slideshow-container-xxl p-5 carousel slide"
+          id="carouselExampleSlidesOnly"
+          data-bs-ride="carousel"
           style={{ backgroundColor: "rgb(231, 243, 247)" }}
         >
-          <div className="mySlides active">
-            <div className="row justify-content-around responsive">
-              <div className="col-md-3">
-                <div
-                  className="card p-2"
-                  style={{
-                    boxShadow:
-                      "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-                  }}
-                >
-                  <img
-                    className="card-img-top"
-                    src="image/service1.jpg"
-                    alt="carousel of nice place"
-                  />
-                  <div className="card-body">
-                    <h5 style={{ textAlign: "center" }}>Service 1</h5>
-                    <p
-                      style={{
-                        textAlign: "center",
-                        fontSize: "15px",
-                        padding: "10px",
-                      }}
-                    >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div
-                  className="card p-2"
-                  style={{
-                    boxShadow:
-                      "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-                  }}
-                >
-                  <img
-                    className="card-img-top"
-                    src="image/service2.jpg"
-                    alt="Card of the person"
-                  />
-                  <div className="card-body">
-                    <h5 style={{ textAlign: "center" }}>Service 2</h5>
-                    <p
-                      style={{
-                        textAlign: "center ,justify",
-                        fontSize: "15px",
-                        padding: "10px",
-                      }}
-                    >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div
-                  className="card p-2"
-                  style={{
-                    boxShadow:
-                      " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-                  }}
-                >
-                  <img
-                    className="card-img-top"
-                    src="image/service3.jpg"
-                    alt="Card people of the name"
-                  />
-                  <div className="card-body">
-                    <h5 style={{ textAlign: "center" }}>Service 3</h5>
-                    <p
-                      style={{
-                        textAlign: "center",
-                        fontSize: "15px",
-                        padding: "10px",
-                      }}
-                    >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Carousel>
+            <Carousel.Item>
+              <Row className="justify-content-around">
+                <Col sm={3}>
+                  <PropsServices />
+                </Col>
+                <Col sm={3}>
+                  <PropsServices />
+                </Col>
+                <Col sm={3}>
+                  <PropsServices />
+                </Col>
+              </Row>
+            </Carousel.Item>
+            <Carousel.Item interval={1000}>
+              <Row className="justify-content-around">
+                <Col sm={3}>
+                  <PropsServices />
+                </Col>
+                <Col sm={3}>
+                  <PropsServices />
+                </Col>
+                <Col sm={3}>
+                  <PropsServices />
+                </Col>
+              </Row>
+            </Carousel.Item>
+          </Carousel>
 
-          <div className="mySlides">
-            <div className="row justify-content-around responsive">
-              <div className="col-md-3">
-                <div
-                  className="card p-2"
-                  style={{
-                    boxShadow:
-                      "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-                  }}
-                >
-                  <img
-                    className="card-img-top"
-                    src="image/service4.jpg"
-                    alt="Card"
-                  />
-                  <div className="card-body">
-                    <h5 style={{ textAlign: "center" }}>Service 4</h5>
-                    <p
-                      style={{
-                        textAlign: "center",
-                        fontSize: "15px",
-                        padding: "10px",
-                      }}
-                    >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div
-                  className="card p-2"
-                  style={{
-                    boxShadow:
-                      " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-                  }}
-                >
-                  <img
-                    className="card-img-top"
-                    src="image/service5.jpg"
-                    alt="Card"
-                  />
-                  <div className="card-body">
-                    <h5 style={{ textAlign: "center" }}>Service 5</h5>
-                    <p
-                      style={{
-                        textAlign: "center",
-                        fontSize: "15px",
-                        padding: "10px",
-                      }}
-                    >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div
-                  className="card p-2"
-                  style={{
-                    boxShadow:
-                      "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-                  }}
-                >
-                  <img
-                    className="card-img-top"
-                    src="image/service6.jpg"
-                    alt="Card"
-                  />
-                  <div className="card-body">
-                    <h5 style={{ textAlign: "center" }}>Service 6</h5>
-                    <p
-                      style={{
-                        textAlign: "center",
-                        fontSize: "15px",
-                        padding: "10px",
-                      }}
-                    >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
           <br />
           {/* The dots/circles */}
           <div style={{ textAlign: "center" }}>
@@ -220,8 +77,7 @@ function OurServices() {
       </div>
 
       {/* our works starts here */}
-<OurServicesProps />
-      
+      {/* <OurServicesProps /> */}
     </>
   );
 }

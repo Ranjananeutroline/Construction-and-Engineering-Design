@@ -2,11 +2,12 @@
 import React from "react";
 import {Carousel, Col, Row } from "react-bootstrap";
 import OurClientProps from "./OurClientProps";
-
+import "./ourClient.css"
 function OurClients() {
   return (
     <>
-   <div className='container'>
+   <div className='container ourClient_container'>
+    <h2 style={{textAlign:"center",textTransform:"uppercase"}}>Our Clients</h2>
        <Carousel>
       <Carousel.Item>
       <Row className='client-section p-2'>
@@ -22,7 +23,7 @@ function OurClients() {
         
         </Row>
         </Carousel.Item>
-        <Carousel.Item interval={500}>
+        <Carousel.Item interval={1500}>
         <Row className='client-section p-2'>
         <Col sm={4}>
       <OurClientProps />

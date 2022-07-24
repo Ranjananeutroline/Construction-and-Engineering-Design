@@ -9,6 +9,7 @@ import OurTeam from '../components/home/OurTeam/OurTeam';
 import OurClients from '../components/home/OurClients/OurClients';
 import ContactUs from '../components/home/ContactUs/ContactUs';
 import Footer from '../components/home/Footer/Footer';
+import OurWorks from '../components/home/OurWorks/OurWorks';
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
     <Carousel />
     <AboutUs />
     <OurServices />
+    <OurWorks />
     <OurTeam />
     <OurClients />
     <ContactUs />
