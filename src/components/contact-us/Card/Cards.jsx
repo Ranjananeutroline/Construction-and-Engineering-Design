@@ -26,7 +26,8 @@ function Cards() {
           heading="Working hours"
           desc="Open Sunday to Friday" 
           desc_opt="10:00AM - 6:00PM"
-          className="mt-3"
+          className="card_margin"
+          style={{marginTop:"3rem"}}
         />
         <Card
           icon={<FaRegBuilding />}

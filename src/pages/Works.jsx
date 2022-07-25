@@ -4,6 +4,7 @@ import OurRecentWorks from '../components/Works/OurRecentWorks/OurRecentWorks'
 import ShowProjects from '../components/Works/ShowProjects/ShowProjects'
 import Footer from "../components/home/Footer/Footer"
 import OurWorkAreas from '../components/Works/OurWorkAreas/OurWorkAreas'
+import ProjectWork from '../components/Works/ShowProjects/ProjectWork'
 // import WorkFooter from "../components/Works/ourWorksFooter/WorkFooter"
 
 function Works() {
@@ -11,7 +12,8 @@ function Works() {
     <>
     <Navbar />
     <OurRecentWorks />
-    <ShowProjects />
+    {/* <ShowProjects /> */}
+    <ProjectWork />
     <OurWorkAreas/>
     <Footer />
     {/* <WorkFooter /> */}

@@ -41,7 +41,7 @@ function Navbar() {
              <NavbarProps link="/"  name="About"/>
              <NavbarProps link="/"  name="Services"/>
              <NavbarProps link="/works"  name="Works"/>
-             <NavbarProps link="/contactus"  name="Contact"/>
+             <NavbarProps link="/contactus"  name="Contact Us"/>
               
               </ul>
             </div>

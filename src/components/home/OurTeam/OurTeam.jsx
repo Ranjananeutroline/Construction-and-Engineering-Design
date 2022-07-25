@@ -57,9 +57,6 @@ function OurTeam() {
           </Carousel>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
     </>
   );
 }

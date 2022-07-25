@@ -34,45 +34,29 @@ function OurServices() {
                 <Col sm={4} className="service_col">
                   <PropsServices />
                 </Col>
-                <Col sm={4}>
+                <Col sm={4} className="service_col">
                   <PropsServices />
                 </Col>
-                <Col sm={4}>
+                <Col sm={4} className="service_col">
                   <PropsServices />
                 </Col>
               </Row>
             </Carousel.Item>
             <Carousel.Item interval={5000}>
               <Row className="justify-content-around">
-                <Col sm={3}>
+                <Col sm={4} className="service_col">
                   <PropsServices />
                 </Col>
-                <Col sm={3}>
+                <Col sm={4} className="service_col">
                   <PropsServices />
                 </Col>
-                <Col sm={3}>
+                <Col sm={4} className="service_col">
                   <PropsServices />
                 </Col>
               </Row>
             </Carousel.Item>
           </Carousel>
-
-          <br />
-          {/* The dots/circles */}
-          <div style={{ textAlign: "center" }}>
-            <span className="dot" onClick="currentSlide(1)"></span>
-            <span className="dot" onClick="currentSlide(2)"></span>
-          </div>
-          {/* our services button  */}
-          <div className="button p-1" style={{ textAlign: "center" }}>
-            <input
-              type="button"
-              name="btn"
-              value="See more"
-              id="read"
-              className="btn btn-outline-secondary btn-sm"
-            />
-          </div>
+      
         </div>
       </div>
 

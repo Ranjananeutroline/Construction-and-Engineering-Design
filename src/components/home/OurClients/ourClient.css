@@ -1,13 +1,17 @@
 .ourClient_container{
     /* margin-bottom:3rem; */
     margin:auto;
+    /* padding:2rem; */
 
 }
 .client_box{
-    padding: 0 2rem ;
+    /* padding: 0 2rem ; */
   width:80%;
   margin:0;
     /* margin:auto; */
+}
+.client_heading{
+    padding:2rem 0;
 }
 
 @media screen and (max-width:843px){

@@ -7,9 +7,10 @@ import AboutUs from '../components/home/AboutUs/AboutUs';
 import OurServices from '../components/home/OurServices/OurServices';
 import OurTeam from '../components/home/OurTeam/OurTeam';
 import OurClients from '../components/home/OurClients/OurClients';
-import ContactUs from '../components/home/ContactUs/ContactUs';
+import Contact from '../components/home/Contact/Contact';
 import Footer from '../components/home/Footer/Footer';
 import OurWorks from '../components/home/OurWorks/OurWorks';
+// import GetInTouch from "../components/contact-us/GetInTouch/GetInTouch"
 
 function Home() {
   return (
@@ -22,7 +23,8 @@ function Home() {
     <OurWorks />
     <OurTeam />
     <OurClients />
-    <ContactUs />
+    <Contact />
+    {/* <GetInTouch /> */}
     <Footer />
     </div>
     </>
