@@ -123,7 +123,7 @@ function Contact() {
 
 <div className="contact_us_right col-md-4" style={{padding:"0"}}>
           <div className="information_header">
-                <h1>How can we Help?</h1>
+                <h1 className='howCanWeHelp'>How can we Help?</h1>
                 <p>
                   Please Select below options related to your Inquiry. <span>If you
                   didn't found what you need, fill out our contact form. </span>
