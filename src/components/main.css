@@ -7,6 +7,7 @@
 .container
 {
     background-color: lightblue;
+
 }
 .client-caption h5
 {
@@ -123,4 +124,58 @@
     font-size: 14px; 
     text-align: left;
     color: white;
+}
+.Gallery-Container-fluid
+{
+    background-color: lightblue;
+}
+
+.gallery-row
+{
+    background-color: white; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.flip-card
+{
+    height: 330px;
+    background-color:  transparent;
+}
+.flip-card-inner 
+    {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+.flip-card-front img
+{
+    height: 300px;
+    width: 100%;
+    border: 1px solid;
+}
+.flip-card:hover .flip-card-inner 
+{
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color: rgba(0, 0, 0, 0.24);
+  color: black;
+  transform: rotateY(180deg);
+  padding: 5px;
+}
+.flip-card-back p
+{
+    padding-top: 4px; 
+    font-size:14px;
 }

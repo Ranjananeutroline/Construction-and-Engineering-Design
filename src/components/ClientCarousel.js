@@ -7,12 +7,12 @@ import Col from 'react-bootstrap/Col';
 
 export default function ClientCarousel() {
   return (
-    <div className='container p-3'>
+    <div className='container p-3 mb-5'>
        <Carousel>
       <Carousel.Item>
       <Row className='client-section p-5'>
         <Col sm={4} className='client-column p-3'>
-            <div className='client-image-circle p-2'>
+            <div className='client-image p-2'>
             <img
               style={{height:200}}
               src="client2.jpg"

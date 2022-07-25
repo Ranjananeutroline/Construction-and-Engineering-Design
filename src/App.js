@@ -1,6 +1,7 @@
 
 import ClientCarousel from './components/ClientCarousel';
 import Footer from './components/Footer';
+import Gallery from './components/Gallery';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
    <div className='App'>
     <ClientCarousel/>
     <Footer/>
+    <Gallery/>
    </div>
   );
 }

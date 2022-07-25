@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 
 export default function Footer() {
     return(
-        <Container fluid>
+        <div className='Container fluid mb-5'>
             <Row>
             <Col sm={3} className='footer-column1 p-3'>
                 <div className='footer-logo'>
@@ -85,7 +85,7 @@ export default function Footer() {
                 
             </Col>
             </Row>
-        </Container>
+        </div>
     )
 }
   
