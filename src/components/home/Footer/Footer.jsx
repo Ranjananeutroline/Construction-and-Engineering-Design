@@ -11,7 +11,7 @@ function Footer() {
             style={{
               border: "1px solid",
               backgroundColor: "navy",
-              borderRadius: "50px 0px 0px 0px",
+            
             }}
           >
             <div style={{ textAlign: "left, padding: 5px", float: "left" }}>
@@ -129,7 +129,7 @@ function Footer() {
             className="col-sm-4 p-5"
             style={{
               backgroundColor: "rgb(102, 102, 160)",
-              borderRadius: "0px 0px 40px 0px",
+              
             }}
           >
             <div
@@ -165,7 +165,7 @@ function Footer() {
               </div>
             </div>
             <div
-              className="row justify-content-center"
+              className="row justify-content-center footer_contact"
               style={{ textAlign: "center" }}
             >
               <div className="col-md-3" style={{ textAlign: "end" }}>

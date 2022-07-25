@@ -35,10 +35,11 @@ function Carousel() {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="image/bgimg1.jpg"
+                src="https://images.unsplash.com/photo-1604328698692-f76ea9498e76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
                 alt="bgbites"
                 height="500px"
                 width="100%"
+                style={{backgroundSize:"cover",objectFit:"cover"}}
               />
               <div className="carousel-caption">
                 <h1 style={{ fontSize: "35px" }}>WE BUILD WITH PASSION</h1>

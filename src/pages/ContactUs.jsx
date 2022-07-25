@@ -7,11 +7,13 @@ import FormDialog from "../components/contact-us/PopupForm/FormDialog";
 import Navbar from "../components/home/Navbar/Navbar";
 import Footer from "../components/home/Footer/Footer"
 import Contact from "../components/home/Contact/Contact";
+import NavLink from "../components/home/Navbar/NavLink";
 
 function ContactUs() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
+      <NavLink />
       <Header />
       {/* <FixedButton /> */}
       <FormDialog />

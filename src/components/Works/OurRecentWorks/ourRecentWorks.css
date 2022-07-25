@@ -1,5 +1,7 @@
 div .recent_works{
   background-color: white;
+  margin:0;
+  max-width:1400px;
 }
 .ourWorks_button {
   background-color: lightblue;
@@ -11,6 +13,14 @@ div .recent_works{
   border-radius: 10px;
   margin-right: 1rem;
   margin-top: 1rem;
+
+}
+div .recentwork_hr{
+  height: 75px;
+  width: 400px;
+  text-align: center;
+  border-bottom: 1px solid orangered;
+  padding-top: 35px;
 }
 .ourWorks_button a {
   text-decoration: none;
@@ -48,4 +58,15 @@ div .recent_works{
   color: black;
   transform: rotateY(180deg);
   padding: 5px;
+}
+.flip-card-front .long_image{
+  height:600px;
+}
+@media only screen and (max-width: 350px){
+div .recentwork_hr{
+  height:90px;
+}
+.recent_works{
+  padding: 0 .5rem;
+}
 }

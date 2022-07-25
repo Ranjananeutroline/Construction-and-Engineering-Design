@@ -1,7 +1,6 @@
 import React from "react";
 import { Carousel, Col, Row } from "react-bootstrap";
 import "./ourServices.css";
-import OurServicesProps from "./OurServicesProps";
 import PropsServices from "./PropsServices";
 
 function OurServices() {
@@ -32,26 +31,27 @@ function OurServices() {
             <Carousel.Item interval={5000}>
               <Row className="justify-content-around">
                 <Col sm={4} className="service_col">
-                  <PropsServices />
+                  <PropsServices image="image/service1.jpg" heading="Service 1"/>
+                  {/* image/service1.jpg */}
                 </Col>
                 <Col sm={4} className="service_col">
-                  <PropsServices />
+                  <PropsServices image="image/service2.jpg"heading="Service 2"/>
                 </Col>
                 <Col sm={4} className="service_col">
-                  <PropsServices />
+                  <PropsServices image="image/service3.jpg" heading="Service 3"/>
                 </Col>
               </Row>
             </Carousel.Item>
             <Carousel.Item interval={5000}>
               <Row className="justify-content-around">
                 <Col sm={4} className="service_col">
-                  <PropsServices />
+                  <PropsServices image="image/service4.jpg" heading="Service 4"/>
                 </Col>
                 <Col sm={4} className="service_col">
-                  <PropsServices />
+                  <PropsServices image="image/service5.jpg" heading="Service 5"/>
                 </Col>
                 <Col sm={4} className="service_col">
-                  <PropsServices />
+                  <PropsServices image="image/service6.jpg" heading="Service 6"/>
                 </Col>
               </Row>
             </Carousel.Item>

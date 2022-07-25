@@ -1,11 +1,11 @@
 import React from "react";
 
-function OurClientProps() {
+function OurClientProps({image,heading}) {
   return (
     <>
       <div className="item client_box col-md-4 ">
         <img
-          src="image/client2.jpg"
+          src={image}
           style={{
             boxShadow:
               "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
@@ -23,7 +23,7 @@ function OurClientProps() {
             paddingBottom: "8px",
           }}
         >
-          Client 1
+          {heading}
         </h5>
         <div style={{ borderTop: "1px solid" }}>
           <p

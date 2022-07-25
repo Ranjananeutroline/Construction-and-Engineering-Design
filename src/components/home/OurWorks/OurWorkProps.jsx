@@ -1,6 +1,6 @@
 import React from 'react'
 
-function OurWorkProps() {
+function OurWorkProps({image,}) {
   return (
     <>
        <div className="row p-5">
@@ -48,7 +48,7 @@ function OurWorkProps() {
                 </div>
                 <div className="col-sm-7 p-4">
                   <img
-                    src="image/work1 (1).jpg"
+                    src={image}
                     alt="Chicago"
                     className="d-block"
                     height="400px"

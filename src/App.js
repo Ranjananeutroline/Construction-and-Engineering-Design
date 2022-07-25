@@ -14,6 +14,14 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/works" element={<Works />} />
+          <Route
+            path="*"
+            element={
+              <main style={{ padding: "1rem" }}>
+                <p>There's nothing here!</p>
+              </main>
+            }
+          />
         </Routes>
       </BrowserRouter>
       {/* </div> */}

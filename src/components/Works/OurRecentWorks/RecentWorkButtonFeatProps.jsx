@@ -98,6 +98,7 @@ function RecentWorkButtonFeatProps({id,heading}) {
                         width="100%"
                         style={{ border: "1px solid" }}
                         alt="building"
+                        className="long_image"
                       />
                     </div>
                     <div className="flip-card-back p-4">

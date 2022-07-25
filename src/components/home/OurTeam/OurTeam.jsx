@@ -12,45 +12,32 @@ function OurTeam() {
         className="container-fluid team_whole_container"
         style={{ backgroundColor: "rgb(231, 243, 247)" }}
       >
-        {/* <div className="container-sm" 
-            style={{backgroundColor:"white", boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}} >
-            <div className="owl-carousel owl-theme">
-              <div className='row'>
-              <OurTeamProps />
-              <OurTeamProps />
-              <OurTeamProps />
-              <OurTeamProps />
-              <OurTeamProps />
-              <OurTeamProps />
-              </div>
-            </div>
-        </div> */}
-
         <div className="ourteam" >
           <Carousel className="ourTeam_container">
             <Carousel.Item>
               <Row >
                 <Col sm={4}>
-                  <OurTeamProps />
+                  <OurTeamProps image="image/team1.jpg" heading="Team1"/>
+                  {/* "image/team1.jpg" */}
                 </Col>
                 <Col sm={4}>
-                  <OurTeamProps />
+                  <OurTeamProps image="image/team2.jpg" heading="Team2"/>
                 </Col>
                 <Col sm={4}>
-                  <OurTeamProps />
+                  <OurTeamProps image="image/team3.jpg" heading="Team3"/>
                 </Col>
               </Row>
             </Carousel.Item>
             <Carousel.Item interval={500}>
               <Row>
                 <Col sm={4}>
-                  <OurTeamProps />
+                  <OurTeamProps image="image/team3.jpg" heading="Team4"/>
                 </Col>
                 <Col sm={4}>
-                  <OurTeamProps />
+                  <OurTeamProps image="image/team2.jpg" heading="Team5"/>
                 </Col>
                 <Col sm={4}>
-                  <OurTeamProps />
+                  <OurTeamProps image="image/team1.jpg" heading="Team6"/>
                 </Col>
               </Row>
             </Carousel.Item>

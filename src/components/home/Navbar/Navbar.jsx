@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 // import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./navbar.css";
 import NavbarProps from "./NavbarProps";
 function Navbar() {
+  const[isOpen,setIsOpen]= useState(false);
+
   return (
+
     <>
       <div>
         {" "}
@@ -38,8 +41,8 @@ function Navbar() {
             >
               <ul className="navbar-nav">
              <NavbarProps link="/"  name="Home"/>
-             <NavbarProps link="/"  name="About"/>
-             <NavbarProps link="/"  name="Services"/>
+             <NavbarProps link="/about"  name="About"/>
+             <NavbarProps link="/services"  name="Services"/>
              <NavbarProps link="/works"  name="Works"/>
              <NavbarProps link="/contactus"  name="Contact Us"/>
               

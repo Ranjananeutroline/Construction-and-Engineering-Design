@@ -17,26 +17,26 @@ function OurClients() {
           <Carousel.Item>
             <Row className="client-section p-2 m-auto ">
               <Col sm={4}>
-                <OurClientProps />
+                <OurClientProps image="image/client1.jpeg" heading="Client 1"/>
               </Col>
               <Col sm={4}>
-                <OurClientProps />
+                <OurClientProps image="image/client2.jpg" heading="Client 2"/>
               </Col>
               <Col sm={4}>
-                <OurClientProps />
+                <OurClientProps image="image/client3.jpg" heading="Client 3"/>
               </Col>
             </Row>
           </Carousel.Item>
           <Carousel.Item interval={1500}>
             <Row className="client-section p-2">
               <Col sm={4}>
-                <OurClientProps />
+                <OurClientProps image="image/client4.jpg" heading="Client 4"/>
               </Col>
               <Col sm={4}>
-                <OurClientProps />
+                <OurClientProps image="image/client1.jpeg" heading="Client 5"/>
               </Col>
               <Col sm={4}>
-                <OurClientProps />
+                <OurClientProps image="image/client2.jpg" heading="Client 6"/>
               </Col>
             </Row>
           </Carousel.Item>
