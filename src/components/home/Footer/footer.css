@@ -1,0 +1,9 @@
+.footer_icon{
+    margin-right:.3rem;
+}
+.footer-container-fluid{
+    width: 100%;
+    margin:auto;
+    overflow: hidden;
+    border-radius: 20px 0px 0px 0px;
+}

@@ -1,0 +1,8 @@
+.ourWorks_container{
+    max-width:1150px;
+    margin:auto;
+}
+.work_carousel{ 
+    background-color: rgb(231, 243, 247);
+    margin:4rem 0;
+}

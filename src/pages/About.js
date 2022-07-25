@@ -10,10 +10,13 @@ import Vision from "../component/Vision/Vision";
 import WhoWeAre from "../component/WhoWeAre/WhoWeAre";
 import Location from "../component/Location/Location";
 import Job from "../component/Job/Job";
+import Navbar from "../components/home/Navbar/Navbar";
+import Footer from "../components/home/Footer/Footer";
 
 const About = () => {
   return (
     <div className="aboutSection">
+      <Navbar />
       <Slider />
       <WhoWeAre />
       <OurTeam />
@@ -21,6 +24,7 @@ const About = () => {
       <OurPeople />
       <Job />
       <Location />
+      <Footer />
      
     </div>
   );

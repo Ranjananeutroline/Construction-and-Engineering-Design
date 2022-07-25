@@ -1,7 +1,7 @@
 import React from 'react'
 import {AiOutlineArrowRight} from "react-icons/ai"
 
-function Card({icon, heading, desc,desc_opt}) {
+function Card({icon, heading, desc,desc_opt,link}) {
   return (
     <>
     <div className="card">
@@ -11,7 +11,7 @@ function Card({icon, heading, desc,desc_opt}) {
         <p className='desc_opt'>{desc}</p>
         <p className='desc_opt'>{desc_opt}</p>
         </div>
-        <a href="/#" className="bottom" style={{textDecoration:"none"}}>
+        <a href={link} className="bottom" style={{textDecoration:"none"}} target="_blank"  rel="noopener noreferrer">
         <p>more</p>
         <i><AiOutlineArrowRight/></i>
         </a>

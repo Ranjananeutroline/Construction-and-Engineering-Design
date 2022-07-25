@@ -4,22 +4,29 @@ import 'bootstrap/dist/css/bootstrap.css';
 import About from './pages/About';
 import ContactUs from './pages/ContactUs';
 import Servicesanotherr from './pages/Servicesanotherr';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
-
-
-
-
+import "./app.css";
+import Home from "./pages/Home";
+import Works from "./pages/Works";
 function App() {
   
   return (
     <div className="App">
-    <About />
+      <BrowserRouter>
+        <Routes>
+          {" "}
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/service" element={<Servicesanotherr />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/works" element={<Works />} />
+        </Routes>
+      </BrowserRouter>
    
-    <Servicesanotherr />
-  
-
-    </div>
+   </div>
   );
 }
 
