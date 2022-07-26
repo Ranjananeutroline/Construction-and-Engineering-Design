@@ -5,17 +5,10 @@ import RecentWorkButtonFeatProps from "./RecentWorkButtonFeatProps";
 function OurRecentWorks() {
   return (
     <>
-      <div className="container-sm p-6 recent_works" style={{ paddingTop: "10rem"}}>
+      <div className="container p-6 recent_works" style={{ paddingTop: "10rem"}}>
         <div className="row justify-content-center">
           <div
-            className="col-md-6"
-            style={{
-              height: 75,
-              width: 400,
-              textAlign: "center",
-              borderBottom: "1px solid orangered",
-              paddingTop: 35,
-            }}
+            className="col-md-6 recentwork_hr"
           >
             <h3>
               Let's See{" "}

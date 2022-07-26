@@ -10,13 +10,13 @@ import Vision from "../component/Vision/Vision";
 import WhoWeAre from "../component/WhoWeAre/WhoWeAre";
 import Location from "../component/Location/Location";
 import Job from "../component/Job/Job";
-import Navbar from "../components/home/Navbar/Navbar";
+import NavLink from "../components/home/Navbar/NavLink";
 import Footer from "../components/home/Footer/Footer";
 
 const About = () => {
   return (
     <div className="aboutSection mt-5">
-      <Navbar />
+     <NavLink />
       <Slider />
       <WhoWeAre />
       <OurTeam />

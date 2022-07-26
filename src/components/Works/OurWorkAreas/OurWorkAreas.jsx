@@ -5,19 +5,20 @@ function OurWorkAreas() {
   return (
     <>
       <div
-        className="container-fluid p-5"
+        className="container-fluid workAreas"
         style={{ backgroundColor: "rgb(231, 243, 247)" }}
       >
         <h4
           style={{
             textAlign: "center",
             fontFamily: '"Times New Roman", Times, serif',
+           
           }}
         >
           OUR WORK AREAS
         </h4>
-        <br />
-        <div className="container p-5" style={{ backgroundColor: "white" }}>
+      
+        <div className="container" style={{ backgroundColor: "white" }}>
           <div className="row p-3 justify-content-around">
             <WorkAreasProps heading="Building" image="image/workpageimg/workareaimg1.jpg"/>
             <WorkAreasProps heading="Industrial" image="image/workpageimg/workareaimg2.jpg"/>

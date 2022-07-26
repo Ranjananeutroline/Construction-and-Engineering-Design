@@ -1,7 +1,6 @@
 import React from "react";
 import { Carousel, Col, Row } from "react-bootstrap";
 import "./ourServices.css";
-import OurServicesProps from "./OurServicesProps";
 import PropsServices from "./PropsServices";
 
 function OurServices() {
@@ -23,56 +22,41 @@ function OurServices() {
         </p>
         <br />
         <div
-          className="slideshow-container-xxl p-5 carousel slide"
+          className="slideshow-container-xxl carousel slide service_top"
           id="carouselExampleSlidesOnly"
           data-bs-ride="carousel"
           style={{ backgroundColor: "rgb(231, 243, 247)" }}
         >
-          <Carousel>
-            <Carousel.Item>
+          <Carousel className="service_carousel">
+            <Carousel.Item interval={5000}>
               <Row className="justify-content-around">
-                <Col sm={3}>
-                  <PropsServices />
+                <Col sm={4} className="service_col">
+                  <PropsServices image="image/service1.jpg" heading="Service 1"/>
+                  {/* image/service1.jpg */}
                 </Col>
-                <Col sm={3}>
-                  <PropsServices />
+                <Col sm={4} className="service_col">
+                  <PropsServices image="image/service2.jpg"heading="Service 2"/>
                 </Col>
-                <Col sm={3}>
-                  <PropsServices />
+                <Col sm={4} className="service_col">
+                  <PropsServices image="image/service3.jpg" heading="Service 3"/>
                 </Col>
               </Row>
             </Carousel.Item>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={5000}>
               <Row className="justify-content-around">
-                <Col sm={3}>
-                  <PropsServices />
+                <Col sm={4} className="service_col">
+                  <PropsServices image="image/service4.jpg" heading="Service 4"/>
                 </Col>
-                <Col sm={3}>
-                  <PropsServices />
+                <Col sm={4} className="service_col">
+                  <PropsServices image="image/service5.jpg" heading="Service 5"/>
                 </Col>
-                <Col sm={3}>
-                  <PropsServices />
+                <Col sm={4} className="service_col">
+                  <PropsServices image="image/service6.jpg" heading="Service 6"/>
                 </Col>
               </Row>
             </Carousel.Item>
           </Carousel>
-
-          <br />
-          {/* The dots/circles */}
-          <div style={{ textAlign: "center" }}>
-            <span className="dot" onClick="currentSlide(1)"></span>
-            <span className="dot" onClick="currentSlide(2)"></span>
-          </div>
-          {/* our services button  */}
-          <div className="button p-1" style={{ textAlign: "center" }}>
-            <input
-              type="button"
-              name="btn"
-              value="See more"
-              id="read"
-              className="btn btn-outline-secondary btn-sm"
-            />
-          </div>
+      
         </div>
       </div>
 

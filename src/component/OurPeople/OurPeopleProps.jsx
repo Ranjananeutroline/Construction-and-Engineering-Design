@@ -3,7 +3,7 @@ import React from "react";
 function OurPeopleProps({describe,name,position}) {
   return (
     <>
-      <div className="image1 mb-3 mt-3">
+      <div className="image1 mb-3">
         <img src="/images/man.jpg" alt="" className="avtar" />
         <div className="overlay">
           <div className="text">

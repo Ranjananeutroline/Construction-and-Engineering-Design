@@ -1,13 +1,20 @@
 import React from 'react'
+import { BsFacebook } from "react-icons/bs";
+import { IconContext } from "react-icons";
+import { FaViber, FaWhatsappSquare } from "react-icons/fa";
+import { FiPhoneCall } from "react-icons/fi";
+import { TbMessage } from "react-icons/tb";
+import { ImLocation } from "react-icons/im";
+import "./contact.css"
 
-function ContactUs() {
+function Contact() {
   return (
    <>
      <div className="container p-4" style={{backgroundColor:"rgb(231, 243, 247)"}}>
         <h4 style={{color:"blue"}}>Contact Us</h4>
         <hr style={{width: "80px",color:"blue"}} />
         <div className="row justify-content-around p-3">
-            <div className="col-sm-7 p-4"
+            <div className="col-md-7 p-4"
                 style={{backgroundColor: "white",boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
                 <form>
                     <div className="mb-3 mt-3">
@@ -62,7 +69,7 @@ function ContactUs() {
 
                 </form>
             </div>
-            <div className="col-sm-4 p-4">
+            {/* <div className="col-sm-4 p-4">
                 <h5>How Can We Help?</h5>
                 <p style={{fontSize: "15px" ,fontFamily:"calibri"}}>Please select below options related to your inquiry. If
                     you don't find
@@ -72,7 +79,7 @@ function ContactUs() {
                     style={{backgroundColor: "white", boxShadow:" 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
                     <div className="col-sm-12 p-3">
                         <h6 style={{fontSize: "13px", textAlign: "left"}}>Contact Information</h6>
-                        {/* <hr style={{width: "60px", color:"blue" /> */}
+                       
                         <div className="row">
                             <div className="col-sm-3 p-2" style={{textAlign: "end"}}>
                                 <img className="rounded-circle" src="image/phone.jpg" height="28px" width="35px;" alt="icon"/>
@@ -112,11 +119,64 @@ function ContactUs() {
                         </div>
                     </div>
                 </div>
+            </div> */}
+
+<div className="contact_us_right col-md-4" style={{padding:"0"}}>
+          <div className="information_header">
+                <h1 className='howCanWeHelp'>How can we Help?</h1>
+                <p>
+                  Please Select below options related to your Inquiry. <span>If you
+                  didn't found what you need, fill out our contact form. </span>
+                </p>
+              </div>
+          <div className="info">
+            <h1>Contact Information </h1>
+            <hr className="Ci_hr" />
+            <div className="information">
+  
+              <IconContext.Provider value={{ className: "connect-us-icons" }}>
+                <div className="call-msg-lt">
+                  <FiPhoneCall style={{ marginLeft: "-1rem" }} />
+                  <span>+977 1234567890</span>
+                </div>
+                <div className="call-msg-lt">
+                  <TbMessage style={{ marginLeft: "-.8rem" }} />
+                  <span>info@neutroline.com</span>
+                </div>
+                <div className="call-msg-lt">
+                  <ImLocation style={{ marginLeft: "-.4rem" }} />
+                  <span>
+                    Shitalnagar,Devdaha-7{" "}
+                    <span className="information-location">
+                      Rupandehi,Nepal
+                    </span>
+                  </span>
+                </div>
+                <hr className="Ci_hr"/>
+              </IconContext.Provider>
             </div>
+            <IconContext.Provider value={{ className: "react-icons" }}>
+              <div className="social-links">
+                <a href="/#">
+                  {" "}
+                  <BsFacebook style={{ color: "blue" }} />
+                </a>
+                <a href="/#">
+                  <FaViber style={{ color: "#59267c" }} />
+                </a>
+
+                <a href="/#">
+                  {" "}
+                  <FaWhatsappSquare style={{ color: "	#25d366" }} />
+                </a>
+              </div>
+            </IconContext.Provider>
+          </div>
+        </div>
         </div>
     </div>
    </>
   )
 }
 
-export default ContactUs
+export default Contact

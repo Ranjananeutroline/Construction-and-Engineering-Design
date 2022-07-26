@@ -3,7 +3,7 @@ import React from "react";
 function WorkAreasProps({image,heading}) {
   return (
     <>
-      <div className="col-sm-3">
+      <div className="col-sm-3 work_card">
         <div
           className="polaroid p-2"
           style={{

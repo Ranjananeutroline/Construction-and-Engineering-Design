@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import ShowProjectProps from "./ShowProjectProps";
 
 function ShowProjects() {
@@ -31,42 +32,35 @@ function ShowProjects() {
               </h5>
             </div>
           </div>
-          <br />
-          <div className="row p-3"
-            style={{
-              backgroundColor: "white",
-              boxShadow:
-                "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-            }}
-          >
-          <ShowProjectProps />
-          <ShowProjectProps />
-          <ShowProjectProps />
-          
-          </div>
-
-          <div className="row p-3"
-            style={{
-              backgroundColor: "white",
-              boxShadow:
-                "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-            }}
-          >
-         <ShowProjectProps />
-         <ShowProjectProps />
-         <ShowProjectProps />
-          </div>
-          <div className="row p-3"
-            style={{
-              backgroundColor: "white",
-              boxShadow:
-                "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-            }}
-          >
-         <ShowProjectProps />
-         <ShowProjectProps />
-         <ShowProjectProps />
-          </div>
+          <Container>
+            <Row className="gallery-row p-3">
+              <ShowProjectProps />
+            </Row>
+            <div
+              className="row p-3"
+              style={{
+                backgroundColor: "white",
+                boxShadow:
+                  "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+              }}
+            >
+              <ShowProjectProps />
+              <ShowProjectProps />
+              <ShowProjectProps />
+            </div>
+            <div
+              className="row p-3"
+              style={{
+                backgroundColor: "white",
+                boxShadow:
+                  "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+              }}
+            >
+              <ShowProjectProps />
+              <ShowProjectProps />
+              <ShowProjectProps />
+            </div>
+          </Container>
         </div>
       </div>{" "}
     </>

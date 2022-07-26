@@ -6,8 +6,6 @@ import ContactUs from './pages/ContactUs';
 import Servicesanotherr from './pages/Servicesanotherr';
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-
 import "./app.css";
 import Home from "./pages/Home";
 import Works from "./pages/Works";
@@ -15,6 +13,8 @@ function App() {
   
   return (
     <div className="App">
+   
+      {/* <div className="container"> */}
       <BrowserRouter>
         <Routes>
           {" "}
@@ -23,10 +23,20 @@ function App() {
           <Route path="/service" element={<Servicesanotherr />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/works" element={<Works />} />
+          <Route
+            path="*"
+            element={
+              <main style={{ padding: "1rem" }}>
+                <p>There's nothing here!</p>
+              </main>
+            }
+          />
         </Routes>
       </BrowserRouter>
    
    </div>
+    
+   
   );
 }
 

@@ -1,9 +1,9 @@
 import React from 'react'
 
-function PropsServices() {
+function PropsServices({image,heading}) {
   return (
     <>
-      <div >
+      <div style={{marginBottom:"1rem"}}>
                 <div
                   className="card p-2 ourService_card"
                   style={{
@@ -13,16 +13,17 @@ function PropsServices() {
                 >
                   <img
                     className="card-img-top"
-                    src="image/service1.jpg"
+                    src={image}
                     alt="carousel of nice place"
                   />
                   <div className="card-body">
-                    <h5 style={{ textAlign: "center" }}>Service 1</h5>
+                    <h5 style={{ textAlign: "center" }}>{heading}</h5>
                     <p
                       style={{
                         textAlign: "center",
                         fontSize: "15px",
                         padding: "10px",
+                        
                       }}
                     >
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
