@@ -6,10 +6,11 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 // import { IconContext } from "react-icons";
-function OurTeamProp({ name, testimonial, position }) {
+function OurTeamProp({ name, testimonial, position,image }) {
   return (
     <>
-      <img className="paxi" src="/images/man.jpg" alt="" />
+      <img className="paxi" src={image} alt="" />
+      
       <div>
         <h4>{name}</h4>
         <p>{testimonial}</p>
