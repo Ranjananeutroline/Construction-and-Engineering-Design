@@ -10,7 +10,7 @@ function Footer() {
             className="col-sm-3 p-3"
             style={{
               border: "1px solid",
-              backgroundColor: "navy",
+              backgroundColor: "rgb(151 174 236)",
             
             }}
           >
@@ -96,7 +96,7 @@ function Footer() {
           </div>
           <div
             className="col-sm-5 p-5"
-            style={{ backgroundColor: "rgb(102, 102, 160)" }}
+            style={{ backgroundColor:"rgb(151 174 236)" }}
           >
             <div
               style={{
@@ -128,7 +128,7 @@ function Footer() {
           <div
             className="col-sm-4 p-5"
             style={{
-              backgroundColor: "rgb(102, 102, 160)",
+              backgroundColor: "rgb(151 174 236)",
               
             }}
           >
@@ -161,7 +161,7 @@ function Footer() {
                 className="col-md-6"
                 style={{ fontSize: 14, textAlign: "left" }}
               >
-                <p style={{ color: "white" }}>Shitalnagar, Devdaha-7</p>
+                <p style={{ color: "black" }}>Shitalnagar, Devdaha-7</p>
               </div>
             </div>
             <div
@@ -181,7 +181,7 @@ function Footer() {
                 className="col-md-6"
                 style={{ fontSize: 14, textAlign: "left" }}
               >
-                <p style={{ color: "white" }}>info@neutroline.com</p>
+                <p style={{ color: "black" }}>info@neutroline.com</p>
               </div>
             </div>
             <div
@@ -201,7 +201,7 @@ function Footer() {
                 className="col-md-6"
                 style={{ fontSize: 14, textAlign: "left" }}
               >
-                <p style={{ color: "white" }}>+977 1234567890</p>
+                <p style={{ color: "black" }}>+977 1234567890</p>
               </div>
             </div>
           </div>

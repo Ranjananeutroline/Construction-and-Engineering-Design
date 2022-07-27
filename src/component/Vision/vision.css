@@ -3,17 +3,26 @@
   flex-direction: column;
   background-color: rgb(231, 243, 247);
   padding-bottom: 3rem;
+  /* margin: 1rem 3rem 1rem 3rem; */
+}
+.vision_flex_box{
+  background-color: #e0eef2;
+  padding: 1rem;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  margin-top: 2rem;
 }
 .fourth {
   /* background-color: rgb(189, 203, 216); */
-  padding:3rem;
+  padding:2rem;
   display: grid;
   justify-content: center;
   /* grid-template-rows: 80px 500px; */
   /* grid-template-columns: 180px 150px 150px 150px 180px; */
-  grid-template-columns: 20% 20% 20%;
-  grid-row-gap: 50px;
-  grid-column-gap: 60px;
+  grid-template-columns: 15% 15% 15%;
+  grid-column-gap: 20px;
 }
 /* .fourth .box4 {
   grid-column-start: 2;
@@ -47,11 +56,12 @@
   overflow: hidden;
   width: 0;
   height: 100%;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
   opacity:0.3;
 }
 .box1:hover .overlay {
   width: 100%;
+ 
 }
 .fourth .vision {
   
@@ -84,21 +94,28 @@
 
 
 .vision_image_grid {
-  background: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  width: 90%;
+  height: 350px;
+  background: #fffdfd;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   display: grid;
   grid-template-columns: 50% 50%;
-  width:70%;
+  grid-template-rows: 100%;
+  grid-column-gap:0px;
+  
+ 
   margin:auto;
   /* border-radius:0px 20px 20px 0px; */
   border-radius: 9px;
-  box-shadow: 7px 6px 6px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 7px 6px 6px rgba(0, 0, 0, 0.25); */
   /* align-items: center; */
   /* justify-content: space-between; */
 }
  .content {
   width: 80%;
   margin: 0 auto;
+  
   
 }
 .content p{
@@ -117,7 +134,7 @@
 .vision_image {
   width: 100%;
   /* background-color: rgb(143, 100, 45); */
-  height: 100%;
+  /* height: 100%; */
   margin-left:auto;
 }
 
@@ -134,6 +151,18 @@
   line-height: 150%;
   cursor: pointer;
   font-family: "Calibri", "sanserif";
+}
+@media (max-width:1024){
+  .vision_flex_box{
+    padding: 0;
+    margin: 0;
+  }
+  .fourth {
+    display: grid;
+    grid-template-columns: 300px 18% 18%;
+    grid-template-rows: 60%;
+    grid-column-gap: 20px;
+  }
 }
 @media only screen and (max-width: 700px){
 .fourth{

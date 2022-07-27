@@ -33,7 +33,7 @@ function Navbar() {
               data-bs-toggle="collapse"
               data-bs-target="#collapsibleNavbar"
             >
-              <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
             </button>
             <div
               className="collapse navbar-collapse justify-content-center p-3"

@@ -57,12 +57,16 @@
 
 .grid{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    gap: 20px;
+    grid-template-columns: 25% 25% 25%;
+    /* grid-template-rows: 40%; */
+    /* gap: 20px; */
     background: rgb(225, 238, 245);
     text-align: center;
      justify-content:center;
      
+}
+.mainservicesection{
+    background-color: aliceblue;
 }
 
 
@@ -73,11 +77,11 @@
 }
 @media screen and (max-width: 500px) {
     .grid{
-        grid-template-columns: 98%;
+        grid-template-columns: 98%;}
         .apple{
             height:0;
             width:80%;
-        }
+       
     }
 }
 

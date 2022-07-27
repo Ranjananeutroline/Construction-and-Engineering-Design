@@ -14,9 +14,10 @@ const NavLink = () => {
               <img
                 src="\image/logo.jpeg"
                 style={{
-                  height: "50px",
-                  width: "110px",
+                  height: "60px",
+                  width: "120px",
                   paddingLeft: "40px",
+                  paddingTop:"20px"
                 }}
                 alt="logo of a company"
               />

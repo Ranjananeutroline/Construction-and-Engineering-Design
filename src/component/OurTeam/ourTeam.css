@@ -14,13 +14,17 @@
   border-radius: 10px;
   letter-spacing: 0.04rem;
   border: none;
-  font-weight:bold;
+  /* font-weight:bold; */
   /* box-shadow: 1px rgb(189, 203, 216); */
   box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.25);
 }
 button h5{
   color: rgb(13, 12, 12) !important;
 
+}
+.third h5{
+  font-weight: 400;
+  letter-spacing: 0.2rem;
 }
 .third h4 {
   color: #045de9!important;
@@ -68,19 +72,20 @@ button h5{
 }
 .flexBox {
   /* margin: 70px auto; */
-  margin: 4rem 0;
+  margin: 3rem 0;
   display: grid;
-  grid-template-columns: 21% 21% 21% 21%;
-  grid-gap: 2rem;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 100%;
+  grid-column-gap: 2em;
   /* background-color: beige; */
   justify-content: center;
 }
 .member{
   /* height: 350px; */
-  height: 420px;
+   height: 400px;
   display: grid;
-  align-content: space-evenly;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-content: space-evenly; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 .member1{
 background-color:white;
@@ -125,6 +130,11 @@ background-color:white;
     border-radius: 50%;
     margin:auto;
 }
+
+.teamProps h5{
+  font-weight: bold;
+  letter-spacing: 0.1;
+}
 .icons .dibbyas{
   height: 1.5rem;
   width:1.5rem;
@@ -136,9 +146,98 @@ background-color:white;
   border-radius: 50%;
   
 }
+@media only screen and (max-width: 912px) {
+  .flexBox{
+    grid-column-gap: 1.5em;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .flexBox{
+   display: grid;
+   grid-template-rows: 45% 45% ;
+   grid-template-columns: 45% 45%;
+   grid-row-gap: 3em;
+   grid-column-gap: 0.8em;
+  }
+ }
 
+ @media only screen and (max-width: 412px) {
+ .flexBox{
+  margin-top: 1em;
+  display: grid;
+  grid-template-rows: 45% 45% ;
+  grid-template-columns: 45% 45%;
+  grid-row-gap: 3em;
+  grid-column-gap: 0.8em;
+ }
+ .third button {
+  
+  width: 100px;
+  /* margin-top: 2rem; */
+  height: 40px;
+  align-content: center;
+  border-radius: 10px;
+  letter-spacing: 0.01rem;
+  border: none;
+  /* font-weight:bold; */
+  /* box-shadow: 1px rgb(189, 203, 216); */
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.25);
+}
+}
+@media only screen and (max-width: 280px) {
+  .flexBox{
+    margin-top:1em;
+   display: grid;
+   grid-template-rows:40% 40% ;
+   grid-template-columns: 48% 48%;
+   grid-row-gap: 4em;
+  
+   
+  }
+  .member1 .paxi,.member2 .paxi,.member3 .paxi,.member4 .paxi{
+    
+    height:  100px;
+    width: 100px;
+    border: 2px solid rgb(15, 98, 18);
+    border-radius: 50%;
+    margin:auto;
+  }
+  .icons .dibbyas{
+    height: 1rem;
+    width:1rem;
+    /* margin-right: 0.5rem; */
+  }
+  .icons .dibinsta{
+    width: 1rem;
+    margin-left: .3rem;
+    border-radius: 50%;
+    
+  }
+  .teamProps h5{
+    font-weight: bold;
+    letter-spacing: 0.01em;
+  }
+  .third p{
+    padding: 5px 5px;
 
-@media only screen and (max-width: 800px) {
+  }
+  .third button {
+  
+    width: 100px;
+    /* margin-top: 2rem; */
+    height: 40px;
+    align-content: center;
+    border-radius: 10px;
+    letter-spacing: 0.01rem;
+    border: none;
+    /* font-weight:bold; */
+    /* box-shadow: 1px rgb(189, 203, 216); */
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+
+ }
+
+/* @media only screen and (max-width: 800px) {
   .flexBox{
     display: grid;
     grid-template-columns: 48% 48% ;
@@ -166,4 +265,4 @@ background-color:white;
   .member{
     margin: 0 1rem;
   }
-}
+} */

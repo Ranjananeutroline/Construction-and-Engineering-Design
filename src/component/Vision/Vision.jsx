@@ -23,6 +23,7 @@ const [dis,setDis]=useState(<Visiondisc />)
   return (
     <>
     <div className="vision_flex">
+    <div className="vision_flex_box">
       <div className="fourth ">
         {/*<div className="box"></div>*/}  
         <div className="box1" onClick={vis}>
@@ -42,16 +43,19 @@ const [dis,setDis]=useState(<Visiondisc />)
           <div className="overlay"></div>
         </div>
          {/*<div className="box"></div>*/} 
-        </div>
+      </div>
+     
         <div className="vision_image_grid">
           <div className="content">
           {dis}
           </div>
-          <div className="vision_image">
+          <div className="vision_image ">
             <img className="visionpic" src="/images/vision.jpg" alt="" />
           </div>
         </div>
         </div>
+        </div>
+       
     </>
   );
 }

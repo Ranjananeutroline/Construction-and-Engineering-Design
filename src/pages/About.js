@@ -15,7 +15,7 @@ import Footer from "../components/home/Footer/Footer";
 
 const About = () => {
   return (
-    <div className="aboutSection mt-5">
+    <div className="aboutSection">
      <NavLink />
       <Slider />
       <WhoWeAre />
