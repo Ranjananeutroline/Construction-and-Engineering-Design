@@ -10,7 +10,7 @@ function Slider() {
   <Carousel.Item interval={3000}>
     <img
       className="d-block w-100"
-      src="/images/people.jpeg"
+      src="/images/next.jpeg"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -21,7 +21,7 @@ function Slider() {
   <Carousel.Item interval={3000}>
     <img
       className="d-block w-100"
-      src="/images/people1.jpeg"
+      src="/images/next.jpeg"
       alt="Second slide"
     />
     <Carousel.Caption>
@@ -32,7 +32,7 @@ function Slider() {
   <Carousel.Item interval={3000}>
     <img
       className="d-block w-100"
-      src="/images/people2.jpeg"
+      src="/images/next.jpeg"
       alt="Third slide"
     />
     <Carousel.Caption>

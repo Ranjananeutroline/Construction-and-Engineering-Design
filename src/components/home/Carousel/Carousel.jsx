@@ -35,7 +35,7 @@ function Carousel() {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="https://images.unsplash.com/photo-1604328698692-f76ea9498e76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
+                src="./images/next.jpeg"
                 alt="bgbites"
                 height="500px"
                 width="100%"
