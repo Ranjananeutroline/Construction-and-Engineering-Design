@@ -50,7 +50,7 @@ button h5{
   font-family: sans-serif;
 }
 .third h5 {
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,7 +172,7 @@ background-color:white;
  }
  .third button {
   
-  width: 100px;
+  width: 150px;
   /* margin-top: 2rem; */
   height: 40px;
   align-content: center;
@@ -215,7 +215,7 @@ background-color:white;
   }
   .teamProps h5{
     font-weight: bold;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.001em;
   }
   .third p{
     padding: 5px 5px;
@@ -223,12 +223,12 @@ background-color:white;
   }
   .third button {
   
-    width: 100px;
+    width: 150px;
     /* margin-top: 2rem; */
     height: 40px;
     align-content: center;
     border-radius: 10px;
-    letter-spacing: 0.01rem;
+    letter-spacing: 0.001rem;
     border: none;
     /* font-weight:bold; */
     /* box-shadow: 1px rgb(189, 203, 216); */

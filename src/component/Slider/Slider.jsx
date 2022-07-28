@@ -9,8 +9,8 @@ function Slider() {
     <Carousel>
   <Carousel.Item interval={3000}>
     <img
-      className="d-block w-100"
-      src="/images/next.jpeg"
+      className="d-block w-80 m-auto bg-dark"
+      src="/images/people2.jpeg"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -20,8 +20,8 @@ function Slider() {
   </Carousel.Item>
   <Carousel.Item interval={3000}>
     <img
-      className="d-block w-100"
-      src="/images/next.jpeg"
+      className="d-block w-80 m-auto"
+      src="/images/people.jpeg"
       alt="Second slide"
     />
     <Carousel.Caption>
@@ -31,8 +31,8 @@ function Slider() {
   </Carousel.Item>
   <Carousel.Item interval={3000}>
     <img
-      className="d-block w-100"
-      src="/images/next.jpeg"
+      className="d-block w-80 m-auto"
+      src="/images/people1.jpeg"
       alt="Third slide"
     />
     <Carousel.Caption>

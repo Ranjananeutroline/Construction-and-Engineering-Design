@@ -18,7 +18,7 @@
   }
 .location-button{
     z-index: 3;
-    color: white;
+    /* color: white; */
     position: absolute;
     top: 55%;
     left: 50%;
@@ -39,11 +39,17 @@
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
     cursor: pointer;
     font-family: sans-serif;
+    background-color: rgb(72, 162, 214);
 }
 .our_location_button:hover{
-    box-shadow: 5px 8px 8px rgb(0 0 0 / 25%);
-    cursor: pointer;
+    padding:.9rem 1.4rem;
+    /* letter-spacing: 0.2em; */
+    /* box-shadow: 5px 8px 8px rgb(0 0 0 / 25%); */
+    background-color:rgb(13, 149, 228);
+    /* color: white; */
+    font-size: large;
 }
+
 .our_location_button:visited, .our_location_button:focus{
     border:none;
 }
