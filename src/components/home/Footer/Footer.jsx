@@ -10,7 +10,8 @@ function Footer() {
             className="col-sm-3 p-3"
             style={{
               border: "1px solid",
-              backgroundColor: "rgb(151 174 236)",
+              backgroundColor: "rgb(205, 231, 239)",
+              
             
             }}
           >
@@ -29,7 +30,7 @@ function Footer() {
                 textAlign: "center",
                 paddingBottom: 3,
                 fontFamily: '"Times New Roman", Times, serif',
-                fontSize: 20,
+                fontSize: 25,
               }}
             >
               <p>Engineering Consulting</p>
@@ -96,14 +97,14 @@ function Footer() {
           </div>
           <div
             className="col-sm-5 p-5"
-            style={{ backgroundColor:"rgb(151 174 236)" }}
+            style={{ backgroundColor:"rgb(205, 231, 239)" }}
           >
             <div
               style={{
                 textAlign: "center",
                 color: "white",
                 fontFamily: '"Times New Roman", Times, serif',
-                fontSize: 20,
+                fontSize: 25,
               }}
             >
               <p></p>
@@ -128,16 +129,17 @@ function Footer() {
           <div
             className="col-sm-4 p-5"
             style={{
-              backgroundColor: "rgb(151 174 236)",
+              backgroundColor: "rgb(205, 231, 239)",
               
             }}
           >
             <div
               style={{
+              
                 textAlign: "center",
                 color: "white",
                 fontFamily: '"Times New Roman", Times, serif',
-                fontSize: 20,
+                fontSize: 25,
               }}
             >
               <p>Contact</p>

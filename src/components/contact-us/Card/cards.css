@@ -1,15 +1,15 @@
 .card-container{
   text-align:center;
-  margin:2rem 0;
+  margin:1rem 0;
 }
 
 div .card_margin {
   margin-top: 3rem;
 }
 .contactus_card {
-  width: 100%;
-  height: 400px;
-  padding: 5rem 1rem;
+  width: 70%;
+  height: 300px;
+  padding: 2rem 1rem 1rem  1rem;
   display: inline-block;
   border-radius: 20px;
   text-align: center;
@@ -30,11 +30,11 @@ div .card_margin {
   justify-content: center;
 }
 .card:nth-child(even) {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 .bottom {
   position: relative;
-  top: 30%;
+  top: 15%;
   color: blue;
 }
 .bottom p {
@@ -42,18 +42,148 @@ div .card_margin {
 }
 .cards-section {
   display: grid;
-  grid-template-columns: repeat(4, 22%);
-  gap: 2rem;
+  grid-template-columns: 22% 22% 22% 22%;
+  /* grid-template-rows: 102%;
+  gap: 2rem; */
   justify-content: center;
-  margin: 1rem 0;
-  padding: 4rem 0 1rem 0;
+  /* margin: 1rem 0; */
+  padding: .5rem 4rem 1rem 5rem;
 }
 .card-heading {
   font-size: 1.3rem;
   font-weight: 600;
 }
+@media only screen and (max-width: 1024px){
+  .cards-section{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .card-heading{
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .desc_opt{
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  .contactus_card{
+    width: 93%;
+  }
+}
+@media only screen and (max-width: 912px){
+  .cards-section{
+    display: grid;
+    grid-template-columns: 29% 30% 30% 30%;
+  }
+  .card-heading{
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .desc_opt{
+    font-size: 1rem;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 768px){
+  .cards-section{
+    /* padding: 0 4rem; */
+    display: grid;
+    grid-template-columns:50% 50% ;
+    grid-template-rows: 50% 50% ;
+    grid-column-gap: 0rem;
+    
+  }
+  .card-heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .contactus_card{
+    width: 70%;
+  }
+  .desc_opt{
+    font-size:1.2rem;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 540px){
+  .cards-section{
+    /* padding: 0 4rem; */
+    display: grid;
+    grid-template-columns:60% 60% ;
+    grid-template-rows: 50% 50% ;
+    grid-column-gap: 0rem;
+    
+  }
+  /* .card:nth-child(odd) {
+    margin-left: 2rem;
+  } */
+  .card-heading{
+    font-size: 1rem;
+  }
+  .contactus_card{
+    width: 93%;
+  }
+  .desc_opt{
+    font-size:0.9rem;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 412px){
+  .cards-section{
+    /* padding: 0 4rem; */
+    display: grid;
+    grid-template-columns:76% 76% ;
+    grid-template-rows: 50% 50% ;
+    grid-column-gap: 0rem;
+    
+  }
+  .card:nth-child(even) {
+    margin-top: 0rem;
+  }
+  .contactus_card{
+    width: 93%;
+  }
+  .card-heading{
+    font-size: 1rem;
+  }
+  .desc_opt{
+    font-size: 0.7rem;
+    margin: 0;
+  }
+}
 
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 360px){
+  .card-heading{
+    font-size: 1rem;
+  }
+  .desc_opt{
+    font-size: 0.7rem;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 280px){
+  .cards-section{
+    /* padding: 0 4rem; */
+    display: grid;
+    grid-template-columns:100% 100% ;
+    grid-template-rows: 45% 45% ;
+    grid-column-gap: 0rem;
+    
+  }
+  .card:nth-child(even) {
+    margin-top: 0rem;
+  }
+  .contactus_card{
+    width: 90%;
+  }
+  .desc_opt{
+    font-size: 0.7rem;
+    margin: 0;
+  }
+}
+
+/* @media only screen and (max-width: 800px) {
   .cards-section {
     display: grid;
     grid-template-columns: 45% 45%;
@@ -76,4 +206,4 @@ div .card_margin {
   .card:nth-child(even) {
     margin-top: 0;
   }
-}
+} */

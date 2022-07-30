@@ -8,6 +8,7 @@ import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
 import { RiCloseLine } from "react-icons/ri";
+import { AiOutlineUpload} from "react-icons/ai";
 
 import "./popForm.css";
 
@@ -238,9 +239,9 @@ export default function FormDialog() {
                 component="span"
                 className="file_button"
               >
-                Upload file ...
+                <AiOutlineUpload  className="uploadIcon"/>
               </Button>
-              <small style={{color:"#b1a40d"}}>accepts docx,word,image,pdf</small>
+              <small style={{color:"#b1a40d"}}>docx,word,image,pdf</small>
             </label>
           </DialogContent>
           <DialogActions>
