@@ -18,16 +18,16 @@ function Contact() {
                 style={{backgroundColor: "white",boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
                 <form>
                     <div className="mb-3 mt-3">
-                        <label htmlFor="name" style={{paddingBottom: "2px"}}>Name:</label>
+                        <label htmlFor="name" style={{paddingBottom: "2px", float:"left"}}>Name:</label>
                         <input type="name" className="form-control" id="name" placeholder="Enter name" name="name" />
                     </div>
                     <div className="mb-3 mt-3">
-                        <label htmlFor="name" style={{paddingBottom: "2px"}}>Email:</label>
+                        <label htmlFor="name" style={{paddingBottom: "2px", float:"left"}}>Email:</label>
                         <input type="name" className="form-control" id="email" placeholder="Enter email" name="email" />
                     </div>
                     <div className="row">
                         <div className="col-sm-4">
-                            <label htmlFor="country" style={{paddingBottom: "2px"}}>Country:</label>
+                            <label htmlFor="country" style={{paddingBottom: "2px", float:"left"}}>Country:</label>
                             <select className="form-select">
                                 <option>Nepal +977</option>
                                 <option>India</option>
@@ -36,12 +36,12 @@ function Contact() {
                             </select>
                         </div>
                         <div className="col-sm-8">
-                            <label htmlFor="phone" style={{paddingBottom: "2px"}}>Phone:</label>
+                            <label htmlFor="phone" style={{paddingBottom: "2px" , float:"left"}}>Phone:</label>
                             <input type="phone" className="form-control" id="email" placeholder="Enter number" name="phone" />
                         </div>
                     </div>
                     <div className="mb-3 mt-3">
-                        <label htmlFor="comment" style={{paddingBottom: "2px"}}>Your message:</label>
+                        <label htmlFor="comment" style={{paddingBottom: "2px", float:"left"}}>Your message:</label>
                         <textarea className="form-control" rows="5" id="comment" placeholder="please describe what you need"
                             name="text"></textarea>
                     </div>

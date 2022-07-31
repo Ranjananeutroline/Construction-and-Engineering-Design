@@ -1,3 +1,57 @@
+.footermain{
+    background-color: rgb(205, 231, 239);
+}
+.footerflexbox{
+    display: grid;
+    grid-template-columns: 33% 33% 34% ;
+    grid-template-rows: 210px;
+    /* padding: 2rem 1rem 0 1rem; */
+}
+.flexbox4{
+   padding: 1.3rem;
+   grid-column-start: 1;
+   grid-column-end: 4;
+   background-color: rgb(5, 88, 94);
+   color:white;
+   /* color: black; */
+   font-size: 18px;
+}
+.foot1{
+    background-color: beige;
+}
+.foot2{
+    background-color: brown;
+
+}
+.foot3{
+    background-color: aqua;
+}
+.flexbox1{
+    padding: 1rem;
+}
+.flexbox2{
+    padding: 1rem;
+}
+.flexbox3{
+    padding: 1rem;
+}
+.flexbox1 .footerImage{
+    width: 20px;
+    height: 20px;
+    margin-left: 1rem;
+    
+}
+.footercall , .footeremail, .footerhome{
+    color: green;
+    
+}
+.flexbox1 .para{
+    margin-top: -0.7rem;
+}
+.flexbox2 .para{
+    margin-top: -0.7rem;
+}
+
 .footer_icon{
     margin-right:.3rem;
 }
@@ -8,7 +62,7 @@
 }
 
 @media only screen and (max-width:800px) {
-    .footer_contact{
+    .footerflexbox{
         display: flex;
         display:inline;
         /* flex-direction: row; */

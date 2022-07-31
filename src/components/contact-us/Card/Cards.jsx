@@ -12,9 +12,9 @@ function Cards() {
   return (
     <div className="card-container">
       <h1>Get in Touch</h1>
-      <p>Want to find out more about our company? Let's talk.</p>
-    <div className="cards-section">
-      
+      <p className="paragraph">Want to find out more about our company? Let's talk.</p>
+
+      <div className="cards-section">
       <IconContext.Provider value={{ className: "card-icons" }}>
         <Card
           icon={<HiOutlineMail />}

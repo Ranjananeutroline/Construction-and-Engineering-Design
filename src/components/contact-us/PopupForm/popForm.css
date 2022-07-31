@@ -3,7 +3,7 @@
   margin: auto;
   background-color: white;
   position: fixed;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   right: 0;
   left: 0;
   /* overflow-x: hidden;
@@ -29,7 +29,7 @@ div .dialog_country_code,
 div .dialog_phone,
 div .dialog_assign,
 div .dialog_desc {
-  margin: 0.5rem 0;
+  margin: 0.4rem 0;
 }
 
 .div .dialog_location {
@@ -72,6 +72,7 @@ form .popup_header {
   padding: 1rem 2rem;
   border-radius: 2rem;
 }
+
 .closeBtn {
   cursor: pointer;
   /* position: static; */
@@ -83,6 +84,13 @@ form .popup_header {
   color: black;
   font-size: 1.4rem;
 }
+.fillupform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #045de9!important;
+  margin-top: 0.3rem;
+}
 form .css-ypiqx9-MuiDialogContent-root {
   /* this is removing excess padding top from the input name */
   padding: 1px 24px 10px 24px;
@@ -90,7 +98,7 @@ form .css-ypiqx9-MuiDialogContent-root {
 
 div .fixedButton {
   position: fixed;
-  bottom:11rem;
+  bottom:16rem;
   right: -40px;
   background: #0f766e;
   color: white;
