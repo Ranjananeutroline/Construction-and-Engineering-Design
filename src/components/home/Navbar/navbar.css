@@ -1,9 +1,22 @@
 .nav-link a{
     text-decoration: none;
     color:black;
+
+}
+.nav-link{
+    margin:.5rem;
+}
+.navbar-nav .nav-link.active{
+    padding:0.5rem 1.5rem;
+    background-color:skyblue;
+    border-radius: 20px;
+    /* margin-right:1rem; */
+    text-align: center;
+    /* font-weight:bold; */
 }
 .navbar-nav{
     text-align:center;
+
 }
 .navbar_link{
     position:fixed;
@@ -11,5 +24,9 @@
     right:0;
     left:0;
     z-index:999;
+    padding:1rem;
+}
+.navbar-brand{
+    margin:0;
     padding:0;
 }
