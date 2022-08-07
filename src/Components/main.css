@@ -1,0 +1,70 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header-modal
+{
+    background-color: rgb(29, 132, 138); 
+    height: 80px;
+}
+#example-custom-modal-styling-title
+{
+   
+    background-color: rgb(29, 132, 138);
+    width: 100%;
+}
+#example-custom-modal-styling-title h5
+{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+.all-div
+{
+    background-color: white;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.div-1
+{
+    padding-left: 8px;
+    padding-top: 5px;
+    /* border: 1px solid; */
+}
+.div-1 h6
+{
+    margin-bottom: 1px;
+}
+.div-para
+{
+    font-size: 14px;
+    padding: 4px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    /* border: 1px solid; */
+}
+.readMoreClassName
+{
+    color: rgb(29, 132, 138);
+    font-size: 12px;
+    font-weight: bolder;
+}
+.readLessClassName
+{
+    color: rgb(29, 132, 138);
+    font-size: 12px;
+    font-weight: bolder;
+}
+.resume-para
+{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 15px;
+   
+}
