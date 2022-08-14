@@ -1,0 +1,10 @@
+.fixed_messenger{
+position: fixed;
+bottom:5rem;
+right:2rem;
+/* padding:1rem; */
+cursor:pointer;
+color: rgb(0,106,255);
+/* color:#FF6968; */
+}
+
