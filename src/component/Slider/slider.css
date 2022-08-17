@@ -1,17 +1,36 @@
 .imagebanner{
-    width: 90%;
+    width: 100%;
+    /* height: 400px; */
     height: 400px;
+    /* background-size: cover; */
+    background-position:left top;
+    /* object-fit: cover; */
+    position: relative;
     /* height: 70%; */
 }
-
-.first img{
-    /* height: 70%;
-    width: 100%; */
-    /* opacity: 0.8; */
+.carousel-all:before{
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.3);
 }
+/* .imagebanner:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+} */
+
 .first{
-    /* background-color: black !important; */
-    margin-top: 68px;
+    margin:2rem 4rem ;
 }
 .first h3{
     color:rgb(255, 255, 255) !important;
@@ -70,6 +89,9 @@
         /* margin-top: 2em; */
         color: rgb(0, 0, 0);
      }
+     .first{
+        margin:2rem 3rem ;
+    }
 }
 @media only screen and (max-width: 540px){
     /* div .first{
@@ -85,6 +107,9 @@
         /* margin-top: 2em; */
         color: rgb(0, 0, 0);
      }
+     .first{
+        margin:2rem 1rem ;
+    }
 }
 @media only screen and (max-width: 412px){
     /* div .first{

@@ -1,8 +1,8 @@
-.card-container{
-  text-align:center;
-  margin:1rem 0 0 0;
+.card-container {
+  text-align: center;
+  margin: 2rem 0;
 }
-.card-container .paragraph{
+.card-container .paragraph {
   margin-top: -10px;
   margin-bottom: 20px;
 }
@@ -13,16 +13,16 @@ div .card_margin {
 .contactus_card {
   width: 90%;
   height: 300px;
-  padding: 2rem 1rem 1rem  1rem;
+  padding: 2rem 1rem 1rem 1rem;
   display: inline-block;
   border-radius: 20px;
   text-align: center;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.contactus_card:nth-child(even){
-  margin-top:3rem;
-  background-color: rgba(231, 243, 247, 0.438);;
+.contactus_card:nth-child(even) {
+  margin-top: 3rem;
+  background-color: rgba(231, 243, 247, 0.438);
 }
 .card-icons {
   font-size: 2rem;
@@ -47,168 +47,125 @@ div .card_margin {
 }
 .cards-section {
   display: grid;
+  grid: 1rem;
   grid-template-columns: 22% 22% 22% 22%;
   /* grid-template-rows: 102%;
   gap: 2rem; */
   justify-content: center;
   /* margin: 1rem 0; */
-  padding: .5rem 4rem 1rem 5rem;
+  /* padding: .5rem 4rem 1rem 5rem; */
 }
 .card-heading {
   font-size: 1.3rem;
   font-weight: 600;
 }
-@media only screen and (max-width: 1024px){
-  .cards-section{
+@media only screen and (max-width: 1200px) {
+  .cards-section {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
   }
-  .card-heading{
+  .card-heading {
     font-weight: 600;
     font-size: 1rem;
   }
-  .desc_opt{
+  .desc_opt {
     font-size: 0.9rem;
     margin: 0;
   }
-  .contactus_card{
+  .contactus_card {
     width: 93%;
   }
 }
-@media only screen and (max-width: 912px){
-  .cards-section{
+@media only screen and (max-width: 912px) {
+  .cards-section {
     display: grid;
-    grid-template-columns: 29% 30% 30% 30%;
+    /* grid-template-columns: 29% 30% 30% 30%; */
   }
-  .card-heading{
+  .card-heading {
     font-weight: 600;
     font-size: 1rem;
   }
-  .desc_opt{
+  .desc_opt {
     font-size: 1rem;
     margin: 0;
   }
 }
-@media only screen and (max-width: 768px){
-  .cards-section{
+@media only screen and (max-width: 768px) {
+  .cards-section {
     /* padding: 0 4rem; */
     display: grid;
-    grid-template-columns:50% 50% ;
-    grid-template-rows: 50% 50% ;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 50% 50% ; */
     grid-column-gap: 0rem;
-    
   }
-  .card-heading{
+  .card-heading {
     font-size: 1.5rem;
     font-weight: 600;
   }
-  .contactus_card{
-    width: 70%;
+  .contactus_card {
+    width: 80%;
+    margin: auto;
   }
-  .desc_opt{
-    font-size:1.2rem;
+  .desc_opt {
+    font-size: 1.2rem;
     margin: 0;
   }
 }
-@media only screen and (max-width: 540px){
-  .cards-section{
+@media only screen and (max-width: 540px) {
+  .cards-section {
     /* padding: 0 4rem; */
     display: grid;
-    grid-template-columns:60% 60% ;
-    grid-template-rows: 50% 50% ;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 50% 50% ; */
     grid-column-gap: 0rem;
-    
   }
   /* .card:nth-child(odd) {
     margin-left: 2rem;
   } */
-  .card-heading{
+  .card-heading {
     font-size: 1rem;
   }
-  .contactus_card{
-    width: 93%;
+  .contactus_card {
+    /* width: 93%; */
   }
-  .desc_opt{
-    font-size:0.9rem;
+  .desc_opt {
+    font-size: 0.9rem;
     margin: 0;
   }
 }
-@media only screen and (max-width: 412px){
-  .cards-section{
+@media only screen and (max-width: 412px) {
+  .cards-section {
     /* padding: 0 4rem; */
     display: grid;
-    grid-template-columns:76% 76% ;
-    grid-template-rows: 50% 50% ;
+    grid-template-columns: 100%;
+    /* grid-template-rows: 50% 50% ; */
     grid-column-gap: 0rem;
-    
   }
   .card:nth-child(even) {
     margin-top: 0rem;
   }
-  .contactus_card{
+  .contactus_card {
     width: 93%;
   }
-  .card-heading{
+  .card-heading {
     font-size: 1rem;
   }
-  .desc_opt{
+  .contactus_card:nth-child(even) {
+    margin-bottom: 3rem;
+  }
+
+  .desc_opt {
     font-size: 0.7rem;
     margin: 0;
   }
 }
 
-
-@media only screen and (max-width: 360px){
-  .card-heading{
+@media only screen and (max-width: 360px) {
+  .card-heading {
     font-size: 1rem;
   }
-  .desc_opt{
+  .desc_opt {
     font-size: 0.7rem;
     margin: 0;
   }
 }
-@media only screen and (max-width: 280px){
-  .cards-section{
-    /* padding: 0 4rem; */
-    display: grid;
-    grid-template-columns:100% 100% ;
-    grid-template-rows: 45% 45% ;
-    grid-column-gap: 0rem;
-    
-  }
-  .card:nth-child(even) {
-    margin-top: 0rem;
-  }
-  .contactus_card{
-    width: 90%;
-  }
-  .desc_opt{
-    font-size: 0.7rem;
-    margin: 0;
-  }
-}
-
-/* @media only screen and (max-width: 800px) {
-  .cards-section {
-    display: grid;
-    grid-template-columns: 45% 45%;
-    gap: 1rem;
-  }
-  .card {
-    width: 95%;
-  }
-}
-@media only screen and (max-width: 450px) {
-  .cards-section {
-    display: grid;
-    grid-template-columns: 96%;
-    margin: 1rem;
-  }
-  .card {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-  .card:nth-child(even) {
-    margin-top: 0;
-  }
-} */

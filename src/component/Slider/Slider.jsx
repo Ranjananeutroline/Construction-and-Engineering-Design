@@ -7,7 +7,7 @@ function Slider() {
     <>
      <div className="first">
     <Carousel>
-  <Carousel.Item interval={3000}>
+  <Carousel.Item interval={3000} className="carousel-all">
     <img
       className="imagebanner"
       src="/images/about3.jpeg"
@@ -20,7 +20,7 @@ function Slider() {
        simplify process and increase  revenue.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item interval={3000}>
+  <Carousel.Item interval={3000} className="carousel-all">
     <img
       className="imagebanner"
       src="/images/about1.jpeg"
@@ -33,7 +33,7 @@ function Slider() {
        and trusted group of people providing IT solutions.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item interval={3000}>
+  <Carousel.Item interval={3000} className="carousel-all">
     <img
       className="imagebanner"
       src="/images/about2.jpeg"
