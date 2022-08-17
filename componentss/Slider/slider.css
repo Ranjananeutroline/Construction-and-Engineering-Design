@@ -1,0 +1,11 @@
+.first img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.8 ;
+}
+.first{background-color: black;}
+
+.discription{
+    justify-content: center;
+    color: blue;
+}

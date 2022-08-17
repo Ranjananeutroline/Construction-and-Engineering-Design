@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: antiquewhite; */
+}
+
+h3 {
+  color: black;
+  font-weight: bold;
+}
+p {
+  color: black;
+}
+
+.sixth {
+  background-color: rgb(231, 243, 247);
+}
+.seventh {
+  background-color: rgb(205, 231, 239);
+}

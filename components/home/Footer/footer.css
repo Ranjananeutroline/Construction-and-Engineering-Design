@@ -1,0 +1,121 @@
+.footermain{
+    /* background-color: rgb(205, 231, 239); */
+    height: 163px;
+}
+.footerflexbox{
+    display: grid;
+    grid-template-columns: 33% 33% 34% ;
+    grid-template-rows: 210px;
+    height: 163px;
+    /* padding: 2rem 1rem 0 1rem; */
+}
+/* .flexbox4{
+   padding: 1.3rem;
+   grid-column-start: 1;
+   grid-column-end: 4;
+   background-color: rgb(5, 88, 94);
+   color:white;
+   /* color: black; */
+   /* font-size: 18px; */
+/* } */
+/* .foot1{
+    background-color: beige;
+}
+.foot2{
+    background-color: brown;
+
+}
+.foot3{
+    background-color: aqua;
+} */
+.flexbox1{
+    padding: 12px;
+    /* border: 1px solid; */
+    background-color: lightblue;
+    height: 163px;
+}
+.flexbox2{
+    padding: 12px;
+    /* border: 1px solid; */
+    background-color:lightblue;
+    height: 163px;
+}
+.flexbox3{
+    padding: 12px;
+    /* border: 1px solid; */
+    background-color: lightblue;
+    height: 163px;
+} 
+.flexbox1 .footerImage{
+    width: 20px;
+    height: 20px;
+    margin-left: 1rem;
+    
+}
+.footercall , .footeremail, .footerhome{
+    color: green;
+    
+}
+.flexbox3 h5{
+    margin-bottom: 13px;
+}
+.div-1{
+    margin-top: 5px;
+    width: auto;
+    height: 25px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.div-1 p{
+    margin-top: -0.5rem;
+}
+.flexbox1 .para{
+    margin-top: -0.8rem;
+    text-decoration: underline;
+}
+.flexbox2 .para{
+    margin-top: -0.9rem;
+}
+
+.footericon{
+    margin-right:.3rem;
+    margin-top: -0.7rem;
+}
+.second-footer{
+    background-color: rgb(5, 88, 94);
+    
+}
+.second-footer p{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    font-size: 14px;
+}
+/* .footer-container-fluid{
+    width: 100%;
+    margin:auto;
+    overflow: hidden;
+} */
+/* .dinfo{
+    color:red;
+} */
+/* .rounded-circle_icon{
+    border-radius: 50%;
+} */ 
+
+
+
+@media only screen and (max-width:800px) {
+    .footerflexbox{
+        display: flex;
+        display:inline;
+        /* flex-direction: row; */
+    }
+}
+@media only screen and (max-width:500px) {
+    .footer_contact{
+        display: flex;
+        display:inline;
+        /* flex-direction: row; */
+    }
+}

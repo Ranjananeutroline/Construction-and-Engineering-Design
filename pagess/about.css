@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: antiquewhite; */
+}
+.aboutSection {
+  display: grid;
+  grid-template-rows: 477px 650px 700px 750px 500px 760px 200px;
+}
+.first {
+  /* background-color: aliceblue;  */
+}
+h3 {
+  color: black;
+  font-weight: bold;
+}
+p {
+  color: black;
+}
+
+.sixth {
+  background-color: rgb(231, 243, 247);
+}
+.seventh {
+  background-color: rgb(205, 231, 239);
+}

@@ -1,0 +1,30 @@
+
+.banners {
+  background-color: white;
+
+}
+.banner {
+  background-color: white;
+
+}
+
+.Dis{
+  color:rgb(66, 144, 245);
+  padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.banner{
+  /* background-color:rgb(186, 173, 174); */
+  /* padding-top: 71px; */
+}
+.hr{
+  color:rgba(255, 0, 0, 0.719);
+}
+  
+  @media (min-width: 575px) and (max-width: 780px) {
+    .aboutus_paragraph {
+      padding: 0;
+    }
+  }
+  
