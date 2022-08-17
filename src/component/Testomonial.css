@@ -1,0 +1,37 @@
+h4{
+    font-family:Calibri,sans-serif;
+    color: black;
+    font-weight:bold;
+    text-align: center;
+    /* padding: bottom 10px;; */
+}
+ h5{
+    font-family:Calibri,sans-serif;
+        color: black;
+        font-weight:bold;
+        text-align: center;
+        /* padding-bottom: 10px; */
+}
+.profile{
+
+    height: 40px;
+    width: 40px;
+}
+.carimage{
+    height:240px;
+    width: 95%;
+
+}
+.header-photo {
+    height: 50vh;
+    /* position: absolute; */
+    background-size: cover;
+    background-color: lightblue;
+    /* background: url(https://images.unsplash.com/photo-1487611459768-bd414656ea10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) no-repeat 50% / cover; */
+    background-position: left top;
+    z-index: 0;
+    position: relative;
+    /* background-attachment: fixed; */
+    width:100%;
+}
+

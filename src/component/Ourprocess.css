@@ -1,0 +1,46 @@
+.second-process h3
+{
+    text-align: center;
+    padding-top: 10px;
+/* padding-bottom: 4px; */
+}
+.second-process
+{
+    /* border: 1px solid; */
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.div-col
+{
+    /* border: 1px solid; */
+    width: 50%;
+    transition: width 1s, height 1s;
+}
+.div-col h6
+{
+    font-weight: bolder;
+}
+.div-paragraph
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    /* border: 1px solid; */
+}
+.div-paragraph p{
+    font-size: 14px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+@media screen and (max-width: 950px) {
+    .div-col{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .div-col{
+        width: 100%;
+        
+    }
+}
