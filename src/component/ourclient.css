@@ -1,83 +1,67 @@
-.cgrid{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    gap:70px;
-    background-color: rgb(225, 238, 245);
-    text-align: center;
-    width: 70%;
-    display: inline-grid;
-}
-
-.cpicture{
-    /* margin-bottom: 2rem;
-    border-radius:20px; */
-   
-   
-
-}
-
-.ourclientsection{
- background-color: rgb(225, 238, 245);
- width: 95%;
-justify-content: center;
-margin-left: 31px;
-}
-   
-.ClientPicture {
-     width: 50%;
-    border-radius:10px; 
-    height: 60%;
-    margin-bottom: 1rem;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    
-    /* border-radius:20px; */
-    /* background-image: cover; */
-    /* object-fit: cover; */
-   
-}
-.ClientPicture:hover{
-    width: 60%;
-    height: 70%;
-   
-    box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.25);
-   
-   
+.cgrid {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 70px;
+  background-color: rgb(225, 238, 245);
+  text-align: center;
+  width: 70%;
+  display: inline-grid;
 }
 .nclient{
-    margin-bottom: 0rem;
-    
-    background-color: rgb(225, 238, 245);
-    font-family:Calibri,sans-serif;
-    /* margin-right: 59px;  */
-    padding-top:1rem;
-    padding-bottom: 20px;
-    margin-left: 50px;
+    padding:2rem 0;
 }
 
-    .cnames{
-    font-family:Calibri,sans-serif;
-    text-align: center;
-    font-weight: lighter;
-    
-
+.ourclientsection {
+  background-color: rgb(225, 238, 245);
+  width: 95%;
+  justify-content: center;
+  margin:auto;
 }
 
+.ClientPicture {
+  width: 50%;
+  border-radius: 10px;
+  height: 60%;
+  margin-bottom: 1rem;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 
+  /* border-radius:20px; */
+  /* background-image: cover; */
+  /* object-fit: cover; */
+}
+.ClientPicture:hover {
+  width: 60%;
+  height: 70%;
+
+  box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.25);
+}
+.nclient {
+  margin-bottom: 0rem;
+
+  background-color: rgb(225, 238, 245);
+  font-family: Calibri, sans-serif;
+  /* margin-right: 59px;  */
+  padding-top: 1rem;
+  padding-bottom: 20px;
+  margin-left: 50px;
+}
+
+.cnames {
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  font-weight: lighter;
+}
 
 @media screen and (max-width: 950px) {
-    .cgrid{
-        grid-template-columns: 50% 50%;
-    }
+  .cgrid {
+    grid-template-columns: 50% 50%;
+  }
 }
 @media screen and (max-width: 500px) {
-    .cgrid{
-        grid-template-columns: 98%;
-        
-    }
-    .nclient{
-        margin-left: 0px;
-    }
+  .cgrid {
+    grid-template-columns: 98%;
+  }
+  .nclient {
+    margin-left: 0px;
+  }
 }
-
-
-

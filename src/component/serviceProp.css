@@ -1,100 +1,91 @@
 .App {
-  font-family:Calibri,sans-serif;
-    text-align: center;
-    
-    /* border: 1px solid rgb(242, 246, 250); */
-    
-  }
-  .App {
-    /* background-color: black; */
-    width: 10rem;
-    /* margin:1rem; */
-    
-    display:inline;
-  }
-  .photo {
-   
-    width: 100%;
-    height: 180px;
-    background-image: cover;
-    object-fit: cover;
-  }
-  .hide {
-    display: none;
-  }
-  .explanation {
-    color: black;
-    padding: 5px 10px;
-    transform: translateY(-200px);
-    opacity: 0;
-    transition: 0.3s;
-    /* justify-content: left; */
-    overflow-y: hidden;
-    position: relative;
-    top: 60%;
-    line-height:1.15;
-    
-  }
+  font-family: Calibri, sans-serif;
+  text-align: center;
 
-  .apple:hover .explanation {
-    opacity: 1;
-    transform: translateY(-400x);
-  }
-  
-  .apple {
-    position: relative;
-    width: 90%;
-    height: 200px;
-    border-radius: 10px;
-    box-shadow:rgb(181, 234, 252);
-    transition: 0.3s;
-    padding: 0.5rem;
-    background: whitesmoke;
-    cursor: pointer;
-    /* overflow-y: hidden; */
-  }
-  .ourservicesection{
-    background: rgb(225, 238, 245);
-    /* padding: 2rem; */
+  /* border: 1px solid rgb(242, 246, 250); */
+}
+.App {
+  /* background-color: black; */
+  width: 10rem;
+  /* margin:1rem; */
 
-  }
-  .sname {
-    /* margin-bottom: 3rem; */
-      /* margin-top: 20px; */
-      font-family:Calibri,sans-serif;
-      justify-content: center;
-      /* font-weight: bold; */
-      text-align: center;
-  }
- 
-  
-  .apple:hover {
-    height: 380px;
-  }
-  .explanation p {
-padding: 5px;
+  display: inline;
+}
+.photo {
+  width: 100%;
+  height: 180px;
+  background-image: cover;
+  object-fit: cover;
+}
+.hide {
+  display: none;
+}
+.explanation {
+  color: black;
+  padding: 5px 10px;
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.3s;
+  /* justify-content: left; */
+  overflow-y: hidden;
+  position: relative;
+  top: 60%;
+  line-height: 1.15;
+}
 
-  }
-  .grid{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    /* gap:10px; */
-    grid-column-gap: 5px;
-    
+.apple:hover .explanation {
+  opacity: 1;
+  transform: translateY(-400x);
+}
+
+.apple {
+  position: relative;
+  width: 90%;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: rgb(181, 234, 252);
+  transition: 0.3s;
+  padding: 0.5rem;
+  background: whitesmoke;
+  cursor: pointer;
+  /* overflow-y: hidden; */
+}
+.ourservicesection {
+  background: rgb(225, 238, 245);
+  /* padding: 2rem; */
+}
+.sname {
+  /* margin-bottom: 3rem; */
+  /* margin-top: 20px; */
+  font-family: Calibri, sans-serif;
+  justify-content: center;
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+.apple:hover {
+  height: 380px;
+}
+.explanation p {
+  padding: 5px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  /* gap:10px; */
+  grid-column-gap: 5px;
 }
 @media screen and (max-width: 950px) {
-  .grid{
-      grid-template-columns: 50% 50%;
+  .grid {
+    grid-template-columns: 50% 50%;
   }
 }
 @media screen and (max-width: 500px) {
-  .grid{
-      grid-template-columns: 98%;
+  .grid {
+    grid-template-columns: 98%;
   }
-      .apple{
-  
-        width:80%;
-        margin:auto;
-      }
-  
+  .apple {
+    width: 80%;
+    margin: auto;
+  }
 }

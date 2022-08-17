@@ -1,4 +1,13 @@
-
+.sname{
+    padding:2rem 0;
+}
+.sname:hover{
+    color:black;
+    text-shadow: none;
+}   
+.App .apple{
+    margin:auto;
+}
 .apple{
     position: relative;
     width: 90%;
@@ -41,7 +50,7 @@
     font-size:1rem;
 }  */
 .apple{
-    margin:2rem;
+    margin:0 1.5rem;
 }
 /* 
 .apple:hover  .explanation  {

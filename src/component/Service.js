@@ -5,11 +5,9 @@ import "./service.css"
 
 function Service() {
   return (
-    <div className='ourservicesection'>
-      
-        <h1  className='sname'>Major Services</h1>
-        
- 
+    <div className='ourservicesection'>      
+        <h3 className='sname'>Major Services</h3>
+
     <div className='grid'>
       <ServiceProp  image={require('./image/s3.jpg')}   
       heading="BULIDING CONSTRUCTION" 
