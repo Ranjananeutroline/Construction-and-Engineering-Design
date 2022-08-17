@@ -6,7 +6,7 @@
     text-shadow: none;
 }   
 .App .apple{
-    margin:auto;
+    margin:0 auto;
 }
 .apple{
     position: relative;
@@ -83,6 +83,7 @@
     .grid{
         grid-template-columns: 50% 50%;
     }
+
 }
 @media screen and (max-width: 500px) {
     .grid{
