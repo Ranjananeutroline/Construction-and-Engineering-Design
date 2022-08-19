@@ -8,16 +8,18 @@
     position: relative;
     /* height: 70%; */
 }
-.carousel-all:before{
+.imagebanner::before{
     content:"";
     position:absolute;
     top:0;
     bottom:0;
     left:0;
     right:0;
-    background:rgba(0,0,0,0.3);
+    background:rgba(0,0,0,0.8);
+
 }
-/* .imagebanner:before{
+/* 
+.carousel-all:after{
     position: absolute;
     content: "";
     left: 0;
@@ -26,7 +28,6 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2;
 } */
 
 .first{
@@ -37,7 +38,6 @@
     letter-spacing: 0.06em;
     font-family: sans-serif;
     font-weight: 400;
-
 }
 .first p{
     color:rgb(255, 251, 251) !important; 
@@ -45,6 +45,7 @@
     font-family: sans-serif;
     /* color: blue; */
     font-size: large;
+    
     /* font-weight: 400; */
 }
 @media only screen and (max-width: 820px){

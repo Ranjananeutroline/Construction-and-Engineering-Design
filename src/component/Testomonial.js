@@ -21,7 +21,7 @@ export class Testomonial extends Component {
          
         />
         <Carousel.Caption>
-          <img src={pr2} className='profile' alt='profileimage' fluid></img>
+          <img src={pr2} className='profile' alt='profileimage' fluid="true"></img>
           <h4>Ram parshad khattri</h4>
           <h5>CEO</h5>
           <h6 style={{color:"black"}}>Nepal chamber of commerce</h6>
@@ -36,7 +36,7 @@ export class Testomonial extends Component {
         />
 
         <Carousel.Caption>
-        <img src={ pr2 } className='profile' alt='profileimage' fluid></img>
+        <img src={ pr2 } className='profile' alt='profileimage'  fluid="true"></img>
           <h4>Hari Parshad Gautam</h4>
           <h5>MD</h5>
           <h6 style={{color:"black"}}>Tata Group Nepal</h6>
@@ -52,7 +52,7 @@ export class Testomonial extends Component {
         />
 
         <Carousel.Caption>
-        <img src={pr3} className='profile' alt='profileimage' fluid></img>
+        <img src={pr3} className='profile' alt='profileimage'  fluid="true"></img>
           <h4>Gita Kumari Shrestha</h4>
           <h5>President</h5>
           <h6 style={{color:"black"}}>Nepal Nursing Council</h6>

@@ -1,19 +1,15 @@
-import * as React from "react";
+import React, { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+// import Button from "react-bootstrap/Button";
 import Button from "@mui/material/Button";
-import TextField from "@mui/material/TextField";
-import Dialog from "@mui/material/Dialog";
-import DialogActions from "@mui/material/DialogActions";
-import DialogContent from "@mui/material/DialogContent";
-import DialogContentText from "@mui/material/DialogContentText";
-import DialogTitle from "@mui/material/DialogTitle";
+import Modal from "react-bootstrap/Modal";
 import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
-import { RiCloseLine } from "react-icons/ri";
-import { AiOutlineUpload} from "react-icons/ai";
-
+import { AiOutlineUpload } from "react-icons/ai";
 import "./popForm.css";
+import { TextField } from "@mui/material";
 
-export default function FormDialog() {
-  const [open, setOpen] = React.useState(false);
+export default function FormModal() {
+  const [show, setShow] = useState(false);
   const initialValues = {
     name: "",
     email: "",
@@ -28,7 +24,6 @@ export default function FormDialog() {
   const [formValues, setFormValues] = React.useState(initialValues);
   const [formErrors, setFormErrors] = React.useState({});
   const [isSubmit, setIsSubmit] = React.useState(false);
-
   const handleChange = (e) => {
     // console.log(e.target.value);
     const { name, value } = e.target;
@@ -55,50 +50,53 @@ export default function FormDialog() {
       errors.name = "name is required";
     } else if (values.name.length < 2) {
       errors.name = "Name must be longer than 2 letters";
-    } 
+    }
     if (!values.email) {
       errors.email = "email is required";
     } else if (!regex.test(values.email)) {
       errors.email = "This is not a valid email format";
-    } 
+    }
     return errors;
   };
 
   const handleClickOpen = () => {
-    setOpen(true);
+    setShow(true);
   };
 
   const handleClose = () => {
-    setOpen(false);
+    setShow(false);
   };
 
   return (
     <div>
       <Button
-        variant="outlined"
         onClick={handleClickOpen}
+        variant="success"
         className="fixedButton"
       >
         Get a Quote
       </Button>
-      <Dialog
-        open={open}
-        onClose={handleClose}
+
+      <Modal
+        // size="lg"
+        show={show}
+        onHide={handleClose}
         onSubmit={handleSubmit}
-        className="formDialog"
-        scrollable={true}
-        fullWidth
+        dialogClassName="modal-50w"
+        aria-labelledby="example-custom-modal-styling-title"
+        // backdrop="static"
+        // keyboard={false}
+
+        // scrollable="true"
       >
         <form>
-          <DialogTitle className="popup_header"> Get a quote</DialogTitle>
-          <span className="closeBtn" onClick={handleClose}>
-            <RiCloseLine
-              style={{ marginBottom: "0", zIndex: "9999", color: "white" }}
-              className="closeBtn"
-            />
-          </span>
-          <DialogContent>
-            <DialogContentText></DialogContentText>
+          <Modal.Header closeButton className="header-modal">
+            <Modal.Title id="example-custom-modal-styling-title">
+              <h3>Get a quote</h3>
+            </Modal.Title>
+          </Modal.Header>
+
+          <Modal.Body>
             <span className="fillupform">Please fill up the form</span>
             <TextField
               autoFocus
@@ -126,13 +124,13 @@ export default function FormDialog() {
               label="Email: "
               type="email"
               fullWidth
-              variant="outlined"
               autoComplete="off"
+              variant="outlined"
               value={formValues.email}
               onChange={handleChange}
               className="dialog_email"
             />{" "}
-            <p style={{ color: "red", margin: "0", fontSize: ".8rem" }} >
+            <p style={{ color: "red", margin: "0", fontSize: ".8rem" }}>
               {formErrors.email}
             </p>
             <div className="tel">
@@ -142,6 +140,7 @@ export default function FormDialog() {
                 variant="outlined"
                 name="org"
                 value={formValues.org}
+                autoComplete="off"
                 onChange={handleChange}
                 className="dialog_org"
               />
@@ -150,6 +149,7 @@ export default function FormDialog() {
                 label="Your Location"
                 variant="outlined"
                 name="location"
+                autoComplete="off"
                 value={formValues.location}
                 onChange={handleChange}
                 className="dialog_location"
@@ -232,29 +232,34 @@ export default function FormDialog() {
                 onChange={handleChange}
                 accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/png, image/jpeg,.pdf"
               />
-             
-              {/* image,pdf */}
               <Button
-                color="success"
+              color="success"
                 variant="contained"
                 component="span"
                 className="file_button"
               >
-                <AiOutlineUpload  className="uploadIcon"/>
+                <AiOutlineUpload className="uploadIcon" />
               </Button>
-              <small style={{color:"#b1a40d"}}>Upload file </small>
+              <small style={{ color: "#b1a40d" }}>Upload file </small>
             </label>
-          </DialogContent>
-          <DialogActions>
-            <Button onClick={handleClose} className="dialog_cancel">
-              Cancel
+          </Modal.Body>
+          <Modal.Footer bsPrefix="modal-footer">
+            <Button
+              className="dialog_cancel"
+              onClick={handleClose}
+            >
+              Close
             </Button>
-            <Button type="submit" className="dialog_submit">
+            <Button
+              className="dialog_submit"
+              type="submit"
+              // onClick={handleSubmit}
+            >
               Submit
             </Button>
-          </DialogActions>
+          </Modal.Footer>
         </form>
-      </Dialog>
+      </Modal>
     </div>
   );
 }

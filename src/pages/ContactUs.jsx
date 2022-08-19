@@ -8,6 +8,7 @@ import Navbar from "../components/home/Navbar/Navbar";
 import Footer from "../components/home/Footer/Footer"
 import Contact from "../components/home/Contact/Contact";
 import NavLink from "../components/home/Navbar/NavLink";
+import FormModal from "../components/contact-us/PopupForm/FormModal";
 
 function ContactUs() {
   return (
@@ -15,8 +16,9 @@ function ContactUs() {
       {/* <Navbar /> */}
       <NavLink />
       <Header />
+      <FormModal />
       {/* <FixedButton /> */}
-      <FormDialog />
+      {/* <FormDialog /> */}
       <MessengerChatHead />
       <Cards />
       {/* <GetInTouch /> */}

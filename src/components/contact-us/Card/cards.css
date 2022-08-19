@@ -106,64 +106,47 @@ div .card_margin {
     width: 80%;
     margin: auto;
   }
-  .desc_opt {
+  /* .desc_opt {
     font-size: 1.2rem;
     margin: 0;
-  }
+  } */
 }
 @media only screen and (max-width: 540px) {
   .cards-section {
-    /* padding: 0 4rem; */
     display: grid;
     grid-template-columns: 50% 50%;
-    /* grid-template-rows: 50% 50% ; */
     grid-column-gap: 0rem;
   }
-  /* .card:nth-child(odd) {
-    margin-left: 2rem;
-  } */
-  .card-heading {
-    font-size: 1rem;
-  }
-  .contactus_card {
-    /* width: 93%; */
-  }
-  .desc_opt {
+
+  /* .desc_opt {
     font-size: 0.9rem;
     margin: 0;
-  }
+  } */
 }
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 450px) {
   .cards-section {
-    /* padding: 0 4rem; */
     display: grid;
     grid-template-columns: 100%;
-    /* grid-template-rows: 50% 50% ; */
-    grid-column-gap: 0rem;
   }
   .card:nth-child(even) {
     margin-top: 0rem;
   }
   .contactus_card {
-    width: 93%;
+    width: 80%;
   }
-  .card-heading {
-    font-size: 1rem;
-  }
+
   .contactus_card:nth-child(even) {
     margin-bottom: 3rem;
   }
-
+/* 
   .desc_opt {
     font-size: 0.7rem;
     margin: 0;
-  }
+  } */
 }
 
 @media only screen and (max-width: 360px) {
-  .card-heading {
-    font-size: 1rem;
-  }
+
   .desc_opt {
     font-size: 0.7rem;
     margin: 0;

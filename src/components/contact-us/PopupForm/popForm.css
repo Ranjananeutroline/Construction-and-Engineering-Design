@@ -6,6 +6,7 @@
   margin-top: 1rem;
   right: 0;
   left: 0;
+
   /* overflow-x: hidden;
   overflow-y: scroll; */
 
@@ -14,6 +15,9 @@
   /* margin: 1rem; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.5s;
+}
+.modal-50w{
+  min-width:45%;
 }
 .formDialog {
   height: 102%;
@@ -35,9 +39,7 @@ div .dialog_desc {
 .div .dialog_location {
   margin-left: 6rem;
 }
-div .dialog_name {
-  /* margin-top: 1rem; */
-}
+
 .tel {
   display: flex;
   justify-content: space-between;
@@ -98,7 +100,7 @@ form .css-ypiqx9-MuiDialogContent-root {
 
 div .fixedButton {
   position: fixed;
-  bottom:16rem;
+  bottom:12rem;
   right: -40px;
   background: #0f766e;
   color: white;
@@ -111,13 +113,23 @@ div .fixedButton {
 }
 form .file_button{
   background-color:#0f766e;
- 
   display:block;
   width:10%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 10px;
+}
+.modal_file{
+  background-color:#0f766e;
+  display:block;
+  border:none;
+  width:50%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* padding-top: 10px; */
+  padding:.3rem;
 }
 .uploadIcon{
   font-size: 1.2rem;
@@ -226,6 +238,12 @@ input[type="number"] {
     width: calc(100% - 20px) !important;
     /* max-width:600px; */
   }
+  .modal-50w{
+    min-width:100%;
+  }
+  .fade.modal.show {
+    padding: 0 !important;
+}
   
 
 }
