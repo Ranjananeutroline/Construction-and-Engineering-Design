@@ -4,20 +4,17 @@
 .banner {
   background-color: white;
 }
+.service_banner_text{
+  margin:auto;
+}
 .service_banner{
   width:100%;
-  padding: 4.312rem 0 2rem 0 ;
+  padding: 4.312rem 0 0 0 ;
 }
 .Dis {
-  color: rgb(66, 144, 245);
-  padding-top: 5rem;
-  padding-bottom: 1rem;
+  color: rgb(13, 101, 217);
 }
 
-.banner {
-  /* background-color:rgb(186, 173, 174); */
-  /* padding-top: 71px; */
-}
 .hr {
   color: rgba(255, 0, 0, 0.719);
 }

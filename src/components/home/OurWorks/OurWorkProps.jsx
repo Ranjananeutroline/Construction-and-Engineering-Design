@@ -5,7 +5,7 @@ function OurWorkProps({image,}) {
     <>
        <div className="row p-3">
          <div className="col-sm-6 work-caption">
-                  <h5
+                  <h3
                     style={{
                       textAlign: "left",
                       fontSize: "30px",
@@ -16,7 +16,7 @@ function OurWorkProps({image,}) {
                     }}
                   >
                     Our Works
-                  </h5>
+                  </h3>
                  
                   <p
                     style={{

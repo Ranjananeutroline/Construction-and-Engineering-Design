@@ -47,13 +47,13 @@ function Footer() {
                 color: "white",
                 textAlign: "center",
                 fontSize: 14,
-                textDecoration: "underline",
+                
               }}
             >
               {" "}
                           </div>
             <div style={{ color: "white", textAlign: "center", fontSize: 16 }}>
-              <p style={{ color: "white" }}>Follow us on</p>
+              <p style={{ color: "white" }}>Follow us</p>
             </div>
             <div
               className="row justify-content-around"

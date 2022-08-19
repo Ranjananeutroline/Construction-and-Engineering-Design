@@ -8,7 +8,7 @@ import Col from "react-bootstrap/Col";
 export default function Process() {
   return (
     <Container fluid="true" className="main-process">
-      <h3 className="ourprocess_heading">Our Process</h3>
+      <h2 className="ourprocess_heading">Our Process</h2>
       <Row className="second-process">
         <Col className="div-col" lg="3" md="6"  sm="6">
           <img src="./image/pp1.jpeg" alt="first"></img>

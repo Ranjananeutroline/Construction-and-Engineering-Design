@@ -21,12 +21,11 @@ export const Banner = () => {
                 // height="500px"
               />
             </div>
-            <div className="col-sm-6">
+            <div className="col-sm-6 service_banner_text">
               <h2
                 className="Dis"
                 style={{
-                  paddingLeft: "20px",
-                  paddingTop: "4rem",
+              
                   fontfamily: "slick",
                 }}
               >
@@ -39,4 +38,4 @@ export const Banner = () => {
     </>
   );
 };
-export default Banner;
+

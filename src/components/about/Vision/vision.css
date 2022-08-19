@@ -1,8 +1,8 @@
 .vision_flex{
   display: flex;
   flex-direction: column;
-  background-color: rgb(231, 243, 247);
-  padding-bottom: 3rem;
+  /* background-color: rgb(231, 243, 247); */
+  /* padding-bottom: 2rem; */
   /* margin: 1rem 3rem 1rem 3rem; */
 }
 .vision_flex_box{
@@ -16,13 +16,16 @@
 }
 .fourth {
   /* background-color: rgb(189, 203, 216); */
-  padding:2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1.7rem;
   display: grid;
   justify-content: center;
+  text-align: center;
   /* grid-template-rows: 80px 500px; */
   /* grid-template-columns: 180px 150px 150px 150px 180px; */
-  grid-template-columns: 16% 16% 16%;
-  grid-column-gap: 20px;
+  grid-template-columns: 15% 15% 15%;
+  /* grid-column-gap: 10px; */
+ 
 }
 /* .fourth .box4 {
   grid-column-start: 2;
@@ -32,6 +35,8 @@
 } */
 .box1{
   text-align: center;
+  height: 60px;
+  width: 140px;
 }
 .fourth .box1 {
   padding: 1.5rem;
@@ -109,6 +114,7 @@
   
  
   margin:auto;
+  margin-bottom: 1.6rem;
   /* border-radius:0px 20px 20px 0px; */
   border-radius: 9px;
   /* box-shadow: 7px 6px 6px rgba(0, 0, 0, 0.25); */

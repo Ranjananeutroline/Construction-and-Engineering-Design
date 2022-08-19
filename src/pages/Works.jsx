@@ -6,6 +6,7 @@ import Footer from "../components/home/Footer/Footer"
 import OurWorkAreas from '../components/Works/OurWorkAreas/OurWorkAreas'
 import ProjectWork from '../components/Works/ShowProjects/ProjectWork'
 import NavLink from "../components/home/Navbar/NavLink";
+import GoToTop from '../components/home/Gotop/GoToTop'
 // import WorkFooter from "../components/Works/ourWorksFooter/WorkFooter"
 
 function Works() {
@@ -17,6 +18,7 @@ function Works() {
     {/* <ShowProjects /> */}
     <ProjectWork />
     <OurWorkAreas/>
+    <GoToTop />
     <Footer />
     {/* <WorkFooter /> */}
   

@@ -10,7 +10,7 @@ function OurTeam() {
       <div
         className="container-fluid team_whole_container">
 
-           <h1 style={{ textAlign: "center",marginBottom:"0px", }}>Our Team</h1>
+           <h2 style={{ textAlign: "center",marginBottom:"0px",}}>Our Team</h2>
       <p style={{ textAlign: "center"}}>"Success is best when it's shared"</p>
       
         <div className="ourteam" >
@@ -29,7 +29,7 @@ function OurTeam() {
                 </Col>
               </Row>
             </Carousel.Item>
-            <Carousel.Item interval={500}>
+            <Carousel.Item interval={6000}>
               <Row>
                 <Col sm={4}>
                   <OurTeamProps image="image/team3.jpg" heading="Team4"/>

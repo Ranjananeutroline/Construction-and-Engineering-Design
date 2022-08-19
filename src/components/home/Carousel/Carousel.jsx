@@ -1,4 +1,5 @@
 import React from "react";
+import "./Carousel.css";
 
 function Carousel() {
   return (
@@ -33,12 +34,12 @@ function Carousel() {
         {/* The slideshow/carousel */}
         <div className="container-xxl">
           <div className="carousel-inner">
-            <div className="carousel-item active">
+            <div className="carousel-item active carouselimg-bg">
               <img
                 src="./image/bgimg1.jpg"
                 alt="bgbites"
               height="400px"
-               width="90%"
+               width="100%"
                 style={{backgroundSize:"cover",objectFit:"cover"}}
               />
               <div className="carousel-caption">
@@ -51,12 +52,12 @@ function Carousel() {
                 </p>
               </div>
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item carouselimg-bg">
               <img
                 src="image/bgimg3.jpg"
                 alt="bgbites1"
               height="400px"
-               width="90%"
+               width="100%"
               />
               <div className="carousel-caption">
                 <h1 style={{ fontSize: "35px" }}>WE BUILD WITH PASSION</h1>
@@ -68,12 +69,12 @@ function Carousel() {
                 </p>
               </div>
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item carouselimg-bg">
               <img
                 src="image/bgimg2.jpg"
                 alt="bgbites2"
               height="400px"
-               width="90%"
+               width="100%"
               />
               <div className="carousel-caption">
                 <h1 style={{ fontSize: "35px" }}>WE BUILD WITH PASSION</h1>

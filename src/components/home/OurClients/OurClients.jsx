@@ -34,7 +34,7 @@ function OurClients() {
   return (
     <>
      <div >
-        <h1 className="head"> Our Clients</h1>
+        <h2 className="head"> Our Clients</h2>
 
 
         <div className="move">

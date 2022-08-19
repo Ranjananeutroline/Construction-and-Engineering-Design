@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./app.css";
 import "bootstrap/dist/css/bootstrap.css";
 import About from "./pages/About";

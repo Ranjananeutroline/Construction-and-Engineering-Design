@@ -6,15 +6,16 @@
 }
 .ourprocess_heading{
   text-align: center;
-  padding:2rem 0;
+  padding-top:1rem;
 }
 
 .second-process {
-  padding:1rem 0;
+  padding:1rem;
   /* border: 1px solid; */
   justify-content: center;
   text-align: center;
   width:100%;
+  margin:0;
 }
 .div-col {
   /* border: 1px solid; */
@@ -31,6 +32,9 @@
 .div-paragraph {
   padding-left: 15px;
   padding-right: 15px;
+  width:75%;
+  margin:auto;
+  text-align:justify;
   /* border: 1px solid; */
 }
 .div-col p {
@@ -45,4 +49,12 @@
   .main-process {
     columns: 98%;
   }
+
+}
+@media screen and (max-width: 550px) {
+
+.div-paragraph{
+  width:auto;
+  width:60%;
+}
 }

@@ -1,15 +1,14 @@
 .cgrid {
   display: grid;
   grid-template-columns: 30% 30% 30%;
-  gap: 70px;
+  gap: 1.5rem;
   background-color: rgb(225, 238, 245);
   text-align: center;
-  width: 70%;
-  display: inline-grid;
+  width: 82.5%;
+  margin:auto;
+    /* display: inline-grid; */
 }
-.nclient {
-  padding: 2rem 0;
-}
+
 
 .ourclientsection {
   background-color: rgb(225, 238, 245);
@@ -32,9 +31,8 @@
   margin-bottom: 0rem;
   background-color: rgb(225, 238, 245);
   font-family: Calibri, sans-serif;
-  padding-top: 1rem;
-  padding-bottom: 20px;
   margin-left: 50px;
+  padding: 2rem 0;
 }
 
 .cnames {

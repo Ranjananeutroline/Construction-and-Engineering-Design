@@ -5,13 +5,13 @@ import RecentWorkButtonFeatProps from "./RecentWorkButtonFeatProps";
 function OurRecentWorks() {
   return (
     <>
-      <div className="container p-6 recent_works" style={{ paddingTop: "10rem",background:"aliceblue"}}>
+      <div className="container recent_works" style={{background:"aliceblue"}}>
         <div className="row justify-content-center">
           <div
             className="col-md-6 recentwork_hr"
           >
             <h3>
-              Let's See{" "}
+              Let's See {" "}
               <span style={{ color: "rgba(255, 68, 0, 0.705)" ,}}>
                 Our Recent Works!!
               </span>
@@ -33,11 +33,12 @@ function OurRecentWorks() {
         </div>
       </div>
 
-      <div className="container-fluid recent_works" style={{ textAlign: "center", paddingBottom:"3rem", background:"aliceblue" }}>
+      <div className="container-fluid recent_works_btn" style={{ textAlign: "center", paddingBottom:"3rem", background:"aliceblue" }}>
         <div className="work-btn">
           <button
             className="ourWorks_button"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.253)" }}
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.253)"
+             ,transform:" scale(.95)" ,boxShadow:"0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.10)"}}
           >
             Featured
           </button>

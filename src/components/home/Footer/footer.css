@@ -1,12 +1,12 @@
 .footermain{
     /* background-color: rgb(205, 231, 239); */
-    height: 163px;
+    height: 170px;
 }
 .footerflexbox{
     display: grid;
     grid-template-columns: 33% 33% 34% ;
     grid-template-rows: 210px;
-    height: 163px;
+    height: 170px;
     /* padding: 2rem 1rem 0 1rem; */
 }
 /* .flexbox4{
@@ -32,19 +32,20 @@
     padding: 12px;
     /* border: 1px solid; */
     background-color: lightblue;
-    height: 163px;
+    height: 170px;
+    
 }
 .flexbox2{
     padding: 12px;
     /* border: 1px solid; */
     background-color:lightblue;
-    height: 163px;
+    height: 170px;
 }
 .flexbox3{
     padding: 12px;
     /* border: 1px solid; */
     background-color: lightblue;
-    height: 163px;
+    height: 170px;
 } 
 .flexbox1 .footerImage{
     width: 20px;
@@ -69,10 +70,24 @@
 .div-1 p{
     margin-top: -0.5rem;
 }
+.flexbox1 h5
+{
+    padding-top: 10px;
+}
+.flexbox2 h5
+{
+    padding-top: 10px;
+}
+.flexbox3 h5
+{
+    padding-top: 10px;
+}
 .flexbox1 .para{
     margin-top: -0.8rem;
-    text-decoration: underline;
+    color: blue;
+    font-weight: 600;
 }
+
 .flexbox2 .para{
     margin-top: -0.9rem;
 }
@@ -80,14 +95,24 @@
 .footericon{
     margin-right:.3rem;
     margin-top: -0.7rem;
+    
 }
+.footericon :hover{
+    -ms-transform: scale(.9); 
+  /* -webkit-transform: scale(1.3);  */
+  transform: scale(.9); 
+  cursor: pointer; 
+  transition:0.3s 
+
+}
+
 .second-footer{
     background-color: rgb(5, 88, 94);
     
 }
 .second-footer p{
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     color: white;
     font-size: 14px;
 }

@@ -9,6 +9,7 @@ import  Testomonial from "../component/Testomonial";
 import NavLink from '../components/home/Navbar/NavLink';
 import Footer from '../components/home/Footer/Footer';
 import FormDialog from '../components/contact-us/PopupForm/FormDialog';
+import GoToTop from '../components/home/Gotop/GoToTop';
 
 const Servicesanotherr = () => {
   return (
@@ -20,6 +21,7 @@ const Servicesanotherr = () => {
     <Ourprocess />
     <Ourclient />
     <Testomonial />
+    <GoToTop />
     <Footer />
     </div>
   )

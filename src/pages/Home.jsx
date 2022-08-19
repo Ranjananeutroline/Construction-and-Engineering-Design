@@ -11,6 +11,7 @@ import Contact from '../components/home/Contact/Contact';
 import Footer from '../components/home/Footer/Footer';
 import OurWorks from '../components/home/OurWorks/OurWorks';
 import NavLink from '../components/home/Navbar/NavLink';
+import GoToTop from '../components/home/Gotop/GoToTop';
 // import GetInTouch from "../components/contact-us/GetInTouch/GetInTouch"
 
 function Home() {
@@ -27,6 +28,7 @@ function Home() {
     <OurClients />
     <Contact />
     {/* <GetInTouch /> */}
+    <GoToTop />
     <Footer />
     </div>
     </>

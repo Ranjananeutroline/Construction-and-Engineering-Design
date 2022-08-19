@@ -11,7 +11,7 @@ const Job = () => {
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus obcaecati cum voluptatem,
     obcaecati 
      error voluptatum expedita odio minima dicta libero natus eius non provident facilis
-      voluptas voluptatibus nam tempora. Quibusdam, quis?</p>
+      voluptas voluptatibus nam tempora. Quibusdam, quis. consectetur adipisicing elit?</p>
     {/* <button className=' d-grid mx-auto justify-content-center bg-info'>Current Openings</button> */}
     <JobWindow />
 

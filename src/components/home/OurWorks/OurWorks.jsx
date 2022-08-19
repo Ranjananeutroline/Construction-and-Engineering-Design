@@ -9,7 +9,7 @@ function OurWorks() {
     <>
     <div className="ourWorks_container">
       <Carousel className="work_carousel">
-        <Carousel.Item>
+        <Carousel.Item interval={4000}>
           <Row className="justify-content-around">
             <Col >
               <OurWorkProps image="image/work1 (1).jpg"/>
@@ -17,14 +17,14 @@ function OurWorks() {
           </Row>
         </Carousel.Item>
 
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={4000}>
           <Row>
             <Col >
               <OurWorkProps image="image/work1 (2).jpg"/>
             </Col>
           </Row>
         </Carousel.Item>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={4000}>
           <Row>
             <Col >
               <OurWorkProps image="image/work1 (3).jpg"/>

@@ -9,6 +9,7 @@ import Footer from "../components/home/Footer/Footer"
 import Contact from "../components/home/Contact/Contact";
 import NavLink from "../components/home/Navbar/NavLink";
 import FormModal from "../components/contact-us/PopupForm/FormModal";
+import GoToTop from "../components/home/Gotop/GoToTop";
 
 function ContactUs() {
   return (
@@ -23,6 +24,7 @@ function ContactUs() {
       <Cards />
       {/* <GetInTouch /> */}
       <Contact />
+      <GoToTop />
       <Footer />
       {/* <Faq /> */}
     </div>

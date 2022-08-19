@@ -6,9 +6,10 @@ import Slider from "../components/about/Slider/Slider";
 // import Vision from '../component/Vision/Vision';
 import Vision from "../components/about/Vision/Vision";
 import WhoWeAre from "../components/about/WhoWeAre/WhoWeAre";
-import Location from "../components/about/Location/Location";
+// import Location from "../components/about/Location/Location";
 import Job from "../components/about/job/Job";
 import NavLink from "../components/home/Navbar/NavLink";
+import GoToTop from "../components/home/Gotop/GoToTop";
 import Footer from "../components/home/Footer/Footer";
 
 const About = () => {
@@ -21,7 +22,8 @@ const About = () => {
       <Vision />
       <OurPeople />
       <Job />
-      <Location />
+      {/* <Location /> */}
+      <GoToTop />
       <Footer />
      
     </div>

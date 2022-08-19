@@ -9,7 +9,7 @@ function OurTeam() {
     <>
       <div className="third">
         <button className=" d-grid m-auto justify-content-center text-white ">
-          <h5>Our Team</h5>
+          <h3>Our Team</h3>
         </button>
         <div className="flexBox">
           <div className="member1 member">

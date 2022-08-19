@@ -12,7 +12,7 @@ function OurServices() {
           id="carouselExampleSlidesOnly"
           data-bs-ride="carousel"
           style={{ backgroundColor: "rgb(231, 243, 247)" }}>
-             <h3
+             <h2
           style={{
             textAlign: "center",
             fontweight: "bolder",
@@ -23,7 +23,7 @@ function OurServices() {
           }}
         >
           Our Services
-        </h3>
+        </h2>
         <p style={{ textAlign: "center",marginBottom:"0px"}}>
           It's how we follow through the customer!!
         </p>

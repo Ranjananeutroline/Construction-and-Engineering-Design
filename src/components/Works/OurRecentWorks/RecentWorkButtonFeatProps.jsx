@@ -6,22 +6,24 @@ function RecentWorkButtonFeatProps({id,heading}) {
       <div
         className="offcanvas offcanvas-bottom p-3"
         id={id}
-        style={{ height: 580, backgroundColor: "rgb(231, 243, 247)" }}
+        style={{ height: 580, backgroundColor: "rgb(173 216 230 / 80%)" }}
       >
         <div className="container-fluid p-2">
           <div
             className="offcanvas-header p-1"
             style={{ color: "rgba(255, 68, 0, 0.705)" }}
           >
-            <h5>{heading}</h5>
+           <h4 ></h4>
             <button
               type="button"
               className="btn-close"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
+              style={{float:"right"}}
             ></button>
           </div>
           <div className="offcanvas-body p-1" style={{ height: 600 }}>
+          <h4 >{heading}</h4>
             <p>
               "Design is not just what it looks like and feels like. Design is
               how it works."

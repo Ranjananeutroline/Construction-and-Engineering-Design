@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flexbox1">
           <h5>Engineering Consulting</h5>
             <p>We the team of experts <br /> are there to help you</p>
-            <p className='para'>Follow us on</p>
+            <p className='para'>Follow us</p>
           <div className="footericon">
             <img  className='footerImage' src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-3-1.png" alt="" />
             <img className='footerImage' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="" />
@@ -39,6 +39,7 @@ const Footer = () => {
             &nbsp;&nbsp;&nbsp;info@neutroline.com &nbsp;&nbsp;&nbsp;</p>
           </div>
         </div>
+        
       </div>
         <div className='second-footer'>
           <p>2022 Engineering Consultancy Pvt.Ltd. All Rights Reserved.</p>

@@ -2,7 +2,9 @@ div .recent_works{
   background-color: white;
   margin:0;
   max-width:1400px;
+  padding:4rem 0 0rem 0 ;
 }
+
 .ourWorks_button {
   background-color: lightblue;
   border: none;

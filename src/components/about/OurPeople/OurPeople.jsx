@@ -11,7 +11,7 @@ function OurPeople() {
           <div className="hr">
             <hr />{" "}
           </div>
-          <div className="header ">Our People</div>
+          <h2 style={{paddingTop:'8px', paddingBottom:'8px'}}>Our People</h2>
           <div className="hr">
             <hr />
           </div>

@@ -6,7 +6,7 @@ import  "./ourclient.css"
 function Ourclient() {
   return (
     <div className='ourclientsection'>
-     <h3 className='nclient' > Our Clients</h3>
+     <h2 className='nclient' > Our Clients</h2>
     
      <div  className='cgrid' >
       <Ourclientproops clientPicture={require('./image/logo5.jpg')}

@@ -12,17 +12,13 @@ function Contact() {
     <>
       <div
         className="container"
-        style={{
-          backgroundColor: "rgb(231, 243, 247)",
-          width: "95%",
-          marginbottom: "1rem",
-        }}
+        style={{ backgroundColor: "rgb(231, 243, 247)", width: "95%" }}
       >
         <h3
           style={{
             color: "blue",
             display: "flex",
-            paddingTop: "1rem",
+            paddingTop: "10px",
             paddingLeft: "1rem",
           }}
         >
@@ -30,53 +26,79 @@ function Contact() {
         </h3>
         <hr
           style={{
-            width: "100px",
+            width: "120px",
             color: "blue",
-            marginBottom: "10px",
-            marginTop: ".5px",
+            marginBottom: "15px",
+            marginTop: "-10px",
             marginLeft: "1rem",
           }}
         />
         <div
           className="row justify-content-around"
-          style={{ paddingBottom: "3rem", marginBottom:"1rem" }}
+          style={{ paddingBottom: "3rem",marginBottom:"1rem" }}
         >
           <div
             className="col-md-7"
             style={{
               backgroundColor: "white",
               boxShadow:
-                "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+                "0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19)",
+              textAlign: "center",
+              justifyContent: "center",
             }}
           >
             <form>
-              <div className="mb-1 mt-2">
-                <label htmlFor="name" style={{ display: "flex" }}>
+              <div className="p-1">
+                <label
+                  htmlFor="name"
+                  style={{
+                    display: "flex",
+                    paddingBottom: "2px",
+                    paddingTop: "10px",
+                    paddingLeft: "4px",
+                  }}
+                >
                   Name:
                 </label>
                 <input
                   type="name"
                   className="form-control"
+                
                   id="name"
                   placeholder="Enter name"
                   name="name"
                 />
               </div>
-              <div className="mb-1 mt-2">
-                <label htmlFor="name" style={{ display: "flex" }}>
+              <div className="p-1">
+                <label
+                  htmlFor="name"
+                  style={{
+                    display: "flex",
+                    paddingBottom: "2px",
+                    paddingLeft: "4px",
+                  }}
+                >
                   Email:
                 </label>
                 <input
                   type="name"
                   className="form-control"
+                 
                   id="email"
                   placeholder="Enter email"
                   name="email"
                 />
               </div>
-              <div className="row">
+              <div className="row p-1">
                 <div className="col-sm-4">
-                  <label htmlFor="country" style={{ display: "flex" }}>
+                  <label
+                    htmlFor="country"
+                    style={{
+                      display: "flex",
+                      paddingBottom: "2px",
+                      paddingLeft: "4px",
+                    }}
+                  >
                     Country:
                   </label>
                   <select className="form-select">
@@ -87,32 +109,53 @@ function Contact() {
                   </select>
                 </div>
                 <div className="col-sm-8">
-                  <label htmlFor="phone" style={{ display: "flex" }}>
+                  <label
+                    htmlFor="phone"
+                    style={{
+                      display: "flex",
+                      paddingBottom: "2px",
+                      paddingLeft: "4px",
+                    }}
+                  >
                     Phone:
                   </label>
                   <input
                     type="phone"
                     className="form-control"
+                  
                     id="email"
                     placeholder="Enter number"
                     name="phone"
                   />
                 </div>
               </div>
-              <div className="mt-2 ">
-                <label htmlFor="comment" style={{ display: "flex" }}>
+              <div className="p-1">
+                <label
+                  htmlFor="comment"
+                  style={{
+                    display: "flex",
+                    paddingBottom: "2px",
+                    paddingLeft: "4px",
+                  }}
+                >
                   Your message:
                 </label>
                 <textarea
                   className="form-control"
-                  style={{ fontSize: "14px" }}
+                  style={{ fontSize: "14px", height: "90px"}}
                   rows="5"
                   id="comment"
                   placeholder="Please describe what you need"
                   name="text"
                 ></textarea>
               </div>
-              <div style={{ display: "flex" }}>
+              <div
+                style={{
+                  display: "flex",
+                  paddingLeft: "6px",
+                  marginTop: "0px",
+                }}
+              >
                 <input
                   type="checkbox"
                   id="agree"
@@ -122,15 +165,22 @@ function Contact() {
                 />
                 <label
                   htmlFor="agree"
-                  style={{ fontSize: "12px", padding: "10px" }}
+                  style={{ fontSize: "12px", padding: "8px" }}
                 >
                   I agree to the Terms of Service and Privacy Policy.
                 </label>
               </div>
 
-              <div className="row p-1">
+              <div
+                className="row recaptcha_contact"
+                style={{
+                  display: "flex",
+                  paddingLeft: "18px",
+                  paddingTop: "2px",
+                }}
+              >
                 <div
-                  className="col-sm-4"
+                  className="col-sm-5 p-2"
                   style={{
                     backgroundColor: "white",
                     boxShadow:
@@ -219,9 +269,10 @@ function Contact() {
                     />
                     <span>Devdaha-7 Rupandehi, Nepal </span>
                   </div>
-                  <hr className="Ci_hr" />
                 </IconContext.Provider>
               </div>
+              <hr className="Ci_hr" />
+
               <IconContext.Provider value={{ className: "react-icons" }}>
                 <div className="social-links">
                   <a href="/#">

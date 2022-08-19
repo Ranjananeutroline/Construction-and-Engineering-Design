@@ -1,5 +1,5 @@
 import React from "react";
-import "./aboutus.css"
+import "./aboutus.css";
 function AboutUs() {
   return (
     <>
@@ -8,25 +8,26 @@ function AboutUs() {
         <div className="container-sm reverse aboutus">
           <div className="row">
             <div className="col-sm-6">
-              <h4 style={{ paddingLeft: "20px", fontSize: "27px" ,paddingTop:"1.5rem" }}>
-                About Us
-              </h4>
-              <p
-              className="aboutus_paragraph"
+              <h2
+                style={{
+                  paddingLeft: "20px",
+                  paddingTop: "1.5rem",
+                }}
               >
+                About Us
+              </h2>
+              <p className="aboutus_paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                 in reprehenderit Ut enim ad minim veniam, quis nostrud
                 exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequatLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut  ullamco laboris nisi ut aliquip ex ea commodo
-                consequatLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut
+                consequatLorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut ullamco laboris nisi
+                ut aliquip ex ea commodo consequatLorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                 consequat.....
-
-
                 {/* <div className="button">
                 <input
                   type="button"
@@ -36,10 +37,7 @@ function AboutUs() {
                   className="btn btn-outline-secondary btn-sm"
                 />
               </div> */}
-
-
               </p>
-              
             </div>
             <div className="col-sm-6 p-4" style={{ paddingLeft: "10px" }}>
               <img

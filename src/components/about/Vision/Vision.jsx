@@ -28,18 +28,18 @@ const [dis,setDis]=useState(<Visiondisc />)
         {/*<div className="box"></div>*/}  
         <div className="box1" onClick={vis}>
          <FaRegEye className="vision" />
-          <h4 className="visions"  >Vision</h4>
+          <h4 className="visions"  >Vision&nbsp;&nbsp;&nbsp;</h4>
           <div className="overlay"></div>
         </div>
         <div className="box1" onClick={mis}>
           <FaRegPaperPlane className="mission"  />
-          <h4 className="visions">Mission</h4>
+          <h4 className="visions">Mission&nbsp;&nbsp;&nbsp;</h4>
           <div className="overlay"></div>
         </div>
 
         <div className="box1 " onClick={his}>
           <FaRegClock className="history" />
-          <h4 className="visions" >History</h4>
+          <h4 className="visions" >History&nbsp;&nbsp;&nbsp;</h4>
           <div className="overlay"></div>
         </div>
          {/*<div className="box"></div>*/} 

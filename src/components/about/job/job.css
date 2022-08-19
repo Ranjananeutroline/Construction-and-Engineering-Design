@@ -4,7 +4,7 @@
 
 .flexJob {
   display: flex;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .jobImage {
   flex: 6;
@@ -29,12 +29,16 @@ h2:hover {
   /* background-color: antiquewhite; */
 }
 .jobImage img {
-  width: 90%;
-  height: 90%;
+  width: 70%;
+  /* height: 90%; */
   object-fit: contain;
 }
+h2.headingjob {
+  width: 70%;
+  margin: auto;
+}
 .jobContent {
-  margin-top: 110px;
+  margin-top: 45px;
   padding: 10px;
   text-align: center;
 
@@ -49,7 +53,10 @@ h2:hover {
   font-family: "Calibri", "sanserif";
 }
 .jobContent p {
-  padding: 2rem 4rem 2rem 4rem;
+  font-size:1rem;
+  width:85%;
+  margin:auto;
+  padding: 2rem 4rem;
   text-align: justify;
 }
 .jobContent button {
@@ -59,7 +66,7 @@ h2:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 250px;
+  width: 200px;
   letter-spacing: 0.1em;
   border-radius: 5px;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
