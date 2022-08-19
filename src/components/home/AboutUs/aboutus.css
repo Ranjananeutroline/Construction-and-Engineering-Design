@@ -1,0 +1,20 @@
+.aboutus_container {
+  padding: .5rem 0;   
+  /* kus */
+}
+.aboutus {
+  padding-top: 1rem;
+  /* kus */
+}
+.aboutus_paragraph {
+  padding: 10px 35px 0 20px;
+  text-align: justify;
+  font-family: "calibri";
+  font-size: 15px;
+}
+
+@media (min-width: 575px) and (max-width: 780px) {
+  .aboutus_paragraph {
+    padding: 0;
+  }
+}

@@ -1,0 +1,89 @@
+.fifth {
+  background-color: rgb(205, 231, 239);
+}
+
+.fifth .people {
+  display: flex;
+}
+.fifth .faltus {
+  flex: 5;
+}
+.fifth .hr {
+  flex: 0.5;
+}
+.fifth hr {
+  height: 3px;
+  color: solid rgb(4, 1, 1);
+}
+.fifth .header {
+  flex: 1;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1.5px;
+}
+.fifth .hr {
+  flex: 0.5;
+}
+.fifth .faltu {
+  flex: 5;
+}
+.fifth .imgPeople {
+  display: grid;
+  grid-template-rows: 370px;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+  grid-gap: 70px;
+}
+
+.fifth img {
+  width: 100%;
+  height: 100%;
+}
+
+.image1 {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fafafa;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  opacity: 0.3;
+}
+.image1:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: rgb(232, 219, 219);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+}
+
+.fifth .company {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+  /* or 28px */
+
+  /* display: flex;
+align-items: flex-end;
+text-align: center; */
+  letter-spacing: 0.03em;
+  color: #040713;
+}
