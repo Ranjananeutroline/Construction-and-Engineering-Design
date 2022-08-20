@@ -12,8 +12,6 @@ function Slider() {
       className="imagebanner"
       src="/images/sliderbg7.jpg"
       alt="First slide"
-      height="400px"
-      width="90%"
     />
     <Carousel.Caption>
       <h3> Company</h3>
@@ -27,8 +25,6 @@ function Slider() {
       className="imagebanner"
       src="/images/sliderbg5.jpg"
       alt="Second slide"
-      height="400px"
-      width="90%"
     />
     <Carousel.Caption>
       <h3>Our People</h3>
@@ -42,8 +38,6 @@ function Slider() {
       className="imagebanner"
       src="/images/sliderbg6.jpg"
       alt="Third slide"
-      height="400px"
-      width="90%"
     />
     <Carousel.Caption>
       <h3>Team Members</h3>

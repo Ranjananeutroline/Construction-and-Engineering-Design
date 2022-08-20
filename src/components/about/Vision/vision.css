@@ -6,10 +6,10 @@
   /* margin: 1rem 3rem 1rem 3rem; */
 }
 .vision_flex_box{
-  background-color: #e0eef2;
+  background-color: #aab6b9;
   padding: 1rem;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 80%;
+  width: 90%;
   height: 50%;
   margin: auto;
   margin-top: 2rem;
@@ -41,6 +41,8 @@
 .fourth .box1 {
   padding: 1.5rem;
   box-sizing: border-box;
+  width:90%;
+  margin:0 1rem; 
   background: #ffffff;
   font-weight: bold;
   /* border-top: 1px solid #000000; */
@@ -128,7 +130,7 @@
   
 }
 .content p{
-  font-size:2.4vmin;
+  font-size:1.4vmax;
 }
 
 .fourth h2 {
@@ -162,24 +164,10 @@
   font-family: "Calibri", "sanserif";
 }
 @media (max-width:1024px){
-  /* .vision_flex_box{
-    padding:1rem;
-    margin :1rem; 
-    width : 100%
-    }
-    .fourth {
-    padding :.6rem;
-    }
-    .vision_image_grid{
-    margin-top: 0;
-    }
-    .fourth .box1{
-      padding: .5rem;
-    } */
     .fourth{
       padding: 10px;
       display: grid;
-      grid-template-columns:20% 20% 20%;
+      grid-template-columns:30% 30% 30%;
       grid-template-rows: 20%;
     }
   
@@ -200,7 +188,7 @@
 .fourth{
 
   grid-template-columns:30% 30% 30%; 
-  grid-column-gap:2rem;
+  grid-column-gap:.5rem;
 }
 .vision_image_grid{
   width:90%;
@@ -208,10 +196,11 @@
 }
 
 
-@media (max-width:540px){
+@media (max-width:580px){
   .fourth{
     grid-template-columns:30% 30% 30%; 
     grid-column-gap:.5rem;
+    margin: 0 1rem 0 0;
   }
   .visions{
     font-size: 15px;
@@ -224,34 +213,37 @@
 
 
 }
-@media (max-width:414px) {
-  
-}
 
-@media (max-width:412px){
+@media (max-width:450px){
   .vision_flex_box{
     padding:0;
-    margin :1rem; 
-    width : 95% 
+    /* margin :1rem;  */
+    /* width : 95%  */
     }
     .fourth {
     padding :.6rem;
+    margin:0;
     }
     .vision_image_grid{
     margin-top: 0;
     }
     .fourth .box1{
       padding: .5rem;
+      width:100%;
       height: 40px;
+       margin: 0 1rem 0 0;
     }
     .fourth{
       display: grid;
-      grid-template-columns:25% 25% 25%;
-      grid-template-rows: 20%;
+      /* grid-template-columns:25% 25% 25%; */
+      /* grid-template-rows: 20%; */
     }
     .visions{
       font-size:1rem;
       margin-left: -.5rem;
+    }
+    .content p{
+      font-size:1.2vmax;
     }
 }
 @media (max-width:712px) {

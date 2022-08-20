@@ -174,7 +174,8 @@ background-color:white;
   margin-top: 1em;
   display: grid;
   /* grid-template-rows: 45% 45% ; */
-  grid-template-columns: 45% 45%;
+  grid-template-columns: 100%;
+  margin: 1rem 1rem 0 1rem;
   /* grid-row-gap: 3em; */
   /* grid-column-gap: 0.8em; */
  }
