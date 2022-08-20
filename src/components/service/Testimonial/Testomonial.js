@@ -3,10 +3,10 @@ import './Testomonial.css';
 import Carousel from 'react-bootstrap/Carousel';
 import { Container,Image } from 'react-bootstrap';
 
-import c2 from "./image/c1.jpeg";
-import pr1 from "./image/111.png";
-import pr2 from "./image/112.png";
-import pr3 from "./image/113.png"
+import c2 from "../image/c1.jpeg";
+import pr1 from "../image/111.png";
+import pr2 from "../image/112.png";
+import pr3 from "../image/113.png"
 
 export class Testomonial extends Component {
   render() {

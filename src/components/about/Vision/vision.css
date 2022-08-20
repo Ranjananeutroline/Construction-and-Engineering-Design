@@ -1,11 +1,11 @@
-.vision_flex{
+.vision_flex {
   display: flex;
   flex-direction: column;
   /* background-color: rgb(231, 243, 247); */
   /* padding-bottom: 2rem; */
   /* margin: 1rem 3rem 1rem 3rem; */
 }
-.vision_flex_box{
+.vision_flex_box {
   background-color: #aab6b9;
   padding: 1rem;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -21,19 +21,12 @@
   display: grid;
   justify-content: center;
   text-align: center;
-  /* grid-template-rows: 80px 500px; */
-  /* grid-template-columns: 180px 150px 150px 150px 180px; */
-  grid-template-columns: 15% 15% 15%;
-  /* grid-column-gap: 10px; */
- 
+
+  grid-template-columns: 25% 25% 25%;
+  gap: 2rem;
 }
-/* .fourth .box4 {
-  grid-column-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 6;
-} */
-.box1{
+
+.box1 {
   text-align: center;
   height: 60px;
   width: 140px;
@@ -41,8 +34,8 @@
 .fourth .box1 {
   padding: 1.5rem;
   box-sizing: border-box;
-  width:90%;
-  margin:0 1rem; 
+  width: 90%;
+  margin: 0 1rem;
   background: #ffffff;
   font-weight: bold;
   /* border-top: 1px solid #000000; */
@@ -55,7 +48,6 @@
   cursor: pointer;
   font-family: serif;
   position: relative;
- 
 }
 .overlay {
   position: absolute;
@@ -67,14 +59,12 @@
   width: 0;
   height: 100%;
   transition: 0.3s ease;
-  opacity:0.3;
+  opacity: 0.3;
 }
 .box1:hover .overlay {
   width: 100%;
- 
 }
 .fourth .vision {
-  
   min-width: 2.5rem;
   /* margin-top: -1%; */
 
@@ -82,7 +72,7 @@
   /* background-color: aquamarine;
     border-radius: 100%; */
 }
-.fourth .visions{
+.fourth .visions {
   margin-bottom: -1px;
   /* margin-left: 3px; */
   font-weight: lighter;
@@ -95,16 +85,13 @@
   min-width: 2.5rem;
 }
 .fourth .history {
-  
   /* margin-top: -1%; */
   /* margin-right: 10px; */
   color: green;
   min-width: 2.5rem;
 }
 
-
 .vision_image_grid {
-
   width: 90%;
   height: 350px;
   background: #fffdfd;
@@ -112,10 +99,9 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
-  grid-column-gap:0px;
-  
- 
-  margin:auto;
+  grid-column-gap: 0px;
+
+  margin: auto;
   margin-bottom: 1.6rem;
   /* border-radius:0px 20px 20px 0px; */
   border-radius: 9px;
@@ -123,14 +109,12 @@
   /* align-items: center; */
   /* justify-content: space-between; */
 }
- .content {
+.content {
   width: 80%;
   margin: 0 auto;
-  
-  
 }
-.content p{
-  font-size:1.4vmax;
+.content p {
+  font-size: 1.4vmax;
 }
 
 .fourth h2 {
@@ -146,10 +130,10 @@
   width: 100%;
   /* background-color: rgb(143, 100, 45); */
   /* height: 100%; */
-  margin-left:auto;
+  margin-left: auto;
 }
 
-.visionpic{
+.visionpic {
   height: 100%;
   width: 100%;
   border-radius: 0px 9px 9px 0px;
@@ -163,114 +147,109 @@
   cursor: pointer;
   font-family: "Calibri", "sanserif";
 }
-@media (max-width:1024px){
-    .fourth{
-      padding: 10px;
-      display: grid;
-      grid-template-columns:30% 30% 30%;
-      grid-template-rows: 20%;
+@media (max-width: 1024px) {
+  .fourth {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 20%;
+  }
+}
+@media (max-width: 768px) {
+  .visions {
+    font-size: 20px;
+    margin-left: -0.5rem;
+  }
+}
+@media (max-width: 712px) {
+  .visions {
+    font-size: 20px;
+    margin-left: -0.6rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .fourth {
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 0.5rem;
+  }
+  .vision_image_grid {
+    width: 90%;
+    height: 70%;
+  }
+
+  @media (max-width: 580px) {
+    .fourth {
+      grid-template-columns: 30% 30% 30%;
+      grid-column-gap: 0.5rem;
+      margin: 0 1rem 0 0;
     }
-  
-}
-@media (max-width:768px) {
-  .visions{
-    font-size: 20px;
-    margin-left: -.5rem;
-  }
-}
-@media (max-width:712px) {
-  .visions{
-    font-size: 20px;
-    margin-left: -.6rem;
-  }
-}
-@media only screen and (max-width: 700px){
-.fourth{
-
-  grid-template-columns:30% 30% 30%; 
-  grid-column-gap:.5rem;
-}
-.vision_image_grid{
-  width:90%;
-  height: 70%;
-}
-
-
-@media (max-width:580px){
-  .fourth{
-    grid-template-columns:30% 30% 30%; 
-    grid-column-gap:.5rem;
-    margin: 0 1rem 0 0;
-  }
-  .visions{
-    font-size: 15px;
-    margin-left: -.7rem;
-  }
-  .vision, .history, .mission{
-    font-size: 13px;
+    .visions {
+      font-size: 15px;
+      margin-left: -0.7rem;
+    }
+    .vision,
+    .history,
+    .mission {
+      font-size: 13px;
+    }
   }
 }
 
-
-}
-
-@media (max-width:450px){
-  .vision_flex_box{
-    padding:0;
+@media (max-width: 450px) {
+  .vision_flex_box {
+    padding: 0;
     /* margin :1rem;  */
     /* width : 95%  */
-    }
-    .fourth {
-    padding :.6rem;
-    margin:0;
-    }
-    .vision_image_grid{
+  }
+  .fourth {
+    padding: 0.6rem;
+    margin: 0;
+  }
+  .vision_image_grid {
     margin-top: 0;
-    }
-    .fourth .box1{
-      padding: .5rem;
-      width:100%;
-      height: 40px;
-       margin: 0 1rem 0 0;
-    }
-    .fourth{
-      display: grid;
-      /* grid-template-columns:25% 25% 25%; */
-      /* grid-template-rows: 20%; */
-    }
-    .visions{
-      font-size:1rem;
-      margin-left: -.5rem;
-    }
-    .content p{
-      font-size:1.2vmax;
-    }
-}
-@media (max-width:712px) {
-  .visions{
-    font-size: 15px;
-    margin-left: -.6rem;
+  }
+  .fourth .box1 {
+    padding: 0.5rem;
+    width: 100%;
+    height: 40px;
+    margin: 0 1rem 0 0;
+  }
+  .fourth {
+    display: grid;
+    /* grid-template-columns:25% 25% 25%; */
+    /* grid-template-rows: 20%; */
+  }
+  .visions {
+    font-size: 1rem;
+    margin-left: -0.5rem;
+  }
+  .content p {
+    font-size: 1.2vmax;
   }
 }
-@media (max-width:280px){
-  .vision_flex_box{
-    padding:0;
-    margin :1rem; 
-    width : 93% 
-    }
-    /* .box1{
+
+@media (max-width: 280px) {
+  .vision_flex_box {
+    padding: 0;
+    margin: 1rem;
+    width: 93%;
+  }
+  /* .box1{
       height: 20px;
     } */
-  .fourth{
+  .fourth {
     display: grid;
-    grid-template-columns:28% 28% 28%;
+    grid-template-columns: 28% 28% 28%;
     grid-template-rows: 10%;
   }
-  .visions{
-    font-size:.6rem;
-    margin-left: -.5rem;
+  .visions {
+    font-size: 0.6rem;
+    margin-left: -0.5rem;
   }
-  .vision, .history, .mission{
-    font-size:.5rem;
+  .vision,
+  .history,
+  .mission {
+    font-size: 0.5rem;
   }
 }

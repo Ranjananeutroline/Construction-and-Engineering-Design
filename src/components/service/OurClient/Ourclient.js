@@ -9,17 +9,17 @@ function Ourclient() {
      <h2 className='nclient' > Our Clients</h2>
     
      <div  className='cgrid' >
-      <Ourclientproops clientPicture={require('./image/logo5.jpg')}
+      <Ourclientproops clientPicture={require('../image/logo5.jpg')}
       cname='Nepal Government'/>      
-      <Ourclientproops clientPicture={require('./image/logo2.jpg')}
+      <Ourclientproops clientPicture={require('../image/logo2.jpg')}
       cname='NeutroLine'/>
-      <Ourclientproops clientPicture={require('./image/logo3.jpg')}
+      <Ourclientproops clientPicture={require('../image/logo3.jpg')}
       cname='Mercedes'/>
-      <Ourclientproops clientPicture={require('./image/logo4.jpg')}
+      <Ourclientproops clientPicture={require('../image/logo4.jpg')}
       cname='Tansen Cemente'/>
-      <Ourclientproops clientPicture={require('./image/logo1.jpg')}
+      <Ourclientproops clientPicture={require('../image/logo1.jpg')}
       cname='United Mission Hospital'/>
-      <Ourclientproops clientPicture={require('./image/logo6.jpg')}
+      <Ourclientproops clientPicture={require('../image/logo6.jpg')}
       cname='Tata Motor'/>
      
     </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import "./banner.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import banner from "./image/banner.jpg";
-import banner1 from "./image/banner1.jpg";
+import banner from "../image/banner.jpg";
+import banner1 from "../image/banner1.jpg";
 export const Banner = () => {
   return (
     <>
