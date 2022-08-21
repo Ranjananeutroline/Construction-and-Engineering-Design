@@ -1,7 +1,7 @@
 import React from "react";
-import "./Carousel.css";
+import "../../home/Carousel/Carousel.css";
 
-function Carousel() {
+function OurPeopleCarousel() {
   return (
     <>
       <div
@@ -36,53 +36,53 @@ function Carousel() {
           <div className="carousel-inner">
             <div className="carousel-item active carouselimg-bg">
               <img
-                src="./image/bgimg1.jpg"
+                src="/images/sliderbg7.jpg"
                 alt="bgbites"
               height="400px"
                width="100%"
-                style={{backgroundSize:"cover",objectFit:"cover"}}
+                style={{objectFit:"cover"}}
               />
               <div className="carousel-caption">
-                <h1 style={{ fontSize: "35px" }}>WE BUILD WITH PASSION</h1>
+                <h1 style={{ fontSize: "35px" }}>Company</h1>
                 <p style={{ display: "block" ,color:"white" }}>
                   <span style={{ display: "block" }}>
-                    Manufacturing Solutions Better way of Production{" "}
+                  We build custom IT solutions customer’s  {" "}
                   </span>
-                  Making your vision become a reality.
+                  simplify process and increase  revenue.
                 </p>
               </div>
             </div>
             <div className="carousel-item carouselimg-bg">
               <img
-                src="image/bgimg3.jpg"
+                src="/images/sliderbg5.jpg"
                 alt="bgbites1"
               height="400px"
                width="100%"
               />
               <div className="carousel-caption">
-                <h1 style={{ fontSize: "35px" }}>WE BUILD WITH PASSION</h1>
+                <h1 style={{ fontSize: "35px" }}>Our People</h1>
                 <p style={{ display: "block" ,color:"white" }}>
                   <span style={{ display: "block" ,color:"white" }}>
-                    Manufacturing Solutions Better way of Production{" "}
+                  We are young, innovative,skilled, ambitious,{" "}
                   </span>
-                  Making your vision become a reality.
+                  and trusted group of people providing IT solutions.
                 </p>
               </div>
             </div>
             <div className="carousel-item carouselimg-bg">
               <img
-                src="image/bgimg2.jpg"
+                src="/images/sliderbg6.jpg"
                 alt="bgbites2"
               height="400px"
                width="100%"
               />
               <div className="carousel-caption">
-                <h1 style={{ fontSize: "35px" }}>WE BUILD WITH PASSION</h1>
+                <h1 style={{ fontSize: "35px" }}>Team Members</h1>
                 <p style={{ display: "block" ,color:"white" }}>
                   <span style={{ display: "block" }}>
-                    Manufacturing Solutions Better way of Production{" "}
+                  Amazing team members,Self motivated {" "}
                   </span>
-                  Making your vision become a reality.
+                  welcomes new & innovative ideas.
                 </p>
               </div>
             </div>
@@ -111,4 +111,4 @@ function Carousel() {
   );
 }
 
-export default Carousel;
+export default OurPeopleCarousel;

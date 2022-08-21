@@ -11,12 +11,14 @@ import Job from "../components/about/job/Job";
 import NavLink from "../components/home/Navbar/NavLink";
 import GoToTop from "../components/home/Gotop/GoToTop";
 import Footer from "../components/home/Footer/Footer";
+import OurPeopleCarousel from "../components/about/Slider/OurPeopleCarousel";
 
 const About = () => {
   return (
     <div className="aboutSection">
      <NavLink />
-      <Slider />
+      {/* <Slider /> */}
+      <OurPeopleCarousel />
       <WhoWeAre />
       <OurTeam />
       <Vision />

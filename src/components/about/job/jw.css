@@ -1,12 +1,3 @@
-*
-
-{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-
 .openbtn {
         
     justify-content:center;
@@ -26,8 +17,28 @@
 .vac-head{
     color: white;
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-button
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.459); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 85, 85, 0.507); 
+  }
 
-
+  .all-div:hover
+  {
+      background-color:  rgba(29, 133, 138, 0.164);
+  }
 
 .header-modal
 {
@@ -63,6 +74,7 @@
 .div-1 h6
 {
     margin-bottom: 1px;
+    text-align :left;
 }
 .div-para
 {
@@ -71,6 +83,9 @@
     text-align: center;
     padding-bottom: 5px;
     padding-top: 0px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
     /* border: 1px solid; */
 }
 .readMoreClassName

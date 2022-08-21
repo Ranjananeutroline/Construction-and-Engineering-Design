@@ -2,7 +2,7 @@ import React from 'react'
 import "./header.css"
 function Header() {
   return (
-    <div>
+    <div className='header-container'>
         <div className="header-photo">
         <div className="text flex-col">  {/* this flex-col is coming from components/navbar.css */}
             <h2 className='contactUsHeading'>Contact us</h2>

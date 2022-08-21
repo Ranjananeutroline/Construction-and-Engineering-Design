@@ -6,3 +6,12 @@
     background-color: rgb(231, 243, 247);
     margin: 2rem 0;
 }
+.ourWorksParagraph{
+    overflow:hidden;
+}
+@media only screen and (max-width: 950px){
+    .ourWorksParagraph{
+        overflow-y:auto;
+        height:300px;
+    }
+} 

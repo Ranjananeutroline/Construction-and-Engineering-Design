@@ -10,8 +10,21 @@
     background: rgba(0, 0, 0, 0.3);
     z-index: 2;
 }
+.carousel-container{
+ margin-top:4rem;
+}
 .carousel-caption
 {
     color: white;
     z-index: 2;
+}
+.carousel-inner{
+    width:90%;
+    margin:auto;
+}
+@media only screen and (max-width: 600px) {
+    .carousel-inner{
+        width:100%;
+        margin:auto;
+    }
 }

@@ -11,7 +11,7 @@ function AboutUs() {
               <h2
                 style={{
                   paddingLeft: "20px",
-                  paddingTop: "1.5rem",
+                  paddingTop: ".5rem",
                 }}
               >
                 About Us
@@ -22,12 +22,7 @@ function AboutUs() {
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                 in reprehenderit Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequatLorem ipsum dolor sit amet, consectetur adipiscing
-                elit, sed do eiusmod tempor incididunt ut ullamco laboris nisi
-                ut aliquip ex ea commodo consequatLorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                consequat.....
+                exercitation.
                 {/* <div className="button">
                 <input
                   type="button"
@@ -41,7 +36,7 @@ function AboutUs() {
             </div>
             <div className="col-sm-6 p-4" style={{ paddingLeft: "10px" }}>
               <img
-                className="img-fluid img-thumbnail"
+                className="img-fluid img-thumbnail aboutus_img"
                 src="image/about1.jpg"
                 alt="ceo"
                 width="500"

@@ -1,26 +1,17 @@
-.sname{
-    padding:2rem 0;
-}
-.sname:hover{
-    color:black;
-    text-shadow: none;
-}   
-.App .apple{
-    margin:0 auto;
-}
 .apple{
     position: relative;
     width: 90%;
     height: 200px;
     border-radius: 0px;
     transition:0.3s ;
-    padding:5px 10px ;
-    background:rgb(231, 243, 247);
+    /* padding:5px 5px 5px 5px; */
+    background:white;
     cursor: pointer;
     text-align: center;
+
     }
 
-/* .apple:hover{    
+/* .apple:hover{
     height: 320px;
 } */
 
@@ -38,8 +29,16 @@
     width: 80%;
     box-shadow: 0px 5px 20px;
 }
-/* 
-.explanation{
+/* .explanation h6{
+    padding-top: 3px;
+} */
+.explanation p{
+    text-align: justify;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* .explanation{
     color: black;
      padding: 5px 10px; 
     transform: translateY(-200px);
@@ -48,9 +47,9 @@
     justify-content:left; 
     overflow-y:hidden;
     font-size:1rem;
-}  */
+}   */
 .apple{
-    margin:0 1.5rem;
+    margin:auto;
 }
 /* 
 .apple:hover  .explanation  {
@@ -67,23 +66,26 @@
 .grid{
     display: grid;
     grid-template-columns: 25% 25% 25%;
-    /* grid-template-rows: 40%; */
+    /* grid-template-rows: 49%; */
     gap: 20px;
     background: rgb(225, 238, 245);
     text-align: center;
      justify-content:center;
+     padding-bottom: 3rem;
      
 }
 .mainservicesection{
     background-color: aliceblue;
 }
-
+.ourservicesection h2
+{
+    padding-top: 20px;
+}
 
 @media screen and (max-width: 950px) {
     .grid{
         grid-template-columns: 50% 50%;
     }
-
 }
 @media screen and (max-width: 500px) {
     .grid{
@@ -94,4 +96,3 @@
        
     }
 }
-
