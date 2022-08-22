@@ -18,12 +18,12 @@
     color: white;
     z-index: 2;
 }
-.carousel-inner{
+.carousel-container .carousel-inner{
     width:90%;
     margin:auto;
 }
 @media only screen and (max-width: 600px) {
-    .carousel-inner{
+    .carousel-container .carousel-inner{
         width:100%;
         margin:auto;
     }

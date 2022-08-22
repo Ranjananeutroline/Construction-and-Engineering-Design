@@ -8,7 +8,6 @@
 }
 .jobImage {
   flex: 6;
-  /* background-color: black; */
 }
 h2 {
   display: flex;
@@ -17,20 +16,12 @@ h2 {
   margin-top: 50px;
   cursor: pointer;
 }
-h2:hover {
-  /* the real h2:hover */
-  /* color: rgb(100, 179, 100);
-  text-shadow: 2px 2px 4px #3c3636; */
-  /* color: rgb(153, 134, 215);
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(156, 156, 214), 0 0 5px rgb(107, 107, 216); */
-}
+
 .jobContent {
   flex: 6;
-  /* background-color: antiquewhite; */
 }
 .jobImage img {
   width: 70%;
-  /* height: 90%; */
   object-fit: contain;
 }
 h2.headingjob {
@@ -41,10 +32,7 @@ h2.headingjob {
   margin-top: 45px;
   padding: 10px;
   text-align: center;
-
-  /* display: flex; */
   justify-content: center;
-  /* padding: 180px 120px 40px 120px; */
   letter-spacing: 0.04rem;
   font-weight: 400;
   font-size: 18px;
@@ -65,7 +53,6 @@ h2.headingjob {
   text-align: justify;
 }
 .jobContent button {
-  /* margin-top: 50px; */
   border: none;
   height: 60px;
   display: flex;

@@ -7,12 +7,8 @@
 }
 .jobbtn{
     background-color: rebeccapurple;
-    /* width: 500px; */
     width: 5rem;
-    height: 100px;
-    
-    
-    
+    height: 100px;    
 }
 .vac-head{
     color: white;
@@ -62,14 +58,12 @@
     background-color: white;
     justify-content: center;
     margin-bottom:15px;
-    /* height:90px; */
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 .div-1
 {
     padding-left: 8px;
     padding-top: 5px;
-    /* border: 1px solid; */
 }
 .div-1 h6
 {
@@ -86,7 +80,6 @@
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
-    /* border: 1px solid; */
 }
 .readMoreClassName
 {

@@ -49,10 +49,10 @@ function OurServices() {
                   <PropsServices image="image/service4.jpg" heading="Service 4"/>
                 </Col>
                 <Col sm={4} className="service_col">
-                  <PropsServices image="image/service5.jpg" heading="Service 5"/>
+                  <PropsServices image="image/service5.jpg" heading="Service 5" />
                 </Col>
                 <Col sm={4} className="service_col">
-                  <PropsServices image="image/service6.jpg" heading="Service 6"/>
+                  <PropsServices image="image/service6.jpg" heading="Service 6" />
                 </Col>
               </Row>
             </Carousel.Item>

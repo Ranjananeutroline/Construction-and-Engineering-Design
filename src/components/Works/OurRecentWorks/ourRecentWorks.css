@@ -4,7 +4,15 @@ div .recent_works{
   max-width:1400px;
   padding:4rem 0 0rem 0 ;
 }
-
+.recentworks_heading{
+  width:100%;
+}
+.recentworks_desc{
+  width:100%;
+}
+.recent_works_btn{
+  padding:0;
+}
 .ourWorks_button {
   background-color: lightblue;
   border: none;

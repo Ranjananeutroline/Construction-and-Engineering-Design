@@ -15,7 +15,7 @@
   justify-content: center;
   text-align: center;
   width:100%;
-  margin:0;
+  margin:2rem 0;
 }
 .div-col {
   /* border: 1px solid; */
@@ -49,10 +49,14 @@
   .main-process {
     columns: 98%;
   }
-
+  .div-col{
+    width:100%;
+  }
+  .second-process{
+    margin:0;
+  }
 }
 @media screen and (max-width: 550px) {
-
 .div-paragraph{
   width:auto;
   width:60%;

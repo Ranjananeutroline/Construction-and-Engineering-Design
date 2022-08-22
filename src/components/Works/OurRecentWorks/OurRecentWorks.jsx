@@ -6,7 +6,7 @@ function OurRecentWorks() {
   return (
     <>
       <div className="container recent_works" style={{background:"aliceblue"}}>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center recentworks_heading">
           <div
             className="col-md-6 recentwork_hr"
           >
@@ -18,7 +18,7 @@ function OurRecentWorks() {
             </h3>
           </div>
         </div>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center recentworks_desc">
           <div className="col-md-8 p-2" style={{ textAlign: "center", background:"aliceblue" }}>
             <p style={{ textAlign: "center", fontSize: 15 }}>
               Here are some of our works that acts as evidence of our successful
