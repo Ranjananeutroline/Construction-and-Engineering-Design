@@ -8,16 +8,18 @@ import Ourclient  from "../components/service/OurClient/Ourclient";
 import  {Testomonial} from "../components/service/Testimonial/Testomonial";
 import NavLink from '../components/home/Navbar/NavLink';
 import Footer from '../components/home/Footer/Footer';
-import FormDialog from '../components/contact-us/PopupForm/FormDialog';
+import FormModal from '../components/contact-us/PopupForm/FormModal';
 import GoToTop from '../components/home/Gotop/GoToTop';
+import ScrollToTop from '../components/home/Gotop/ScrollToTop';
 
 const Servicesanotherr = () => {
   return (
     <div >
    <NavLink />
+   <ScrollToTop/>
     <Banner />
     <Service />
-    <FormDialog />
+    <FormModal />
     <Ourprocess />
     <Ourclient />
     <Testomonial />

@@ -10,12 +10,14 @@ import Contact from "../components/home/Contact/Contact";
 import NavLink from "../components/home/Navbar/NavLink";
 import FormModal from "../components/contact-us/PopupForm/FormModal";
 import GoToTop from "../components/home/Gotop/GoToTop";
+import ScrollToTop from "../components/home/Gotop/ScrollToTop";
 
 function ContactUs() {
   return (
     <div>
       {/* <Navbar /> */}
       <NavLink />
+      <ScrollToTop/>
       <Header />
       <FormModal />
       {/* <FixedButton /> */}

@@ -1,7 +1,6 @@
 import React from "react";
 import "./banner.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import banner from "../image/banner.jpg";
 import banner1 from "../image/banner1.jpg";
 export const Banner = () => {
   return (
@@ -10,7 +9,7 @@ export const Banner = () => {
         {" "}
         <div className="banner">
           <div className="row service_banner">
-            <hr className="line" style={{ width: "100%", zIndex: "9999" }} />
+            <hr className="line" style={{ width: "100%", zIndex: "1" }} />
 
             <div className="col-sm-6" style={{ paddingLeft: "5px" }}>
               <img

@@ -7,6 +7,7 @@ import OurWorkAreas from '../components/Works/OurWorkAreas/OurWorkAreas'
 import ProjectWork from '../components/Works/ShowProjects/ProjectWork'
 import NavLink from "../components/home/Navbar/NavLink";
 import GoToTop from '../components/home/Gotop/GoToTop'
+import ScrollToTop from '../components/home/Gotop/ScrollToTop'
 // import WorkFooter from "../components/Works/ourWorksFooter/WorkFooter"
 
 function Works() {
@@ -14,6 +15,7 @@ function Works() {
     <>
     {/* <Navbar /> */}
     <NavLink />
+    <ScrollToTop/>
     <OurRecentWorks />
     {/* <ShowProjects /> */}
     <ProjectWork />

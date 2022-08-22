@@ -12,6 +12,7 @@ import Footer from '../components/home/Footer/Footer';
 import OurWorks from '../components/home/OurWorks/OurWorks';
 import NavLink from '../components/home/Navbar/NavLink';
 import GoToTop from '../components/home/Gotop/GoToTop';
+import ScrollToTop from '../components/home/Gotop/ScrollToTop';
 // import GetInTouch from "../components/contact-us/GetInTouch/GetInTouch"
 
 function Home() {
@@ -20,6 +21,7 @@ function Home() {
     <div className='bg-white'>
     {/* <Navbar /> */}
     <NavLink />
+    <ScrollToTop />
     <Carousel />
     <AboutUs />
     <OurServices />

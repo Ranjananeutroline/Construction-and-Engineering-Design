@@ -12,11 +12,13 @@ import NavLink from "../components/home/Navbar/NavLink";
 import GoToTop from "../components/home/Gotop/GoToTop";
 import Footer from "../components/home/Footer/Footer";
 import OurPeopleCarousel from "../components/about/Slider/OurPeopleCarousel";
+import ScrollToTop from "../components/home/Gotop/ScrollToTop";
 
 const About = () => {
   return (
     <div className="aboutSection">
      <NavLink />
+     <ScrollToTop/>
       {/* <Slider /> */}
       <OurPeopleCarousel />
       <WhoWeAre />
