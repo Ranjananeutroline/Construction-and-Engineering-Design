@@ -47,12 +47,12 @@ export default function FormModal() {
     const errors = {};
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
     if (!values.name) {
-      errors.name = "name is required";
+      errors.name = "Name is required";
     } else if (values.name.length < 2) {
       errors.name = "Name must be longer than 2 letters";
     }
     if (!values.email) {
-      errors.email = "email is required";
+      errors.email = "Email is required";
     } else if (!regex.test(values.email)) {
       errors.email = "This is not a valid email format";
     }
@@ -78,16 +78,12 @@ export default function FormModal() {
       </Button>
 
       <Modal
-        // size="lg"
+        size="sm"
         show={show}
         onHide={handleClose}
         onSubmit={handleSubmit}
         dialogClassName="modal-50w"
         aria-labelledby="example-custom-modal-styling-title"
-        // backdrop="static"
-        // keyboard={false}
-
-        // scrollable="true"
       >
         <form>
           <Modal.Header closeButton className="header-modal">
@@ -100,10 +96,11 @@ export default function FormModal() {
             <span className="fillupform">Please fill up the form</span>
             <TextField
               autoFocus
-              // margin="dense"
               id="name"
               label="Name"
+              size="small"
               type="text"
+              margin="normal"
               name="name"
               fullWidth
               variant="outlined"
@@ -113,7 +110,7 @@ export default function FormModal() {
               className="dialog_name"
             />{" "}
             {/* <ErrorMessage component ="div" name={field.fullName} className="error" /> */}
-            <p style={{ color: "red", margin: "0", fontSize: ".8rem" }}>
+            <p style={{ color: "red", fontSize: ".8rem", margin:"-0.5rem 0" }}>
               {formErrors.name}
             </p>
             <TextField
@@ -123,6 +120,7 @@ export default function FormModal() {
               id="email"
               label="Email: "
               type="email"
+              size="small"
               fullWidth
               autoComplete="off"
               variant="outlined"
@@ -130,7 +128,7 @@ export default function FormModal() {
               onChange={handleChange}
               className="dialog_email"
             />{" "}
-            <p style={{ color: "red", margin: "0", fontSize: ".8rem" }}>
+            <p style={{ color: "red", margin: "-0.5rem 0", fontSize: ".8rem" }}>
               {formErrors.email}
             </p>
             <div className="tel">
@@ -139,6 +137,7 @@ export default function FormModal() {
                 label="Your organization"
                 variant="outlined"
                 name="org"
+                size="small"
                 value={formValues.org}
                 autoComplete="off"
                 onChange={handleChange}
@@ -149,6 +148,7 @@ export default function FormModal() {
                 label="Your Location"
                 variant="outlined"
                 name="location"
+                size="small"
                 autoComplete="off"
                 value={formValues.location}
                 onChange={handleChange}
@@ -156,8 +156,8 @@ export default function FormModal() {
               />
             </div>
             <div className="tel">
-              <FormControl sx={{ my: 1 }} className="dialog_country_code">
-                <InputLabel id="demo-simple-select-helper-label">
+              <FormControl sx={{ my: 1 }} className="dialog_country_code" size="small">
+                <InputLabel id="demo-simple-select-helper-label" >
                   Your Country code
                 </InputLabel>
                 <Select
@@ -168,6 +168,7 @@ export default function FormModal() {
                   value={formValues.country_code}
                   name="country_code"
                   onChange={handleChange}
+                
                   // onChange={handleChange}
                 >
                   <MenuItem value={"+977"}>Nepal (+977)</MenuItem>
@@ -183,12 +184,13 @@ export default function FormModal() {
                 variant="outlined"
                 type="number"
                 name="phone"
+                size="small"
                 className="dialog_phone"
                 value={formValues.phone}
                 onChange={handleChange}
               />
             </div>
-            <FormControl fullWidth sx={{ mb: 1 }} className="dialog_assign">
+            <FormControl fullWidth sx={{ mb: 1 }} className="dialog_assign" size="small">
               <InputLabel id="demo-simple-select-label" variant="outlined">
                 Select an Option
               </InputLabel>
@@ -197,9 +199,10 @@ export default function FormModal() {
                 id="demo-simple-select outline-basic"
                 // value={age}
                 name="assign"
-                label="  Select an Option"
+                label="Select an Option"
                 value={formValues.assign}
                 onChange={handleChange}
+                
                 // onChange={handleChange}
               >
                 <MenuItem value={"ios"}>IOS App Development</MenuItem>
@@ -214,12 +217,13 @@ export default function FormModal() {
               id="outlined-multiline-static"
               label="Write something you want to talk about"
               multiline
-              rows={4}
+              rows={3}
               fullWidth
               name="desc"
               autoComplete="off"
               className="dialog_desc"
               value={formValues.desc}
+              size="small"
               onChange={handleChange}
             />
             <label htmlFor="upload_file">
@@ -228,7 +232,8 @@ export default function FormModal() {
                 id="upload_file"
                 name="upload_file"
                 type="file"
-                value={formValues.upload_file}
+                // value={formValues.upload_file}
+                value={""}
                 onChange={handleChange}
                 accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/png, image/jpeg,.pdf"
               />

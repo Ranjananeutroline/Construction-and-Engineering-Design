@@ -18,7 +18,34 @@
 }
 
 .modal-50w{
-  min-width:45%;
+  min-width:35%;
+}
+.fillupform{
+  margin:.2rem 0;
+}
+div .header-modal{
+  background-color: rgb(29, 132, 138);
+  height: 60px;
+}
+@media only screen and (max-width: 900px){
+  .modal-50w{
+    min-width:50%;
+  }
+}
+#example-custom-modal-styling-title h3{
+  text-align: center;
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom:0;
+  padding-top:0;
+}
+ /* div .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+ 
+padding:11px;
+} */
+
+.modal-body{
+  padding: 0 1rem 1rem 1rem;
 }
 
 .formDialog {
@@ -27,15 +54,23 @@
   width:90%; */
 }
 
-div .dialog_name,
+
 div .dialog_email,
 div .dialog_org,
 div .dialog_location,
 div .dialog_country_code,
 div .dialog_phone,
 div .dialog_assign,
-div .dialog_desc {
-  margin: 0.4rem 0;
+div .dialog_desc
+{
+  margin: .6rem 0;
+}
+div .dialog_name{
+  margin-bottom : .6rem;
+  margin-top:.2rem;
+}
+div .file_button {
+  margin-top:.6rem;
 }
 
 .div .dialog_location {
@@ -51,10 +86,12 @@ div .dialog_desc {
   width: 48%;
 }
 .dialog_phone {
-  width: 63%;
+  width: 56%;
+  margin-right:0;
+  padding-right:0 ;
 }
 .dialog_country_code {
-  width: 34%;
+  width: 40%;
 }
 div .css-tlc64q-MuiPaper-root-MuiDialog-paper{
   /* max-width:55%; */
@@ -158,10 +195,7 @@ div .fixedButton:hover {
   pointer-events: none;
   user-select: none;
 }
-input[type="number"] {
-  width: 75%;
-  margin-left: 1rem;
-}
+
 .free-consultation {
   margin-top: 1rem;
 }
