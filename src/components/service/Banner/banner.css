@@ -1,0 +1,29 @@
+
+.banner {
+  background-color: white;
+  /* border: 1px solid; */
+}
+.service_banner_text{
+  margin:auto;
+}
+.service_banner{
+  width:100%;
+  padding: 4.312rem 0 0 0 ;
+  /* border: 1px solid; */
+  padding: auto;
+  margin: 0px;
+}
+.Dis {
+  color: rgb(13, 101, 217);
+  padding:1rem;
+}
+
+.hr {
+  color: rgba(255, 0, 0, 0.719);
+}
+
+@media (min-width: 575px) and (max-width: 780px) {
+  .aboutus_paragraph {
+    padding: 0;
+  }
+}

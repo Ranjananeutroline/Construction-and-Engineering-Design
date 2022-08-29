@@ -1,0 +1,54 @@
+ .gotop{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+  .top-btn {
+    font-size: 1rem;
+     width: 2rem;
+     height: 2rem;
+     color: #fff;
+     background-color:rgba(9, 48, 63, 0.719);
+     border-radius: 50%;
+     position: fixed;
+     bottom: 5rem;
+     right: 2.5rem;
+     z-index: 999;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     border: 1px solid;
+  }
+  .top-btn:hover
+  {
+    background: skyblue;
+  }
+  .top-btn .tooltiptext{
+    visibility: hidden;
+    width: 55px;
+    height: 20px;
+    background-color: skyblue;
+    color:black;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 13px;
+    padding-top: 1.5px;
+
+
+
+     position: absolute;
+     z-index: 1;
+     bottom: 108%;
+     left: 50%;
+     margin-left: -30px;
+    
+
+  }
+  .top-btn:hover .tooltiptext{
+    visibility: visible;
+  }
+     .top-btn--icon {
+       animation: 1.2s linear infinite alternate-reverse;
+     }

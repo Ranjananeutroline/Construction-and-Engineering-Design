@@ -1,0 +1,29 @@
+
+.head{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    /* font-size: xx-large; */
+    font-family: Calibri,sans-serif;
+}
+.move{
+    padding-bottom:50px;
+    width: 80%;
+    margin: auto;
+}
+
+.Picture{
+    height:80%;
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+@media screen and (max-width:843px){
+    .client-section .client_box{
+        width:80%;
+    margin:auto;
+    }
+    .client_box{
+        padding:0;
+    }
+}

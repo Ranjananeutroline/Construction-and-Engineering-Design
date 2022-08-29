@@ -1,0 +1,88 @@
+.mainJob {
+  background-color: rgb(231, 243, 247);
+}
+
+.flexJob {
+  display: flex;
+  margin-top: 20px;
+}
+.jobImage {
+  flex: 6;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.jobContent {
+  flex: 6;
+}
+.jobImage img {
+  width: 70%;
+  object-fit: contain;
+}
+h2.headingjob {
+  width: 70%;
+  margin: auto;
+}
+.jobContent {
+  margin-top: 45px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.04rem;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  cursor: pointer;
+  font-family: "Calibri", "sanserif";
+}
+.jobContent_desc{
+  height:50%;
+  margin:0 auto;
+}
+.jobContent p {
+  font-size:1.1rem;
+  line-height:1.5rem;
+  width:85%;
+  margin:auto;
+  padding: 2rem 4rem;
+  text-align: justify;
+}
+.jobContent button {
+  border: none;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  letter-spacing: 0.1em;
+  border-radius: 5px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.jobContent button:hover {
+  box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.25);
+
+  cursor: pointer;
+}
+@media only screen and (max-width: 1070px) {
+.jobContent p{
+  /* font-size:.7rem; */
+  padding:1rem;
+}
+.jobImage img{
+  width:90%;
+  height:90%;
+}
+}
+@media only screen and (max-width: 600px) {
+  .flexJob {
+    display: flex;
+    flex-direction: column;
+  }
+}
