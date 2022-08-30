@@ -11,6 +11,8 @@ function OurWorkAreas() {
         <h2
           style={{
             textAlign: "center",
+            // fontFamily: '"Times New Roman", Times, serif',
+           
           }}
         >
           Our Work Area

@@ -36,6 +36,7 @@ function Carousel() {
           <div className="carousel-inner">
             <div className="carousel-item active carouselimg-bg">
               <img
+              className="img-height"
                 src="./image/bgimg1.jpg"
                 alt="bgbites"
               height="400px"
@@ -43,8 +44,14 @@ function Carousel() {
                 style={{backgroundSize:"cover",objectFit:"cover"}}
               />
               <div className="carousel-caption">
-                <h1 style={{ fontSize: "35px" }}>WE BUILD WITH PASSION</h1>
-                <p style={{ display: "block" ,color:"white" }}>
+                <h1   className="abcd" 
+                >WE BUILD WITH PASSION
+                </h1>
+
+
+                <p
+                className="discription_c"
+                style={{ display: "block" ,color:"white" }}>
                   <span style={{ display: "block" }}>
                     Manufacturing Solutions Better way of Production{" "}
                   </span>
@@ -54,14 +61,20 @@ function Carousel() {
             </div>
             <div className="carousel-item carouselimg-bg">
               <img
+              className="img-height"
                 src="image/bgimg3.jpg"
                 alt="bgbites1"
               height="400px"
                width="100%"
               />
               <div className="carousel-caption">
-                <h1 style={{ fontSize: "35px" }}>WE BUILD WITH PASSION</h1>
-                <p style={{ display: "block" ,color:"white" }}>
+                <h1 className="abcd"
+                 >WE BUILD WITH PASSION
+                 </h1>
+
+                <p 
+                className="discription_c"
+                style={{ display: "block" ,color:"white" }}>
                   <span style={{ display: "block" ,color:"white" }}>
                     Manufacturing Solutions Better way of Production{" "}
                   </span>
@@ -70,15 +83,21 @@ function Carousel() {
               </div>
             </div>
             <div className="carousel-item carouselimg-bg">
-              <img
+              <img 
+              className="img-height"
                 src="image/bgimg2.jpg"
                 alt="bgbites2"
               height="400px"
                width="100%"
               />
               <div className="carousel-caption">
-                <h1 style={{ fontSize: "35px" }}>WE BUILD WITH PASSION</h1>
-                <p style={{ display: "block" ,color:"white" }}>
+                <h1
+
+                className="abcd"
+                 >WE BUILD WITH PASSION</h1>
+
+                <p  className="discription_c"
+                style={{ display: "block" ,color:"white" }}>
                   <span style={{ display: "block" }}>
                     Manufacturing Solutions Better way of Production{" "}
                   </span>

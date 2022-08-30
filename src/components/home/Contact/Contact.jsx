@@ -28,9 +28,7 @@ function Contact() {
           style={{
             width: "120px",
             color: "blue",
-            marginBottom: "15px",
-            marginTop: "-10px",
-            marginLeft: "1rem",
+            margin:"-10px 0 10px 12px "
           }}
         />
         <div

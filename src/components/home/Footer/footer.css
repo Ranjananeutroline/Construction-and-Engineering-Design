@@ -50,7 +50,7 @@
 .flexbox1 .footerImage{
     width: 20px;
     height: 20px;
-    margin-left: 1.4rem;
+    margin-left: 1rem;
     
 }
 .footercall , .footeremail, .footerhome{
@@ -97,7 +97,8 @@
 }
 
 .footericon{
-    margin-right:3rem;
+    margin-left: 1rem;
+    margin-right:0rem;
     margin-top: -0.7rem;
     
 }

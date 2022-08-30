@@ -36,6 +36,7 @@ function OurPeopleCarousel() {
           <div className="carousel-inner">
             <div className="carousel-item active carouselimg-bg">
               <img
+              className="img-height"
                 src="/images/sliderbg7.jpg"
                 alt="bgbites"
               height="400px"
@@ -54,6 +55,7 @@ function OurPeopleCarousel() {
             </div>
             <div className="carousel-item carouselimg-bg">
               <img
+              className="img-height"
                 src="/images/sliderbg5.jpg"
                 alt="bgbites1"
               height="400px"
@@ -63,14 +65,15 @@ function OurPeopleCarousel() {
                 <h1 style={{ fontSize: "35px" }}>Our People</h1>
                 <p style={{ display: "block" ,color:"white" }}>
                   <span style={{ display: "block" ,color:"white" }}>
-                  We are young, innovative,skilled, ambitious,{" "}
+                  We are young, innovative,skilled,{" "}
                   </span>
-                  and trusted group of people providing IT solutions.
+                  and trusted group  providing IT solutions.
                 </p>
               </div>
             </div>
             <div className="carousel-item carouselimg-bg">
               <img
+              className="img-height"
                 src="/images/sliderbg6.jpg"
                 alt="bgbites2"
               height="400px"

@@ -14,7 +14,7 @@
   /* height: 530px; */
   /* height: 400px; */
   /* height: 100%; */
-  border: 1px solid rgba(0, 0, 0, 0.507);
+  border: 1px solid skyblue;
 }
 .image img {
   height: 100%;
@@ -108,7 +108,7 @@
 }
 @media only screen and (max-width: 500px) {
   .second {
-    padding: 0.6rem;
+    padding: 1rem;
   }
   .none,
   .nonee {

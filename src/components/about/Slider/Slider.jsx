@@ -9,7 +9,7 @@ function Slider() {
     <Carousel>
   <Carousel.Item interval={3000} className="carousel-all">
     <img
-      className="imagebanner"
+      className="imagebanner img-height"
       src="/images/sliderbg7.jpg"
       alt="First slide"
     />
@@ -17,12 +17,12 @@ function Slider() {
       <h3> Company</h3>
       <p className='Hellotxt'>
         We build custom IT solutions customer’s   <br />
-       simplify process and increase  revenue.</p>
+       .</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={3000} className="carousel-all">
     <img
-      className="imagebanner"
+      className="imagebanner img-height"
       src="/images/sliderbg5.jpg"
       alt="Second slide"
     />
@@ -35,7 +35,7 @@ function Slider() {
   </Carousel.Item>
   <Carousel.Item interval={3000} className="carousel-all">
     <img
-      className="imagebanner"
+      className="imagebanner img-height"
       src="/images/sliderbg6.jpg"
       alt="Third slide"
     />

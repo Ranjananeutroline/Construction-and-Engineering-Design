@@ -11,7 +11,9 @@ className="ClientPicture"
 alt="image_of_client" /> 
 
 <h4 className='cnames'>{cname}</h4>
-<hr  className="line"   style={{width:"70%",color:"blue" ,marginBottom:"10px",marginTop:"1px",marginLeft:"55px"}} /> 
+<hr  className="line"   style={{width:"80%",color:"blue" ,marginBottom:"10px",marginTop:"1px",}} /> 
+
+{/* <div class="vertical-line" style={{height: "45px"}}></div> */}
 
 </div>
 

@@ -6,6 +6,11 @@
   margin-top: 1rem;
   right: 0;
   left: 0;
+
+  /* overflow-x: hidden;
+  overflow-y: scroll; */
+
+  /* bottom:0; */
   z-index: 999;
   /* margin: 1rem; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -50,18 +55,23 @@ padding:11px;
 }
 
 
-div .dialog_email,
-div .dialog_org,
-div .dialog_location,
+
 div .dialog_country_code,
 div .dialog_phone,
 div .dialog_assign,
 div .dialog_desc
 {
-  margin:.4rem 0;
+  margin: .4rem 0;
+  font-size: .1rem;
 }
 div .dialog_name{
-  margin-bottom : .6rem;
+  margin-bottom : .4rem;
+  margin-top:.2rem;
+}
+div .dialog_email,
+div .dialog_org,
+div .dialog_location{
+  margin-bottom : .4rem;
   margin-top:.6rem;
 }
 div .file_button {
@@ -89,9 +99,16 @@ div .file_button {
   width: 40%;
 }
 div .css-tlc64q-MuiPaper-root-MuiDialog-paper{
+  /* max-width:55%; */
+  /* width:70%; */
+/* height:10rem; */
 margin:0rem 0 0 0;
+/* height:calc(100%-1px); */
+/* max-height:80vh; */
 }
+/* get a free quote */
 form .popup_header {
+  /* padding: 1.5rem; */
   margin: 0;;
   background-color: #0f766e;
   color:white;
@@ -270,4 +287,5 @@ div .fixedButton:hover {
     padding: 0 !important;
 }
   
+
 }

@@ -32,27 +32,27 @@ function OurServices() {
             <Carousel.Item interval={5000}>
               <Row className="justify-content-around">
                 <Col sm={4} className="service_col">
-                  <PropsServices image="image/service1.jpg" heading="Service 1"/>
+                  <PropsServices image="image/service1.jpg" heading="Bulding-Construction"/>
                   {/* image/service1.jpg */}
                 </Col>
                 <Col sm={4} className="service_col">
-                  <PropsServices image="image/service2.jpg"heading="Service 2"/>
+                  <PropsServices image="image/service2.jpg"heading="Road Construction"/>
                 </Col>
                 <Col sm={4} className="service_col">
-                  <PropsServices image="image/service3.jpg" heading="Service 3"/>
+                  <PropsServices image="image/service3.jpg" heading="Mining"/>
                 </Col>
               </Row>
             </Carousel.Item>
             <Carousel.Item interval={5000}>
               <Row className="justify-content-around">
                 <Col sm={4} className="service_col">
-                  <PropsServices image="image/service4.jpg" heading="Service 4"/>
+                  <PropsServices image="image/service4.jpg" heading="Irrigation"/>
                 </Col>
                 <Col sm={4} className="service_col">
-                  <PropsServices image="image/service5.jpg" heading="Service 5" />
+                  <PropsServices image="image/service5.jpg" heading="Hydropower" />
                 </Col>
                 <Col sm={4} className="service_col">
-                  <PropsServices image="image/service6.jpg" heading="Service 6" />
+                  <PropsServices image="image/service2.jpg" heading="Bridge Construction" />
                 </Col>
               </Row>
             </Carousel.Item>

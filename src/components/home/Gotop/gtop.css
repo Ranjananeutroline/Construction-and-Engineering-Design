@@ -23,24 +23,22 @@
   }
   .top-btn:hover
   {
-    background: skyblue;
+    background: rgb(52, 50, 130);
   }
   .top-btn .tooltiptext{
     visibility: hidden;
     width: 55px;
     height: 20px;
-    background-color: skyblue;
-    color:black;
+    background-color: rgb(52, 50, 130);
+    color:white;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 6px;
     font-size: 13px;
-    padding-top: 1.5px;
-
-
+    padding:-5px;
 
      position: absolute;
      z-index: 1;
-     bottom: 108%;
+     bottom: -85%;
      left: 50%;
      margin-left: -30px;
     
