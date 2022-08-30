@@ -1,0 +1,31 @@
+import React from 'react'
+import Navbar from '../components/home/Navbar/Navbar'
+import OurRecentWorks from '../components/Works/OurRecentWorks/OurRecentWorks'
+import ShowProjects from '../components/Works/ShowProjects/ShowProjects'
+import Footer from "../components/home/Footer/Footer"
+import OurWorkAreas from '../components/Works/OurWorkAreas/OurWorkAreas'
+import ProjectWork from '../components/Works/ShowProjects/ProjectWork'
+import NavLink from "../components/home/Navbar/NavLink";
+import GoToTop from '../components/home/Gotop/GoToTop'
+import ScrollToTop from '../components/home/Gotop/ScrollToTop'
+// import WorkFooter from "../components/Works/ourWorksFooter/WorkFooter"
+
+function Works() {
+  return (
+    <>
+    {/* <Navbar /> */}
+    <NavLink />
+    <ScrollToTop/>
+    <OurRecentWorks />
+    {/* <ShowProjects /> */}
+    <ProjectWork />
+    <OurWorkAreas/>
+    <GoToTop />
+    <Footer />
+    {/* <WorkFooter /> */}
+  
+    </>
+  )
+}
+
+export default Works

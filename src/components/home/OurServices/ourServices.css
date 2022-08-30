@@ -1,0 +1,60 @@
+.button {
+  padding-left: 22px;
+}
+/* .mySlides {
+    display: none;
+} */
+/* .service_top {
+  padding: 3rem;
+} */
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: rgb(143, 130, 130);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.item:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
+}
+.card-img-top:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.ourService_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* margin:1rem 0; */
+  margin: auto;
+}
+.service_top {
+  margin: 0 5rem;
+  /* padding: 2rem; */
+}
+.service_carousel {
+  padding: 1.5rem;
+  /* margin:1rem; */
+}
+.service_col{
+    margin-bottom:1rem ;
+}
+
+@media (max-width: 843px) {
+  .service_col {
+    /* width: 33%; */
+    margin-bottom: 1rem;
+  }
+  div .service_top {
+    padding: 0;
+    margin: .2rem;
+  }
+  /* .service_carousel {
+    padding: 1rem 0;
+  } */
+  .card-body{
+    padding:.5rem;
+  }
+}

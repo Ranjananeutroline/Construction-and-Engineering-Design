@@ -1,0 +1,286 @@
+.form-container {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  position: fixed;
+  margin-top: 1rem;
+  right: 0;
+  left: 0;
+
+  /* overflow-x: hidden;
+  overflow-y: scroll; */
+
+  /* bottom:0; */
+  z-index: 999;
+  /* margin: 1rem; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.modal-50w{
+  min-width:35%;
+}
+.fillupform{
+  margin:.2rem 0;
+}
+div .header-modal{
+  background-color: rgb(29, 132, 138);
+  height: 60px;
+}
+@media only screen and (max-width: 900px){
+  .modal-50w{
+    min-width:50%;
+  }
+}
+#example-custom-modal-styling-title h3{
+  text-align: center;
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom:0;
+  padding-top:0;
+}
+ /* div .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+ 
+padding:11px;
+} */
+
+.modal-body{
+  padding: 0 1rem 1rem 1rem;
+}
+
+.formDialog {
+  height: 102%;
+  /* margin-top:0;
+  width:90%; */
+}
+
+
+div .dialog_email,
+div .dialog_org,
+div .dialog_location,
+div .dialog_country_code,
+div .dialog_phone,
+div .dialog_assign,
+div .dialog_desc
+{
+  margin: .6rem 0;
+}
+div .dialog_name{
+  margin-bottom : .6rem;
+  margin-top:.2rem;
+}
+div .file_button {
+  margin-top:.6rem;
+}
+
+.div .dialog_location {
+  margin-left: 6rem;
+}
+
+.tel {
+  display: flex;
+  justify-content: space-between;
+}
+.dialog_org,
+.dialog_location {
+  width: 48%;
+}
+.dialog_phone {
+  width: 56%;
+  margin-right:0;
+  padding-right:0 ;
+}
+.dialog_country_code {
+  width: 40%;
+}
+div .css-tlc64q-MuiPaper-root-MuiDialog-paper{
+  /* max-width:55%; */
+  /* width:70%; */
+/* height:10rem; */
+margin:0rem 0 0 0;
+/* height:calc(100%-1px); */
+/* max-height:80vh; */
+}
+/* get a free quote */
+form .popup_header {
+  /* padding: 1.5rem; */
+  margin: 0;;
+  background-color: #0f766e;
+  color:white;
+}
+.form_popup {
+  transition: 0.5s;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+
+.closeBtn {
+  cursor: pointer;
+  /* position: static; */
+  position: absolute;
+  top: 5px;
+  left: 92%;
+  bottom: 0;
+  z-index: 9999;
+  color: black;
+  font-size: 1.4rem;
+}
+.fillupform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #045de9!important;
+  /* margin-top: 0.3rem; */
+}
+form .css-ypiqx9-MuiDialogContent-root {
+  /* this is removing excess padding top from the input name */
+  padding: 1px 24px 10px 24px;
+}
+
+div .fixedButton {
+  position: fixed;
+  bottom:12rem;
+  right: -40px;
+  background: #0f766e;
+  color: white;
+  padding: 0.5rem 1.3rem;
+  border: none;
+  transform: rotate(-90deg);
+  cursor: pointer;
+  text-transform: none;
+  z-index:999;
+  /* font-size:1.2rem; */
+}
+form .file_button{
+  background-color:#0f766e;
+  display:block;
+  width:10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.modal_file{
+  background-color:#0f766e;
+  display:block;
+  border:none;
+  width:50%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* padding-top: 10px; */
+  padding:.3rem;
+}
+.uploadIcon{
+  font-size: 1.2rem;
+
+}
+form .dialog_submit{
+  color: #115e59;
+}
+form .dialog_submit:hover{
+  color:#134e4a;
+}
+form .dialog_cancel{
+  color:red;
+}
+
+div .fixedButton:hover {
+  background-color:#0d9488;
+  border:none;
+  /* color:black; */
+}
+.blur {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+
+.free-consultation {
+  margin-top: 1rem;
+}
+.org,
+.location,
+#selectService,
+.popup_textarea {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid black;
+}
+.org,
+.location {
+  width: 48%;
+}
+.org {
+  margin-right: 5px;
+}
+.location {
+  margin-left: 10px;
+}
+#selectService {
+  width: 100%;
+}
+.popup_file {
+  display: none;
+}
+.popup_file_label {
+  display: block;
+  margin: 1rem 0;
+  background-color: #bae6fd;
+  padding: 0.8rem;
+  width: 7rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.popup_submit {
+  padding: 0.7rem 1.5rem;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  width: 100%;
+  outline: none;
+}
+.name,
+.email,
+.org,
+.location,
+.country,
+.phone,
+.popup_textarea {
+  transition: all 0 3s ease;
+}
+
+@media only screen and (max-width: 800px) {
+  .form_popup {
+    padding: 1rem;
+  }
+  .form-container {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .form-container {
+    width: 90%;
+  }
+
+  .css-ypiqx9-MuiDialogContent-root {
+    padding: 0px 0.5rem !important;
+  }
+  .css-tlc64q-MuiPaper-root-MuiDialog-paper {
+    margin: 0 !important;
+    width: calc(100% - 20px) !important;
+    /* max-width:600px; */
+  }
+  .modal-50w{
+    min-width:100%;
+  }
+  .fade.modal.show {
+    padding: 0 !important;
+}
+  
+
+}

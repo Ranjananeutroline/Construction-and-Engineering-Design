@@ -1,0 +1,42 @@
+
+.carouselimg-bg::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+.carousel-container{
+ margin-top:4rem;
+}
+.carousel-caption
+{
+    color: white;
+    z-index: 2;
+}
+.carousel-container .carousel-inner{
+    width:90%;
+    margin:auto;
+}
+@media only screen and (max-width: 600px) {
+    .carousel-container .carousel-inner{
+        width:100%;
+        margin:auto;
+        
+    }
+    .img-height{
+        height: 280px;
+    }
+    .abcd{
+        font-size:25px;
+        /* color: blue; */
+    }
+    .discription_c{
+        font-size: 12px;
+    }
+   
+}
