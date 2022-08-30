@@ -14,16 +14,16 @@ export class Testomonial extends Component {
       <div className='testo'>
          <Carousel>
       <Carousel.Item>
-        <Image
-          className="carimage"
-         src={c2}
-          alt="First slide"
-         
+
+        
+        <Image className="carimage"src={c2} alt="First slide"     
         />
+
+
         <Carousel.Caption>
           <img src={pr2} className='profile' alt='profileimage' fluid="true"></img>
           <h4>Ram parshad khattri</h4>
-          <h5>CEO</h5>
+          <h5 className='Post' >CEO</h5>
           <h6 style={{color:"black"}}>Nepal chamber of commerce</h6>
           <p>Provide qualitu service a the given time .</p>
         </Carousel.Caption>
@@ -38,7 +38,7 @@ export class Testomonial extends Component {
         <Carousel.Caption>
         <img src={ pr2 } className='profile' alt='profileimage'  fluid="true"></img>
           <h4>Hari Parshad Gautam</h4>
-          <h5>MD</h5>
+          <h5 className='Post' >MD</h5>
           <h6 style={{color:"black"}}>Tata Group Nepal</h6>
           <p>The team is well spoken and helpful.</p>
         </Carousel.Caption>
@@ -54,7 +54,7 @@ export class Testomonial extends Component {
         <Carousel.Caption>
         <img src={pr3} className='profile' alt='profileimage'  fluid="true"></img>
           <h4>Gita Kumari Shrestha</h4>
-          <h5>President</h5>
+          <h5 className='Post' >President</h5>
           <h6 style={{color:"black"}}>Nepal Nursing Council</h6>
           <p>
             The team is well spoken and helpful.

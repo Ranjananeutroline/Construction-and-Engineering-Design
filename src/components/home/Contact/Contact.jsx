@@ -18,8 +18,8 @@ function Contact() {
           style={{
             color: "blue",
             display: "flex",
-            paddingTop: "10px",
-            paddingLeft: "1rem",
+            paddingTop: "12px",
+            paddingLeft: ".7rem",
           }}
         >
           Contact Us
@@ -101,12 +101,14 @@ function Contact() {
                   >
                     Country:
                   </label>
-                  <select className="form-select">
-                    <option>Nepal +977</option>
-                    <option>India</option>
-                    <option>USA</option>
-                    <option>Australia</option>
-                  </select>
+                  <input
+                  type="Country"
+                  className="form-control"
+                 
+                  id="Country"
+                  placeholder="Nepal +977"
+                  name="Country"
+                />
                 </div>
                 <div className="col-sm-8">
                   <label
@@ -138,14 +140,14 @@ function Contact() {
                     paddingLeft: "4px",
                   }}
                 >
-                  Your message:
+                  Message:
                 </label>
                 <textarea
                   className="form-control"
                   style={{ fontSize: "14px", height: "90px"}}
                   rows="5"
                   id="comment"
-                  placeholder="Please describe what you need"
+                  placeholder="Your Message"
                   name="text"
                 ></textarea>
               </div>
@@ -207,7 +209,7 @@ function Contact() {
                       display: "flex",
                     }}
                   >
-                    <img
+                    <img 
                       className="rounded-circle"
                       src="image/recaptcha_image.jpg"
                       height="35px"

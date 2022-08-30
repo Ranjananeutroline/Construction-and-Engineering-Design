@@ -6,7 +6,7 @@
   background-color: rgba(205, 231, 239, 0.829);
   padding: 1rem;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 90%;
+  width: 80%;
   height: 50%;
   margin: auto;
   margin-top: 2rem;
@@ -17,8 +17,8 @@
   display: grid;
   justify-content: center;
   text-align: center;
-  grid-template-columns: 25% 25% 25%;
-  gap: 2rem;
+  grid-template-columns: 18% 18% 18%;
+  /* gap: 2rem; */
 }
 
 .box1 {
@@ -27,10 +27,10 @@
   width: 140px;
 }
 .fourth .box1 {
-  padding: 1.5rem;
+  /* padding: 1.5rem; */
   box-sizing: border-box;
-  width: 90%;
-  margin: 0 1rem;
+  /* width: 90%; */
+  /* margin: 0 1rem; */
   background: #ffffff;
   font-weight: bold;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -91,7 +91,7 @@
   margin: 0 auto;
 }
 .content p {
-  font-size: 1.4vmax;
+  /* font-size: 1.4vmax; */
 }
 
 .fourth h2 {

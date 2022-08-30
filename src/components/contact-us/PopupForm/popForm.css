@@ -63,11 +63,11 @@ div .dialog_phone,
 div .dialog_assign,
 div .dialog_desc
 {
-  margin: .6rem 0;
+  margin:.6rem 0;
 }
 div .dialog_name{
   margin-bottom : .6rem;
-  margin-top:.2rem;
+  margin-top:.4rem;
 }
 div .file_button {
   margin-top:.6rem;

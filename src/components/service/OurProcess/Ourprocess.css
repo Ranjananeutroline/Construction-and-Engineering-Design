@@ -6,16 +6,16 @@
 }
 .ourprocess_heading{
   text-align: center;
-  padding-top:1rem;
+  padding-top:0.5rem;
 }
 
 .second-process {
-  padding:1rem;
+  padding:0 0 1rem 0;
   /* border: 1px solid; */
   justify-content: center;
   text-align: center;
   width:100%;
-  margin:2rem 0;
+  margin:auto;
 }
 .div-col {
   /* border: 1px solid; */

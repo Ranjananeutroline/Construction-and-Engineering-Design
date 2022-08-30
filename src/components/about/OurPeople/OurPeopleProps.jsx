@@ -4,7 +4,7 @@ function OurPeopleProps({describe,name,position,image}) {
   return (
     <>
       <div className="image1 mb-3">
-        <img src={image} alt="" className="avtar" />
+        <img src={image} alt="people faces" className="avtar" />
         <div className="overlay">
           <div className="text">
             {" "}

@@ -26,5 +26,17 @@
     .carousel-container .carousel-inner{
         width:100%;
         margin:auto;
+        
     }
+    .img-height{
+        height: 280px;
+    }
+    .abcd{
+        font-size:25px;
+        /* color: blue; */
+    }
+    .discription_c{
+        font-size: 12px;
+    }
+   
 }

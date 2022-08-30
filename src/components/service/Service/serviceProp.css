@@ -31,9 +31,9 @@
     /* justify-content: left; */
     overflow-y: hidden;
     position: relative;
-    top: 60%;
+    top: 58%;
     line-height:1.15;
-    
+ 
   }
 
   .apple:hover .explanation {
@@ -47,11 +47,12 @@
     height: 200px;
     border-radius: 10px;
     box-shadow:rgb(181, 234, 252);
-    transition: 0.3s;
+    /* transition: 0.3s; */
     padding: 0.5rem;
     background: whitesmoke;
     cursor: pointer;
     /* overflow-y: hidden; */
+    
   }
   .ourservicesection{
     background: rgb(225, 238, 245);
@@ -85,6 +86,22 @@ padding-bottom: 5px;
     grid-column-gap: 5px;
     
 }
+
+  @media screen and (max-width: 1250px) {
+    .grid{
+        grid-template-columns: 30% 30% 30%;
+            }
+}
+
+ 
+@media screen and (max-width: 1050px) {
+  .grid{
+      grid-template-columns: 33% 33% 33%;
+      
+  }
+}
+
+
 @media screen and (max-width: 950px) {
   .grid{
       grid-template-columns: 50% 50%;

@@ -23,15 +23,6 @@ function AboutUs() {
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                 in reprehenderit Ut enim ad minim veniam, quis nostrud
                 exercitation.
-                {/* <div className="button">
-                <input
-                  type="button"
-                  name="btn"
-                  value="See more"
-                  id="read"
-                  className="btn btn-outline-secondary btn-sm"
-                />
-              </div> */}
               </p>
             </div>
             <div className="col-sm-6 p-4" style={{ paddingLeft: "10px" }}>

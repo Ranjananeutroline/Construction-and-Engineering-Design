@@ -1,4 +1,5 @@
 import React from 'react'
+import './vision.css'
 
 const Historydisc = () => {
   return (
@@ -11,6 +12,7 @@ const Historydisc = () => {
       businesses including Software development.
      
     </p>
+    
     </div>
   )
 }

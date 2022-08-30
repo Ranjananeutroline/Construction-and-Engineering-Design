@@ -27,7 +27,7 @@ function OurPeople() {
               className="imgPeople_1"
               image="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
           />
-          <OurPeopleProps    describe="At this Company, I have the opportunity to learn from great
+          <OurPeopleProps describe="At this Company, I have the opportunity to learn from great
               minds, do great work for our clients, and have fun while doing
               it."
               name="Pranish"

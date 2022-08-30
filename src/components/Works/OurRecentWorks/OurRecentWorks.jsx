@@ -8,11 +8,10 @@ function OurRecentWorks() {
       <div className="container recent_works" style={{background:"aliceblue"}}>
         <div className="row justify-content-center recentworks_heading">
           <div
-            className="col-md-6 recentwork_hr"
-          >
+            className="col-md-6 recentwork_hr">
             <h3>
               Let's See {" "}
-              <span style={{ color: "rgba(255, 68, 0, 0.705)" ,}}>
+              <span style={{ color: "rgba(255, 68, 0, 0.705)" , }}>
                 Our Recent Works!!
               </span>
             </h3>
@@ -20,7 +19,7 @@ function OurRecentWorks() {
         </div>
         <div className="row justify-content-center recentworks_desc">
           <div className="col-md-8 p-2" style={{ textAlign: "center", background:"aliceblue" }}>
-            <p style={{ textAlign: "center", fontSize: 15 }}>
+            <p style={{ textAlign: "center", fontSize: 15 ,marginLeft:"17px"}}>
               Here are some of our works that acts as evidence of our successful
               status.
               <br />

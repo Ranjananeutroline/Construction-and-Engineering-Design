@@ -11,7 +11,7 @@ export const Banner = () => {
           <div className="row service_banner">
             <hr className="line" style={{ width: "100%", zIndex: "1" }} />
 
-            <div className="col-sm-6" style={{ paddingLeft: "5px" }}>
+            <div className="col-sm-6">
               <img
                 className="img-fluid"
                 src={banner1}

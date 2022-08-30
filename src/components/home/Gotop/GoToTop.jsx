@@ -26,10 +26,11 @@ const GoToTop = () => {
   }, []);
 
   return (
-    <div className="gotop">
+    <div div className="gotop">
       {isVisible && (
         <div className="top-btn" onClick={goToBtn}> 
           <FaArrowUp className="top-btn--icon" />
+          <span className="tooltiptext">go to top</span>
         </div>
       )}
     </div>

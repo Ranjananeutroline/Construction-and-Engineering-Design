@@ -7,7 +7,7 @@
     width: 90%;
     height: 200px;
     border-radius: 0px;
-    transition:0.3s ;
+    transition:0.2s ;
     /* padding:5px 5px 5px 5px; */
     background:white;
     cursor: pointer;
@@ -86,11 +86,30 @@
     padding-top: 20px;
 }
 
+
+@media screen and (max-width: 1250px) {
+    .grid{
+        grid-template-columns: 30% 30% 30%;
+            }
+}
+
 @media screen and (max-width: 950px) {
     .grid{
         grid-template-columns: 50% 50%;
     }
 }
+@media screen and (max-width: 623px) {
+    .grid{
+        grid-template-columns: 49% 49%;
+            }
+    .apple{
+        width: 95%;
+    }
+    .apple:hover{
+        height: 361px;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .grid{
         grid-template-columns: 98%;}

@@ -12,7 +12,6 @@ function WorkAreasProps({image,heading}) {
           }}
         >
           <img
-            // src="image/workpageimg/workareaimg1.jpg"
             src={image}
             style={{ height: 200, width: "100%" }}
             alt="construction people working "

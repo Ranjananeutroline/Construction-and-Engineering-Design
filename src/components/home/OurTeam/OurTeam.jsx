@@ -18,27 +18,27 @@ function OurTeam() {
             <Carousel.Item>
               <Row >
                 <Col sm={4}>
-                  <OurTeamProps image="image/team1.jpg" heading="Team1"/>
+                  <OurTeamProps image="image/team1.jpg" heading="Management"/>
                   {/* "image/team1.jpg" */}
                 </Col>
                 <Col sm={4}>
-                  <OurTeamProps image="image/team2.jpg" heading="Team2"/>
+                  <OurTeamProps image="image/team2.jpg" heading="Human Resource"/>
                 </Col>
                 <Col sm={4}>
-                  <OurTeamProps image="image/team3.jpg" heading="Team3"/>
+                  <OurTeamProps image="image/team3.jpg" heading="Developer"/>
                 </Col>
               </Row>
             </Carousel.Item>
             <Carousel.Item interval={6000}>
               <Row>
                 <Col sm={4}>
-                  <OurTeamProps image="image/team3.jpg" heading="Team4"/>
+                  <OurTeamProps image="image/team3.jpg" heading="Marketing"/>
                 </Col>
                 <Col sm={4}>
-                  <OurTeamProps image="image/team2.jpg" heading="Team5"/>
+                  <OurTeamProps image="image/team2.jpg" heading="Designers"/>
                 </Col>
                 <Col sm={4}>
-                  <OurTeamProps image="image/team1.jpg" heading="Team6"/>
+                  <OurTeamProps image="image/team1.jpg" heading="Testing&Debugging"/>
                 </Col>
               </Row>
             </Carousel.Item>

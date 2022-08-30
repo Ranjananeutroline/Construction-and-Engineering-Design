@@ -10,37 +10,37 @@ function Service() {
 
     <div className='grid'>
       <ServiceProp  image={require('../image/s3.jpg')}   
-      heading="BULIDING CONSTRUCTION" 
+      heading="Bulding-Construction" 
        description="Construction of roads involves the paving, 
        rehabilitation, and/or clamation of degraded pavements 
        in order to achieve a state of good repair and increase road traffic safety. "/>
 
       <ServiceProp image={require('../image/s2.jpg')} 
-      heading="ROAD CONSTRUCTION" 
+      heading="Road-Construction" 
        description="Construction of roads involves the paving, 
        rehabilitation, and/or clamation of degraded pavements 
        in order to achieve a state of good repair and increase road traffic safety. "/>
 
       <ServiceProp  image={require('../image/s1.jpg')}   
-      heading="MINING" 
+      heading="Mining" 
       description="Construction of roads involves the paving, 
        rehabilitation, and/or clamation of degraded pavements in order to achieve a state of
         good repair and increase road traffic safety."/>
 
       <ServiceProp image={require('../image/s5.jpg')}   
-       heading="IRRIGATION" 
+       heading="Irrigation" 
       description="Construction of roads involves the paving, 
        rehabilitation, and/or clamation of degraded pavements in order to achieve a state of
         good repair and increase road traffic safety."/>
 
       <ServiceProp image={require('../image/s4.jpg')}   
-       heading="HYDROPOWER" 
+       heading="Hydropower" 
       description="Construction of roads involves the paving, 
        rehabilitation, and/or clamation of degraded pavements in order to achieve a state of
         good repair and increase road traffic safety."/>
 
       <ServiceProp  image={require('../image/s6.jpg')}   
-         heading="BRIDGE CONSTRUCTION"
+         heading="Bridge-Construction"
       description="Construction of roads involves the paving, 
        rehabilitation, and/or clamation of degraded pavements in order to achieve a state of
         good repair and increase road traffic safety." />

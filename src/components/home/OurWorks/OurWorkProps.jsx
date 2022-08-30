@@ -57,7 +57,7 @@ function OurWorkProps({ image }) {
           <img
             src={image}
             alt="Chicago"
-            className="d-block"
+            className="d-block img-height"
             height="400px"
             width="100%"
             style={{

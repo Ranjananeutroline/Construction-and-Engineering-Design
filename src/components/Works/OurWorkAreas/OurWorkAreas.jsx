@@ -8,15 +8,13 @@ function OurWorkAreas() {
         className="container-fluid workAreas"
         style={{ backgroundColor: "rgb(231, 243, 247)" }}
       >
-        <h4
+        <h2
           style={{
             textAlign: "center",
-            fontFamily: '"Times New Roman", Times, serif',
-           
           }}
         >
-          OUR WORK AREAS
-        </h4>
+          Our Work Area
+        </h2>
       
         <div className="container" style={{ backgroundColor: "white" }}>
           <div className="row p-3 justify-content-around">

@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="flexbox3">
           <h5>Contact</h5>
           <div className='div-1'>
-            <p><AiTwotonePhone className='footercall'style={{transform:"rotate(90deg)"}}/>
+            <p> &nbsp;<AiTwotonePhone className='footercall'style={{transform:"rotate(90deg)"}}/>
             &nbsp;&nbsp;&nbsp;+977 9849263457 &nbsp; &nbsp;</p>
           </div>
           <div className='div-1'>

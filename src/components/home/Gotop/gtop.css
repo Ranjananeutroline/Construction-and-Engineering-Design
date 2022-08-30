@@ -23,7 +23,31 @@
   }
   .top-btn:hover
   {
-    background: rgba(0, 0, 0, 0.753);
+    background: skyblue;
+  }
+  .top-btn .tooltiptext{
+    visibility: hidden;
+    width: 55px;
+    height: 20px;
+    background-color: skyblue;
+    color:black;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 13px;
+    padding-top: 1.5px;
+
+
+
+     position: absolute;
+     z-index: 1;
+     bottom: 108%;
+     left: 50%;
+     margin-left: -30px;
+    
+
+  }
+  .top-btn:hover .tooltiptext{
+    visibility: visible;
   }
      .top-btn--icon {
        animation: 1.2s linear infinite alternate-reverse;

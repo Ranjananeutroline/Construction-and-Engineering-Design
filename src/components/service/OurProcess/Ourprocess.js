@@ -20,7 +20,7 @@ export default function Process() {
           </div>
         </Col>
         <Col className="div-col" lg="3" md="6" sm="6">
-          <img src="./image/pp2.jpeg" alt="second"></img>
+          <img src="./image/pp4.jpeg" alt="second"></img>
           <h6>Design</h6>
           <div className="div-paragraph">
             <p>
@@ -29,7 +29,7 @@ export default function Process() {
           </div>
         </Col>
         <Col className="div-col" lg="3" md="6" sm="6">
-          <img src="./image/pp4.jpeg" alt="third"></img>
+          <img src="./image/pp2.jpeg" alt="third"></img>
           <h6>Develop</h6>
           <div className="div-paragraph">
             <p>Developing the product according to the demand of the client.</p>
@@ -40,8 +40,7 @@ export default function Process() {
           <h6>Deliver</h6>
           <div className="div-paragraph">
             <p>
-              Delivering the best and quality product in the given time by the
-              client.
+              Delivering the best quality product in  given time.
             </p>
           </div>
         </Col>

@@ -50,7 +50,7 @@
 .flexbox1 .footerImage{
     width: 20px;
     height: 20px;
-    margin-left: 1rem;
+    margin-left: 1.4rem;
     
 }
 .footercall , .footeremail, .footerhome{
@@ -69,18 +69,22 @@
 }
 .div-1 p{
     margin-top: -0.5rem;
+    margin-left: -25px;
 }
 .flexbox1 h5
 {
     padding-top: 10px;
+    font-weight: bold;
 }
 .flexbox2 h5
 {
     padding-top: 10px;
+    font-weight: bold;
 }
 .flexbox3 h5
 {
     padding-top: 10px;
+    font-weight: bold;
 }
 .flexbox1 .para{
     margin-top: -0.8rem;
@@ -93,7 +97,7 @@
 }
 
 .footericon{
-    margin-right:.3rem;
+    margin-right:3rem;
     margin-top: -0.7rem;
     
 }

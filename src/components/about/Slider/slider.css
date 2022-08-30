@@ -57,6 +57,12 @@
     color: rgb(0, 0, 0);
   }
 }
+@media only screen and (max-width: 600px) {
+  .img-height{
+    height: 280px;
+}
+}
+
 @media only screen and (max-width: 540px) {
   img {
     width: 100%;
