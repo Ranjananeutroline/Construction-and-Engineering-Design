@@ -110,7 +110,7 @@ export default function FormModal() {
               className="dialog_name"
             />{" "}
             {/* <ErrorMessage component ="div" name={field.fullName} className="error" /> */}
-            <p style={{ color: "red", fontSize: ".8rem", margin:"-0.5rem 0" }}>
+            <p style={{ color: "red", fontSize: ".8rem", margin:"-0.3rem 0" }}>
               {formErrors.name}
             </p>
             <TextField
@@ -128,7 +128,7 @@ export default function FormModal() {
               onChange={handleChange}
               className="dialog_email"
             />{" "}
-            <p style={{ color: "red", margin: "-0.5rem 0", fontSize: ".8rem" }}>
+            <p style={{ color: "red", margin: "-0.3rem 0", fontSize: ".8rem" }}>
               {formErrors.email}
             </p>
             <div className="tel">
@@ -156,7 +156,18 @@ export default function FormModal() {
               />
             </div>
             <div className="tel">
-              <FormControl sx={{ my: 1 }} className="dialog_country_code" size="small">
+            <TextField
+                id="outlined-basic"
+                label="Country code"
+                variant="outlined"
+                name="country_code"
+                size="small"
+                value={formValues.country_code}
+                autoComplete="off"
+                onChange={handleChange}
+                className="dialog_country_code"
+              />
+              {/* <FormControl sx={{ my: 1 }} className="dialog_country_code" size="small">
                 <InputLabel id="demo-simple-select-helper-label" >
                   Your Country code
                 </InputLabel>
@@ -176,7 +187,7 @@ export default function FormModal() {
                   <MenuItem value={"+1"}>USA(+1)</MenuItem>
                 </Select>
                 {/* <FormHelperText>With label + helper text</FormHelperText> */}
-              </FormControl>
+              {/* </FormControl> */}
               <TextField
                 sx={{ my: 1 }}
                 id="outlined-basic"
