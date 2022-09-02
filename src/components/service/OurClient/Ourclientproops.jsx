@@ -1,24 +1,28 @@
-import React from 'react'
-import  "./ourclient.css"
+import React from "react";
+import "./ourclient.css";
 
-function Ourclientproops({clientPicture,cname }) {
+function Ourclientproops({ clientPicture, cname }) {
   return (
-    <div className='cpicture'>
-       <img src={clientPicture} 
-            
-    
-className="ClientPicture"
-alt="image_of_client" /> 
-
-<h4 className='cnames'>{cname}</h4>
-<hr  className="line"   style={{width:"80%",color:"blue" ,marginBottom:"10px",marginTop:"1px",}} /> 
-
-{/* <div class="vertical-line" style={{height: "45px"}}></div> */}
-
+    <div className="cpicture">
+      <img
+        src={clientPicture}
+        className="ClientPicture"
+        alt="image_of_client"
+      />
+<div className="client_text">
+      <h4 className="cnames">{cname}</h4>
+      <hr
+        className="line"
+        style={{
+          width: "60%",
+          color: "blue",
+       margin:"auto",
+        }}
+      />
 </div>
-
-   
-  )
+      {/* <div class="vertical-line" style={{height: "45px"}}></div> */}
+    </div>
+  );
 }
 
-export default Ourclientproops
+export default Ourclientproops;

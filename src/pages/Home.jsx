@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Navbar from "../components/home/Navbar/Navbar";
@@ -24,10 +24,12 @@ function Home() {
     <ScrollToTop />
     <Carousel />
     <AboutUs />
+  
     <OurServices />
     <OurWorks />
     <OurTeam />
     <OurClients />
+
     <Contact />
     {/* <GetInTouch /> */}
     <GoToTop />

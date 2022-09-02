@@ -4,6 +4,7 @@
   gap: 1.5rem;
   background-color: rgb(225, 238, 245);
   text-align: center;
+  padding-bottom :1rem;
   width: 82.5%;
   margin:auto;
     /* display: inline-grid; */
@@ -34,11 +35,15 @@
   margin-left: 50px;
   padding: 1rem 0;
 }
-
+.client_text{
+  width:100%;
+  margin:auto;
+}
 .cnames {
   font-family: Calibri, sans-serif;
   text-align: center;
   font-weight: lighter;
+  font-size:1.3rem;
 }
 
 @media screen and (max-width: 950px) {

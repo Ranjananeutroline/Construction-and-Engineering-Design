@@ -65,9 +65,7 @@ div .dialog_name {
   margin-bottom: 0.4rem;
   margin-top: 0.2rem;
 }
-form .header-modal label{
-  font-size: .4rem;
-}
+
 div .dialog_email,
 div .dialog_org,
 div .dialog_location {
