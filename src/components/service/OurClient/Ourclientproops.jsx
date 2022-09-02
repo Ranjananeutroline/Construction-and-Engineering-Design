@@ -20,7 +20,7 @@ function Ourclientproops({ clientPicture, cname }) {
         }}
       />
 </div>
-      {/* <div class="vertical-line" style={{height: "45px"}}></div> */}
+  
     </div>
   );
 }

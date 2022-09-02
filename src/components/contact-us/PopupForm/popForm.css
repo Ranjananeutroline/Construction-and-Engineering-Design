@@ -73,7 +73,6 @@ div .dialog_location {
   margin-top: 0.6rem;
 }
 div .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root{
-  /* label fontsize */
   font-size:.9rem;
 }
 div .file_button {
@@ -101,12 +100,9 @@ div .file_button {
   width: 40%;
 }
 div .css-tlc64q-MuiPaper-root-MuiDialog-paper {
-  /* max-width:55%; */
-  /* width:70%; */
-  /* height:10rem; */
+
   margin: 0rem 0 0 0;
-  /* height:calc(100%-1px); */
-  /* max-height:80vh; */
+
 }
 /* get a free quote */
 form .popup_header {
