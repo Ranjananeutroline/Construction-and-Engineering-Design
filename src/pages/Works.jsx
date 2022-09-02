@@ -17,7 +17,6 @@ function Works() {
     <OurWorkAreas/>
     <GoToTop />
     <Footer />
-    {/* <WorkFooter /> */}
   
     </>
   )

@@ -25,7 +25,6 @@ const About = () => {
     <div className="aboutSection">
       <NavLink />
       <ScrollToTop />
-      {/* <Slider /> */}
       <OurPeopleCarousel />
       <WhoWeAre />
       <Suspense fallback={<div>Loading...</div>}>

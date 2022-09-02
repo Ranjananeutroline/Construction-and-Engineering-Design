@@ -31,7 +31,6 @@ function Home() {
     <OurClients />
 
     <Contact />
-    {/* <GetInTouch /> */}
     <GoToTop />
     <Footer />
     </div>

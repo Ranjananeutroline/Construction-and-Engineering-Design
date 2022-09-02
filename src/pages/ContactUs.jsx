@@ -14,7 +14,6 @@ import ErrorFallback from "../components/contact-us/ErrorBoundaries/ErrorBoundar
 function ContactUs() {
   return (
     <div>
-      {/* <Navbar /> */}
       <NavLink />
       <ScrollToTop/>
       <Header />
