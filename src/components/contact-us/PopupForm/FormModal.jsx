@@ -3,7 +3,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import Button from "react-bootstrap/Button";
 import Button from "@mui/material/Button";
 import Modal from "react-bootstrap/Modal";
-import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
+import {
+  Checkbox,
+  FormControl,
+  InputLabel,
+  ListItemText,
+  MenuItem,
+  OutlinedInput,
+  Select,
+} from "@mui/material";
 import { AiOutlineUpload } from "react-icons/ai";
 import "./popForm.css";
 import { TextField } from "@mui/material";
@@ -21,9 +29,27 @@ export default function FormModal() {
     desc: "",
     upload_file: "",
   };
+  const names = [
+    "IOS App Development",
+    "Andriod App development",
+    "Web development",
+    "Software Testing & Quality Assurance",
+  ];
+
+  const ITEM_HEIGHT = 48;
+  const ITEM_PADDING_TOP = 8;
+  const MenuProps = {
+    PaperProps: {
+      style: {
+        maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
+        width: 350,
+      },
+    },
+  };
   const [formValues, setFormValues] = React.useState(initialValues);
   const [formErrors, setFormErrors] = React.useState({});
   const [isSubmit, setIsSubmit] = React.useState(false);
+  const [workAssign, setWorkAssign] = React.useState([]);
   const handleChange = (e) => {
     // console.log(e.target.value);
     const { name, value } = e.target;
@@ -57,6 +83,16 @@ export default function FormModal() {
       errors.email = "This is not a valid email format";
     }
     return errors;
+  };
+
+  const handleWorkChange = (event) => {
+    const {
+      target: { value },
+    } = event;
+    setWorkAssign(
+      // On autofill we get a stringified value.
+      typeof value === "string" ? value.split(",") : value
+    );
   };
 
   const handleClickOpen = () => {
@@ -110,11 +146,10 @@ export default function FormModal() {
               className="dialog_name"
             />{" "}
             {/* <ErrorMessage component ="div" name={field.fullName} className="error" /> */}
-            <p style={{ color: "red", fontSize: ".8rem", margin:"-0.4rem 0" }}>
+            <p style={{ color: "red", fontSize: ".8rem", margin: "-0.4rem 0" }}>
               {formErrors.name}
             </p>
             <TextField
-              autoFocus
               // margin="dense"
               name="email"
               id="email"
@@ -156,7 +191,6 @@ export default function FormModal() {
               />
             </div>
             <div className="tel">
-             
               <TextField
                 id="outlined-basic"
                 label="Nepal +977"
@@ -168,7 +202,7 @@ export default function FormModal() {
                 onChange={handleChange}
                 className="dialog_country_code"
               />
-             
+
               <TextField
                 sx={{ my: 1 }}
                 id="outlined-basic"
@@ -182,8 +216,13 @@ export default function FormModal() {
                 onChange={handleChange}
               />
             </div>
-            <FormControl fullWidth sx={{ mb: 1 }} className="dialog_assign" size="small">
-              <InputLabel id="demo-simple-select-label" variant="outlined">
+            {/* <FormControl
+              fullWidth
+              sx={{ mb: 1 }}
+              className="dialog_assign"
+              size="small"
+            >
+              <InputLabel id="demo-multiple-checkbox-label" variant="outlined">
                 Select an Option
               </InputLabel>
               <Select
@@ -194,7 +233,7 @@ export default function FormModal() {
                 label="Select an Option"
                 value={formValues.assign}
                 onChange={handleChange}
-                
+
                 // onChange={handleChange}
               >
                 <MenuItem value={"ios"}>IOS App Development</MenuItem>
@@ -203,6 +242,33 @@ export default function FormModal() {
                 <MenuItem value={"qa"}>
                   Software Testing & Quality Assurance
                 </MenuItem>
+              </Select>
+            </FormControl> */}
+            <FormControl
+              sx={{ m: 1, width: 300 }}
+              className="dialog_assign"
+              size="small"
+            >
+              <InputLabel id="demo-multiple-checkbox-label" variant="outlined">Select an Option</InputLabel>
+              <Select
+                labelId="demo-multiple-checkbox-label"
+                name="assign"
+                id="demo-multiple-checkbox"
+                multiple
+                variant="outlined"
+                label="Select an Option"
+                value={workAssign}
+                onChange={handleWorkChange}
+                input={<OutlinedInput label="Select an Option" />}
+                renderValue={(selected) => selected.join(", ")}
+                MenuProps={MenuProps}
+              >
+                {names.map((name) => (
+                  <MenuItem key={name} value={name}>
+                    <Checkbox checked={workAssign.indexOf(name) > -1} />
+                    <ListItemText primary={name} />
+                  </MenuItem>
+                ))}
               </Select>
             </FormControl>
             <TextField
@@ -230,7 +296,7 @@ export default function FormModal() {
                 accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/png, image/jpeg,.pdf"
               />
               <Button
-              color="success"
+                color="success"
                 variant="contained"
                 component="span"
                 className="file_button"
@@ -239,12 +305,77 @@ export default function FormModal() {
               </Button>
               <small style={{ color: "#b1a40d" }}>Upload file </small>
             </label>
+            <div
+              style={{
+                display: "flex",
+                paddingLeft: "6px",
+                marginTop: "0px",
+              }}
+            >
+              <input
+                type="checkbox"
+                id="agree"
+                style={{ marginleft: "7px" }}
+                name="agree"
+                value="Terms"
+              />
+              <label
+                htmlFor="agree"
+                style={{ fontSize: "12px", padding: "8px" }}
+              >
+                I agree to the Terms of Service and Privacy Policy.
+              </label>
+            </div>
+            <div
+              className="row recaptcha_contact"
+              style={{
+                display: "flex",
+                paddingLeft: "18px",
+                paddingTop: "2px",
+              }}
+            >
+              <div
+                className="col-sm-5 p-2"
+                style={{
+                  backgroundColor: "white",
+                  boxShadow:
+                    "0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.10)",
+                  width: "70%",
+                }}
+              >
+                <input
+                  type="checkbox"
+                  id="recaptcha"
+                  name="recaptcha"
+                  value="Condition"
+                />
+                <label
+                  htmlFor="recaptcha"
+                  style={{ fontSize: "12px", padding: "5px" }}
+                >
+                  I'm not a robot
+                </label>
+                <div
+                  style={{
+                    float: "right",
+                    paddingRight: "14px",
+                    textAlign: "start",
+                    display: "flex",
+                  }}
+                >
+                  <img
+                    className="rounded-circle"
+                    src="image/recaptcha_image.jpg"
+                    height="35px"
+                    width="38px"
+                    alt="icon"
+                  />
+                </div>
+              </div>
+            </div>
           </Modal.Body>
           <Modal.Footer bsPrefix="modal-footer">
-            <Button
-              className="dialog_cancel"
-              onClick={handleClose}
-            >
+            <Button className="dialog_cancel" onClick={handleClose}>
               Close
             </Button>
             <Button

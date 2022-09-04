@@ -117,6 +117,11 @@ form .popup_header {
   border-radius: 2rem;
 }
 
+div .css-2m9kme-MuiFormControl-root{
+
+margin:0;
+width:100%;
+}
 .closeBtn {
   cursor: pointer;
   /* position: static; */
